@@ -1,0 +1,13 @@
+.banner {
+  display: flex;
+
+  .banner_left,
+  .banner_right {
+    flex: 1;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
