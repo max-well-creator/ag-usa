@@ -9,25 +9,22 @@ const Navigation = () => {
 					<Link href="/">Home</Link>
 				</li>
 				<li>
-					<Link href="/">MycorrPlus</Link>
+					<Link href="/mycorrplus">MycorrPlus</Link>
 				</li>
 				<li>
-					<Link href="/">Crop Apps</Link>
+					<Link href="/crops">Crop Apps</Link>
 				</li>
 				<li>
-					<Link href="/">Organic</Link>
+					<Link href="/organic">Organic</Link>
 				</li>
 				<li>
-					<Link href="/">Key Pages</Link>
+					<Link href="/keypages">Key Pages</Link>
 				</li>
 				<li>
-					<Link href="/">Shop</Link>
+					<Link href="/about">About</Link>
 				</li>
 				<li>
-					<Link href="/">About</Link>
-				</li>
-				<li>
-					<Link href="/">Contact</Link>
+					<Link href="/contact">Contact</Link>
 				</li>
 			</ul>
 		</nav>
