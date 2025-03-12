@@ -7,7 +7,7 @@ const Sidebar = () => {
 	return (
 		<aside className={styles.sidebar}>
 			<Info />
-			<Cart />
+			{/* <Cart /> */}
 			<StructuredWater />
 		</aside>
 	);
