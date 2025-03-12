@@ -8,12 +8,12 @@ export default function Contact() {
 			<Head>
 				<title>Contact</title>
 				<meta
-					name="description"
-					content="Home page. MycorrPlus, the new name for GroPal Balance, may be beneficial for farm and garden, livestock and human use."
+					content="contact, ag-usa, products, organic, fertilizer, soil conditioner"
+					name="keywords"
 				/>
 				<meta
-					name="keywords"
-					content="home, ocean trace, mycorrplus, gropal balance, farm and garden, livestock"
+					content="Contact AG-USA to find out more about GroPal Balance, our agricultural fertilizer and soil conditioner."
+					name="description"
 				/>
 			</Head>
 			<main>

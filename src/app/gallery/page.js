@@ -7,13 +7,14 @@ export default function PhotoGalleryPage() {
 		<>
 			<Head>
 				<title>Photo Gallery</title>
+				<title>GroPal Balance photo gallery</title>
 				<meta
-					name="description"
-					content="Home page. MycorrPlus, the new name for GroPal Balance, may be beneficial for farm and garden, livestock and human use."
+					content="GroPal Balance, photo gallery, customer testimonial"
+					name="keywords"
 				/>
 				<meta
-					name="keywords"
-					content="home, ocean trace, mycorrplus, gropal balance, farm and garden, livestock"
+					content="GroPal Balance gallery of pictures, showing the response of soil and plants to this product"
+					name="description"
 				/>
 			</Head>
 			<main>

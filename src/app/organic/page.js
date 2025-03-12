@@ -8,12 +8,12 @@ export default function OrganicPage() {
 			<Head>
 				<title>Organic</title>
 				<meta
-					name="description"
-					content="Home page. MycorrPlus, the new name for GroPal Balance, may be beneficial for farm and garden, livestock and human use."
+					content="organic, gropal balance, soil conditioner"
+					name="keywords"
 				/>
 				<meta
-					name="keywords"
-					content="home, ocean trace, mycorrplus, gropal balance, farm and garden, livestock"
+					content="Yes, organic use is a good fit for GroPal Balance. No harmful chemicals, rather it conditions the soil."
+					name="description"
 				/>
 			</Head>
 			<main>

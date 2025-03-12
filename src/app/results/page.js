@@ -7,13 +7,10 @@ export default function Results() {
 		<>
 			<Head>
 				<title>Results</title>
+				<meta content="soil labs, gropal balance, soil ph" name="keywords" />
 				<meta
+					content="Soil labs demonstrate the effectiveness of GroPal Balance at balancing nutrients in the field, including pH"
 					name="description"
-					content="Home page. MycorrPlus, the new name for GroPal Balance, may be beneficial for farm and garden, livestock and human use."
-				/>
-				<meta
-					name="keywords"
-					content="home, ocean trace, mycorrplus, gropal balance, farm and garden, livestock"
 				/>
 			</Head>
 			<main>

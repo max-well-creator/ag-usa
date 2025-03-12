@@ -2,7 +2,7 @@ import React from "react";
 import SidebarLayout from "../Sidebar/SidebarLayout/SidebarLayout";
 import Link from "next/link";
 import Image from "next/image";
-import home_header from "../../../public/images/home-header.jpg";
+import home_header from "../../../public/images/home-header.webp";
 import Article from "./Article/Article";
 
 export default function ArticlesSidebar() {

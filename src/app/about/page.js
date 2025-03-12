@@ -8,13 +8,10 @@ export default function AboutPage() {
 			<Head>
 				<title>About</title>
 				<meta
-					name="description"
-					content="Home page. MycorrPlus, the new name for GroPal Balance, may be beneficial for farm and garden, livestock and human use."
-				/>
-				<meta
+					content="about us, gropal balance, ag-usa, keep your moisture"
 					name="keywords"
-					content="home, ocean trace, mycorrplus, gropal balance, farm and garden, livestock"
 				/>
+				<meta content="About us, GroPal Balance, AG-USA" name="description" />
 			</Head>
 			<main>
 				<MainContent />

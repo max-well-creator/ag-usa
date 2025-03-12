@@ -8,12 +8,12 @@ export default function CropsPage() {
 			<Head>
 				<title>Crops</title>
 				<meta
-					name="description"
-					content="Home page. MycorrPlus, the new name for GroPal Balance, may be beneficial for farm and garden, livestock and human use."
+					content="crops, applications, gropal balance, ag-usa, row crops, hay"
+					name="keywords"
 				/>
 				<meta
-					name="keywords"
-					content="home, ocean trace, mycorrplus, gropal balance, farm and garden, livestock"
+					content="Crops applications. Applying GroPal Balance to pasture and hay, row crops, gardens and trees."
+					name="description"
 				/>
 			</Head>
 			<main>

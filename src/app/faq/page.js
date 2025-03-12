@@ -8,12 +8,12 @@ export default function FaqPage() {
 			<Head>
 				<title>Frequently Asked Questions</title>
 				<meta
-					name="description"
-					content="Home page. MycorrPlus, the new name for GroPal Balance, may be beneficial for farm and garden, livestock and human use."
+					content="faq, frequently asked questions, gropal balance, soil conditioner"
+					name="keywords"
 				/>
 				<meta
-					name="keywords"
-					content="home, ocean trace, mycorrplus, gropal balance, farm and garden, livestock"
+					content="Frequently asked questions concerning GroPal Balance, and its ability to transform the soil."
+					name="description"
 				/>
 			</Head>
 			<main>

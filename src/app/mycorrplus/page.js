@@ -8,12 +8,12 @@ export default function MycorrPlusPage() {
 			<Head>
 				<title>MyCorrPlus</title>
 				<meta
-					name="description"
-					content="Home page. MycorrPlus, the new name for GroPal Balance, may be beneficial for farm and garden, livestock and human use."
+					content="mycorrplus, soil conditioner, carbon sequestration, soil structure"
+					name="keywords"
 				/>
 				<meta
-					name="keywords"
-					content="home, ocean trace, mycorrplus, gropal balance, farm and garden, livestock"
+					content="MycorrPlus is a bio stimulant that may greatly increase carbon sequestration and soil structure."
+					name="description"
 				/>
 			</Head>
 			<main>

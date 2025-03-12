@@ -8,12 +8,12 @@ export default function Sitemap() {
 			<Head>
 				<title>Sitemap</title>
 				<meta
-					name="description"
-					content="Home page. MycorrPlus, the new name for GroPal Balance, may be beneficial for farm and garden, livestock and human use."
+					content="sitemap, ag-usa.net, gropal balance, highly structured soil"
+					name="keywords"
 				/>
 				<meta
-					name="keywords"
-					content="home, ocean trace, mycorrplus, gropal balance, farm and garden, livestock"
+					content="Sitemap for AG-USA.net  Look into all the answers available for transforming your soil."
+					name="description"
 				/>
 			</Head>
 			<main>

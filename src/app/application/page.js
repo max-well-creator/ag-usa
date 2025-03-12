@@ -8,12 +8,12 @@ export default function ApplicationGuidePage() {
 			<Head>
 				<title>Application Guide</title>
 				<meta
-					name="description"
-					content="Home page. MycorrPlus, the new name for GroPal Balance, may be beneficial for farm and garden, livestock and human use."
+					content="application, guidelines, gropal balance, soil, keep your moisture"
+					name="keywords"
 				/>
 				<meta
-					name="keywords"
-					content="home, ocean trace, mycorrplus, gropal balance, farm and garden, livestock"
+					content="Application guidelines for GroPal Balance. See your soil transformed right before your eyes!"
+					name="description"
 				/>
 			</Head>
 			<main>
