@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import MainContent from "../../components/MainContent";
+import Gallery from "@/components/Gallery/Gallery";
 
 export default function PhotoGalleryPage() {
 	return (
@@ -18,7 +18,7 @@ export default function PhotoGalleryPage() {
 				/>
 			</Head>
 			<main>
-				<MainContent />
+				<Gallery />
 			</main>
 		</>
 	);

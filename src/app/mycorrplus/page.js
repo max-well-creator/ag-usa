@@ -1,6 +1,5 @@
 import Head from "next/head";
-
-import MainContent from "../../components/MainContent";
+import MycorrPlus from "@/components/MyCorrPlus/MyCorrPlus";
 
 export default function MycorrPlusPage() {
 	return (
@@ -17,7 +16,7 @@ export default function MycorrPlusPage() {
 				/>
 			</Head>
 			<main>
-				<MainContent />
+				<MycorrPlus />
 			</main>
 		</>
 	);

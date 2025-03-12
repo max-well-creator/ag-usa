@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import MainContent from "../../components/MainContent";
+import FAQ from "@/components/FAQ/FAQ";
 
 export default function FaqPage() {
 	return (
@@ -17,7 +17,7 @@ export default function FaqPage() {
 				/>
 			</Head>
 			<main>
-				<MainContent />
+				<FAQ />
 			</main>
 		</>
 	);

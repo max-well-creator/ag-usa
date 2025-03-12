@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import MainContent from "../../components/MainContent";
+import MycorrPlusInstructions from "@/components/ApplicationInstructions/Instructions";
 
 export default function ApplicationGuidePage() {
 	return (
@@ -17,7 +17,7 @@ export default function ApplicationGuidePage() {
 				/>
 			</Head>
 			<main>
-				<MainContent />
+				<MycorrPlusInstructions />
 			</main>
 		</>
 	);

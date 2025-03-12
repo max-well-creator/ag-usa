@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import MainContent from "../../components/MainContent";
+import ContactUs from "@/components/Contact/Contact";
 
 export default function Contact() {
 	return (
@@ -17,7 +17,7 @@ export default function Contact() {
 				/>
 			</Head>
 			<main>
-				<MainContent />
+				<ContactUs />
 			</main>
 		</>
 	);

@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import MainContent from "../../components/MainContent";
+import Functionality from "@/components/Functionality/Functionality";
 
 export default function MyCorrPlusFunctionalityPage() {
 	return (
@@ -17,7 +17,7 @@ export default function MyCorrPlusFunctionalityPage() {
 				/>
 			</Head>
 			<main>
-				<MainContent />
+				<Functionality />
 			</main>
 		</>
 	);

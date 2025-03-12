@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import MainContent from "../../components/MainContent";
+import MycorrPlusOrganic from "@/components/Organic/Organic";
 
 export default function OrganicPage() {
 	return (
@@ -17,7 +18,7 @@ export default function OrganicPage() {
 				/>
 			</Head>
 			<main>
-				<MainContent />
+				<MycorrPlusOrganic />
 			</main>
 		</>
 	);

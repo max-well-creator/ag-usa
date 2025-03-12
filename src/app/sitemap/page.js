@@ -1,6 +1,5 @@
 import Head from "next/head";
-
-import MainContent from "../../components/MainContent";
+import SiteMap from "@/components/Sitemap/Sitemap";
 
 export default function Sitemap() {
 	return (
@@ -17,7 +16,7 @@ export default function Sitemap() {
 				/>
 			</Head>
 			<main>
-				<MainContent />
+				<SiteMap />
 			</main>
 		</>
 	);

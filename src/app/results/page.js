@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import MainContent from "../../components/MainContent";
+import MycorrPlusSoilLabs from "@/components/Results/Results";
 
 export default function Results() {
 	return (
@@ -14,7 +14,7 @@ export default function Results() {
 				/>
 			</Head>
 			<main>
-				<MainContent />
+				<MycorrPlusSoilLabs />
 			</main>
 		</>
 	);

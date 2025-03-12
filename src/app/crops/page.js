@@ -1,6 +1,5 @@
 import Head from "next/head";
-
-import MainContent from "../../components/MainContent";
+import CropApplicationGuidelines from "@/components/CropApplication/CropApplication";
 
 export default function CropsPage() {
 	return (
@@ -17,7 +16,7 @@ export default function CropsPage() {
 				/>
 			</Head>
 			<main>
-				<MainContent />
+				<CropApplicationGuidelines />
 			</main>
 		</>
 	);

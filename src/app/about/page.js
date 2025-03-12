@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import MainContent from "../../components/MainContent";
+import About from "@/components/About/About";
 
 export default function AboutPage() {
 	return (
@@ -14,7 +14,7 @@ export default function AboutPage() {
 				<meta content="About us, GroPal Balance, AG-USA" name="description" />
 			</Head>
 			<main>
-				<MainContent />
+				<About />
 			</main>
 		</>
 	);
