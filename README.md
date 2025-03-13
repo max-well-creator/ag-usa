@@ -1,6 +1,6 @@
-# WEBSITE LINKS
+# AG-USA Links
 
-## DONE
+### DONE
 
 - [x] [Home](https://www.ag-usa.net/index.php)
 - [x] [About](https://www.ag-usa.net/about.php)
@@ -22,7 +22,7 @@
 - [x] [MycorrPlus application sheet](https://www.ag-usa.net/application.php)
 - [x] [Organic applications](https://www.ag-usa.net/organic.php)
 
-## TODO
+### TODO
 
 - [ ] [Conquer nature](https://www.ag-usa.net/conquernature.php)
 - [ ] [Eliminating hardpan](https://www.ag-usa.net/hardpan.php)
