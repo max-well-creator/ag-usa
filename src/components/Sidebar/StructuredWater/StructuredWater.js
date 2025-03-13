@@ -15,7 +15,7 @@ export default function StructuredWater() {
 					<Link href="/mycorrplus">NAT Products</Link>
 				</li>
 				<li>
-					<Link href="/mycorrplusfunction">Healtheir Livestock</Link>
+					<Link href="/animals">Healtheir Livestock</Link>
 				</li>
 			</ul>
 		</SidebarLayout>

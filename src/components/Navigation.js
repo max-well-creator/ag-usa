@@ -43,6 +43,28 @@ const Navigation = () => {
 				<li>
 					<Link href="/sitemap">Sitemap</Link>
 				</li>
+				{/* I don't know where the following pages are linked from on the original site */}
+				<li>
+					<Link href="/buildOrganicMatter">Build Organic Matter</Link>
+				</li>
+				<li>
+					<Link href="/7keys">
+						7 Keys for Activating the Carbon Sequestration Switch
+					</Link>
+				</li>
+				<li>
+					<Link href="/benefits">Benefits of MycorrPlus</Link>
+				</li>
+				<li>
+					<Link href="/sequestion">Carbon Sequestion</Link>
+				</li>
+				<li>
+					<Link href="/testimonials">MycorrPlus Testimonials</Link>
+				</li>
+				{/* make page */}
+				<li>
+					<Link href="/videos">Videos</Link>
+				</li>
 			</ul>
 		</nav>
 	);

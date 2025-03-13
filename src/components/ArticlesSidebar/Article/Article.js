@@ -3,14 +3,14 @@ import Link from "next/link";
 import React from "react";
 import styles from "./Article.module.scss";
 
-export default function Article({ title, image }) {
+export default function Article({ title, image, href = "/" }) {
 	return (
 		<>
-			<div>
-				<p className={styles.title}>{title}</p>
-			</div>
-			<div>
-				<Link href="/">
+			<Link href={href}>
+				<div>
+					<p className={styles.title}>{title}</p>
+				</div>
+				<div>
 					<Image
 						className={styles.img}
 						src={image}
@@ -18,8 +18,8 @@ export default function Article({ title, image }) {
 						width={200}
 						alt={image}
 					/>
-				</Link>
-			</div>
+				</div>
+			</Link>
 		</>
 	);
 }
