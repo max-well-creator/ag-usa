@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+- [ ] **Home**  
+      Our home page
 
-## Getting Started
+- [ ] **About**  
+      Who we are, a list of our websites
 
-First, run the development server:
+- [ ] **MycorrPlus**  
+      Detailed information about our flagship fertilizer product, MycorrPlus
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [ ] **How MycorrPlus works**  
+      An interview with Dr. Christine Jones. This article explains beautifully how carbon sequestration is the best way to build topsoil and grow nutrient dense plants
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [ ] **Good Moisture for Dryland Farms**  
+      How MycorrPlus helps to keep plants green and growing even during dry spells
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [ ] **Building Organic Matter**  
+      The best way to build organic matter is through Carbon Sequestration. Now you can send a signal to the plant to sequester large amounts of sugars (liquid carbon) into the soil, thus rapidly building organic matter
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [ ] **7 Keys for Activating the Carbon Sequestration Switch**  
+      How do you get Carbon Sequestration really going in your soil? This is how!
 
-## Learn More
+- [ ] **Benefits to Applying MycorrPlus**  
+      There are numerous benefits to applying MycorrPlus.
 
-To learn more about Next.js, take a look at the following resources:
+- [ ] **Carbon Sequestration IS Your Solution**  
+      Dr. Mercola article on why carbon sequestration is so important for farmers who want to improve both their soil and their yields.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [ ] **MycorrPlus videos**  
+      MycorrPlus (formerly called GroPal Balance) video testimonials.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [ ] **MycorrPlus testimonials**  
+      These are unsolicited testimonials from our customers concerning their experience with MycorrPlus (formerly called GroPal Balance).
 
-## Deploy on Vercel
+- [ ] **FAQs**  
+      Helpful facts about MycorrPlus.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] **GroPal for animal consumption**  
+      Adding GroPal sea mineral concentrate to animal drinking water
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [ ] **Photo Gallery**  
+      See photos of Soil Balance, a component of MycorrPlus, at work.
+
+- [ ] **Available plant food**  
+      How MycorrPlus takes nutrients in the soil that are tied up and changes them into available plant food.
+
+- [ ] **Conquer nature**  
+      The best way to conquer nature is to learn how to cooperate with it
+
+- [ ] **Eliminating hardpan**  
+      MycorrPlus bacteria use sugars secreted by plants as gums and glues to bind together soil particles, thereby highly structuring the soil and eliminating hardpan
+
+- [ ] **Controlling soil pH**  
+      Why lime is not the most effective method of controlling soil pH. The best method is to restore balance to the soil.
+
+- [ ] **Soil labs**  
+      Here are some lab results that demonstrate how MycorrPlus helps to restore nutrient balance to the soil without the use of fertilizers and lime.
+
+- [ ] **Grow superfoods**  
+      How MycorrPlus can help turn grass into a "superfood".
+
+- [ ] **Build drought tolerance**  
+      How MycorrPlus helps to make soils drought tolerant.
+
+- [ ] **Build topsoil**  
+      Details on why MycorrPlus may be the very best solution for building topsoil.
+
+- [ ] **Nutrient density**  
+      How MycorrPlus helps to increase the nutrient density of plants.
+
+- [ ] **Organic applications**  
+      MycorrPlus registered with WSDA for organic application.
+
+- [ ] **MycorrPlus application sheet**  
+      Detailed information to help you get the best results using MycorrPlus.
+
+- [ ] **Why MycorrPlus is "more bang for the buck"**  
+      If you want the most bang for your fertilizer dollar, you should consider MycorrPlus.
+
+- [ ] **Dr. Maynard Murray's Research**  
+      Dr. Maynard Murray's groundbreaking research on sea minerals
+
+- [ ] **MycorrPlus magazine articles**  
+      Advertising articles on MycorrPlus (formerly GroPal Balance) that we have placed in various agricultural magazines
+
+- [ ] **Pages for gardeners**  
+      AG-USA pages with helpful information for gardeners
+
+- [ ] **Contact**  
+      Ways to contact us
+
+**Other pages include:**
+
+- [ ] [Peanuts](https://www.ag-usa.net/peanuts.php)
+- [ ] [Cotton](https://www.ag-usa.net/cotton.php)
+- [ ] [Corn](https://www.ag-usa.net/corn.php)
+- [ ] [Foodplots](https://www.ag-usa.net/foodplots.php)
+- [ ] [SAS](https://www.ag-usa.net/sas.php)
+- [ ] [Soilmaxx](https://www.ag-usa.net/soilmaxx.php)
+- [ ] [Silage](https://www.ag-usa.net/silage.php)
+- [ ] [Soil Restoration](https://www.ag-usa.net/soilrestoration.php) _(do you like this format?)_
