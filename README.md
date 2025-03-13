@@ -1,3 +1,7 @@
+# WEBSITE LINKS
+
+# DONE
+
 - [x] [Home](https://www.ag-usa.net/index.php)
 - [x] [About](https://www.ag-usa.net/about.php)
 - [x] [MycorrPlus](https://www.ag-usa.net/mycorrplus.php)
@@ -14,6 +18,12 @@
 - [x] [Photo Gallery](https://www.ag-usa.net/gallery.php)
 - [x] [Available plant food](https://www.ag-usa.net/availableplantfood.php)
 - [x] [Soil labs](https://www.ag-usa.net/SoilLabs.php)
+- [x] [Contact](https://www.ag-usa.net/g-contact.php)
+- [x] [MycorrPlus application sheet](https://www.ag-usa.net/application.php)
+- [x] [Organic applications](https://www.ag-usa.net/organic.php)
+
+## TODO
+
 - [ ] [Conquer nature](https://www.ag-usa.net/conquernature.php)
 - [ ] [Eliminating hardpan](https://www.ag-usa.net/hardpan.php)
 - [ ] [Controlling soil pH](https://www.ag-usa.net/soilph.php)
@@ -21,15 +31,12 @@
 - [ ] [Build drought tolerance](https://www.ag-usa.net/droughttolerance.php)
 - [ ] [Build topsoil](https://www.ag-usa.net/buildtopsoil.php)
 - [ ] [Nutrient density](https://www.ag-usa.net/nutrientdensity.php)
-- [ ] [Organic applications](https://www.ag-usa.net/organic.php)
-- [ ] [MycorrPlus application sheet](https://www.ag-usa.net/application.php)
 - [ ] [Why MycorrPlus is "more bang for the buck"](https://www.ag-usa.net/greatvalue.php)
 - [ ] [Dr. Maynard Murray's Research](https://www.ag-usa.net/drmaynardmurrayresearch.php)
 - [ ] [MycorrPlus magazine articles](https://www.ag-usa.net/articles.php)
 - [ ] [Pages for gardeners](https://www.ag-usa.net/index1.php)
-- [x] [Contact](https://www.ag-usa.net/g-contact.php)
 
-\*\*Other pages include:
+### Other pages include:
 
 - [ ] [Peanuts](https://www.ag-usa.net/peanuts.php)
 - [ ] [Cotton](https://www.ag-usa.net/cotton.php)
