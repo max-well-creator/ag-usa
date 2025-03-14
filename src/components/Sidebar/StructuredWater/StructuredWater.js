@@ -9,13 +9,10 @@ export default function StructuredWater() {
 			<h3>Structured Water</h3>
 			<ul>
 				<li>
-					<Link href="/categories">The Benefits</Link>
+					<Link href="/NAT">Structure Water Benefits</Link>
 				</li>
 				<li>
-					<Link href="/mycorrplus">NAT Products</Link>
-				</li>
-				<li>
-					<Link href="/animals">Healtheir Livestock</Link>
+					<Link href="/Animals">Healtheir Livestock</Link>
 				</li>
 			</ul>
 		</SidebarLayout>

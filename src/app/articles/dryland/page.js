@@ -1,4 +1,4 @@
-import OutlastDrySpells from "@/components/Articles/Dryland/dryland";
+import OutlastDrySpells from "@/components/Articles/Dryland/Dryland";
 import React from "react";
 
 export default function DryLandPage() {

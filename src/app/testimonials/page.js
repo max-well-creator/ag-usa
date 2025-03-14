@@ -1,4 +1,4 @@
-import MycorrPlusTestimonials from "@/components/testimonials/testimonials";
+import MycorrPlusTestimonials from "@/components/Testimonials/Testimonials";
 import React from "react";
 
 export default function TestimonialsPage() {

@@ -1,4 +1,4 @@
-import BenefitsOfMycorrPlus from "@/components/Benefits/benefits";
+import BenefitsOfMycorrPlus from "@/components/Benefits/Benefits";
 import React from "react";
 
 export default function BenefitsPage() {

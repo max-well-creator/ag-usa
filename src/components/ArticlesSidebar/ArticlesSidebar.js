@@ -12,15 +12,23 @@ export default function ArticlesSidebar() {
 			<Article
 				title="Outlast dry spells"
 				image={home_header}
-				href="/articles/dryland"
+				href="/Articles/Dryland"
 			/>
-			<Article title="End compaction now" image={home_header} />
+			<Article
+				title="End compaction now"
+				image={home_header}
+				href="/Articles/Hardpan"
+			/>
 			<Article title="33 Benefits" image={home_header} />
-			<Article title="Save tons on lime" image={home_header} />
+			<Article
+				title="Save tons on lime"
+				image={home_header}
+				href="/Articles/SoilPh"
+			/>
 			<Article
 				title="More available plat food"
 				image={home_header}
-				href="/articles/availableplantfood"
+				href="/Articles/AvailablePlantFood"
 			/>
 		</SidebarLayout>
 	);

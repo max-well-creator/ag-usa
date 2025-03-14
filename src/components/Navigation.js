@@ -61,6 +61,42 @@ const Navigation = () => {
 				<li>
 					<Link href="/testimonials">MycorrPlus Testimonials</Link>
 				</li>
+				<li>
+					<Link href="/ConquereNature">Conquere Nature</Link>
+				</li>
+				<li>
+					<Link href="/SuperFood">Super Food</Link>
+				</li>
+				<li>
+					<Link href="/DroughtTolerance">Drought Tolerance</Link>
+				</li>
+				<li>
+					<Link href="/BuildTopSoil">Build Top Soil</Link>
+				</li>
+				<li>
+					<Link href="/Great Value">MycorrPlus ROI</Link>
+				</li>
+				<li>
+					<Link href="/Peanuts">Peanuts</Link>
+				</li>
+				<li>
+					<Link href="/Cotton">Cotton</Link>
+				</li>
+				<li>
+					<Link href="/Corn">Corn</Link>
+				</li>
+				<li>
+					<Link href="/FoodPlots">Food Plots</Link>
+				</li>
+				<li>
+					<Link href="/SAS">SAS</Link>
+				</li>
+				<li>
+					<Link href="/SoilMaxx">Soil Maxx</Link>
+				</li>
+				<li>
+					<Link href="/SoilRestoration">Soil Restoration</Link>
+				</li>
 				{/* make page */}
 				<li>
 					<Link href="/videos">Videos</Link>

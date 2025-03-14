@@ -8,41 +8,22 @@ export default function Info() {
 			<h3>More Info:</h3>
 			<ul>
 				<li>
-					<Link href="/categories">Purchase Products</Link>
+					<Link href="/Videos">Video Testimonials</Link>
 				</li>
 				<li>
-					<Link href="/videos">Video Testimonials</Link>
+					<Link href="/Testimonials">Testimonials</Link>
 				</li>
 				<li>
-					<Link href="/testimonials">Testimonials</Link>
+					<Link href="/MaynardMurrayResearch">Dr. Murray's Research</Link>
 				</li>
 				<li>
-					<Link href="/drmaynardmurrayresearch">Dr. Murray's Research</Link>
+					<Link href="/Articles">Articles</Link>
 				</li>
 				<li>
-					<Link href="/articles">Articles</Link>
+					<Link href="/Hay">HayMax Conditioner</Link>
 				</li>
 				<li>
-					<Link href="/hay">HayMax Conditioner</Link>
-				</li>
-				<li>
-					<Link href="/silage">Sil-Tec Silage</Link>
-				</li>
-				<li>
-					<Link
-						href="https://ag-usa.net/garden.htm"
-						target="_blank"
-						rel="noopener noreferrer">
-						For the Garden
-					</Link>
-				</li>
-				<li>
-					<Link
-						href="https://www.max-well.net/"
-						target="_blank"
-						rel="noopener noreferrer">
-						For Your Health
-					</Link>
+					<Link href="/Silage">Sil-Tec Silage</Link>
 				</li>
 			</ul>
 		</SidebarLayout>
