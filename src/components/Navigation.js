@@ -9,43 +9,43 @@ const Navigation = () => {
 					<Link href="/">Home</Link>
 				</li>
 				<li>
-					<Link href="/mycorrplus">MycorrPlus</Link>
+					<Link href="/MycorrPlus">MycorrPlus</Link>
 				</li>
 				{/* the old mycorrplus function is fuctionality */}
 				<li>
-					<Link href="/functionality">How Mycorr Works</Link>
+					<Link href="/Functionality">How Mycorr Works</Link>
 				</li>
 				<li>
-					<Link href="/application">Application Guide</Link>
+					<Link href="/Application">Application Guide</Link>
 				</li>
 				<li>
 					{/* TODO: make this a slider */}
-					<Link href="/gallery">Photo Gallery</Link>
+					<Link href="/Gallery">Photo Gallery</Link>
 				</li>
 				<li>
-					<Link href="/crops">Crop Apps</Link>
+					<Link href="/Crops">Crop Apps</Link>
 				</li>
 				<li>
-					<Link href="/results">Soil Lab Results</Link>
+					<Link href="/Results">Soil Lab Results</Link>
 				</li>
 				<li>
-					<Link href="/organic">Organic</Link>
+					<Link href="/Organic">Organic</Link>
 				</li>
 				<li>
-					<Link href="/faq">FAQs</Link>
+					<Link href="/FAQ">FAQs</Link>
 				</li>
 				<li>
-					<Link href="/about">About</Link>
+					<Link href="/About">About</Link>
 				</li>
 				<li>
-					<Link href="/contact">Contact</Link>
+					<Link href="/Contact">Contact</Link>
 				</li>
 				<li>
-					<Link href="/sitemap">Sitemap</Link>
+					<Link href="/Sitemap">Sitemap</Link>
 				</li>
 				{/* I don't know where the following pages are linked from on the original site */}
 				<li>
-					<Link href="/buildOrganicMatter">Build Organic Matter</Link>
+					<Link href="/BuildOrganicMatter">Build Organic Matter</Link>
 				</li>
 				<li>
 					<Link href="/7keys">
@@ -53,13 +53,13 @@ const Navigation = () => {
 					</Link>
 				</li>
 				<li>
-					<Link href="/benefits">Benefits of MycorrPlus</Link>
+					<Link href="/Benefits">Benefits of MycorrPlus</Link>
 				</li>
 				<li>
-					<Link href="/sequestion">Carbon Sequestion</Link>
+					<Link href="/Sequestion">Carbon Sequestion</Link>
 				</li>
 				<li>
-					<Link href="/testimonials">MycorrPlus Testimonials</Link>
+					<Link href="/Testimonials">MycorrPlus Testimonials</Link>
 				</li>
 				<li>
 					<Link href="/ConquereNature">Conquere Nature</Link>
@@ -99,7 +99,7 @@ const Navigation = () => {
 				</li>
 				{/* make page */}
 				<li>
-					<Link href="/videos">Videos</Link>
+					<Link href="/Videos">Videos</Link>
 				</li>
 			</ul>
 		</nav>
