@@ -4,12 +4,17 @@
 
 - [x] [Home](https://www.ag-usa.net/index.php)
 - [x] [About](https://www.ag-usa.net/about.php)
+
+## I combined this pages to be in the main MycorrPlus page
+
 - [x] [MycorrPlus](https://www.ag-usa.net/mycorrplus.php)
 - [x] [How MycorrPlus works](https://www.ag-usa.net/mycorrplusfunction.php)
+- [x] [Benefits to Applying MycorrPlus](https://www.ag-usa.net/benefits.php)
+- [x] [MycorrPlus application sheet](https://www.ag-usa.net/application.php)
+
 - [x] [Good Moisture for Dryland Farms](https://www.ag-usa.net/dryland.php)
 - [x] [Building Organic Matter](https://www.ag-usa.net/buildorganicmatter.php)
 - [x] [7 Keys for Activating the Carbon Sequestration Switch](https://www.ag-usa.net/7keys.php)
-- [x] [Benefits to Applying MycorrPlus](https://www.ag-usa.net/benefits.php)
 - [x] [Carbon Sequestration IS Your Solution](https://www.ag-usa.net/sequestration.php)
 - [x] [MycorrPlus videos](https://www.ag-usa.net/videos.php)
 - [x] [MycorrPlus testimonials](https://www.ag-usa.net/testimonials.php)
@@ -19,7 +24,6 @@
 - [x] [Available plant food](https://www.ag-usa.net/availableplantfood.php)
 - [x] [Soil labs](https://www.ag-usa.net/SoilLabs.php)
 - [x] [Contact](https://www.ag-usa.net/g-contact.php)
-- [x] [MycorrPlus application sheet](https://www.ag-usa.net/application.php)
 - [x] [Organic applications](https://www.ag-usa.net/organic.php)
 - [x] [Conquer nature](https://www.ag-usa.net/conquernature.php)
 - [x] [Eliminating hardpan](https://www.ag-usa.net/hardpan.php)

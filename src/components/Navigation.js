@@ -11,13 +11,6 @@ const Navigation = () => {
 				<li>
 					<Link href="/MycorrPlus">MycorrPlus</Link>
 				</li>
-				{/* the old mycorrplus function is fuctionality */}
-				<li>
-					<Link href="/Functionality">How Mycorr Works</Link>
-				</li>
-				<li>
-					<Link href="/Application">Application Guide</Link>
-				</li>
 				<li>
 					{/* TODO: make this a slider */}
 					<Link href="/Gallery">Photo Gallery</Link>
@@ -51,9 +44,6 @@ const Navigation = () => {
 					<Link href="/7keys">
 						7 Keys for Activating the Carbon Sequestration Switch
 					</Link>
-				</li>
-				<li>
-					<Link href="/Benefits">Benefits of MycorrPlus</Link>
 				</li>
 				<li>
 					<Link href="/Sequestion">Carbon Sequestion</Link>

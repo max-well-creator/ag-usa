@@ -1,4 +1,7 @@
 import React from "react";
+import BenefitsOfMycorrPlus from "../Benefits/Benefits";
+import Functionality from "../Functionality/Functionality";
+import MycorrPlusInstructions from "../ApplicationInstructions/Instructions";
 
 const MycorrPlus = () => {
 	return (
@@ -175,6 +178,18 @@ const MycorrPlus = () => {
 			<section style={{ marginTop: "20px" }}>
 				<h2>Good News!</h2>
 				<p>We have a product application that fits every budget.</p>
+			</section>
+			<section style={{ marginTop: "20px" }}>
+				<h2>How it works</h2>
+				<Functionality />
+			</section>
+			<section style={{ marginTop: "20px" }}>
+				<h2>Benefits</h2>
+				<BenefitsOfMycorrPlus />
+			</section>
+			<section style={{ marginTop: "20px" }}>
+				<h2>Application</h2>
+				<MycorrPlusInstructions />
 			</section>
 		</div>
 	);
