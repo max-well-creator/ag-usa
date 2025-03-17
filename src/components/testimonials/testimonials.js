@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import styles from "./MycorrPlusTestimonials.module.scss";
+import styles from "./Testimonials.module.scss";
 
 const MycorrPlusTestimonials = () => {
 	return (

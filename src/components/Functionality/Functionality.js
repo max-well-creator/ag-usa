@@ -1,11 +1,19 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./Functionality.module.scss";
+import ChristineJones from "../../../public/images/mycorrPlus/ChristineJones.webp";
+import Image from "next/image";
 
 const Functionality = () => {
 	return (
 		<div className={styles.container}>
 			<h1>A Better Way</h1>
+			<Image
+				src={ChristineJones}
+				height={300}
+				width={300}
+				alt={ChristineJones}
+			/>
 			<p>
 				Dr. Christine Jones’ groundbreaking March 2015 article in AcresUSA shows
 				a fresh, economic approach to transforming soils.

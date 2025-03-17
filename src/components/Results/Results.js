@@ -1,6 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./Results.module.scss";
+import SoilTestAfter1 from "../../../public/images/labs/SoilTestAfterField1.webp";
+import SoilTestAfter2 from "../../../public/images/labs/SoilTestAfterField2.webp";
+import SoilTestBefore1 from "../../../public/images/labs/SoilTestBeforeField1.webp";
+import SoilTestBefore2 from "../../../public/images/labs/SoilTestBeforeField2.webp";
+import Image from "next/image";
 
 const MycorrPlusSoilLabs = () => {
 	return (
@@ -29,17 +34,11 @@ const MycorrPlusSoilLabs = () => {
 				<h3>Field 1</h3>
 				<div className={styles.imageContainer}>
 					<h4>Before</h4>
-					<img
-						src="/images/field1-before.jpg"
-						alt="Field 1 - Before MycorrPlus"
-					/>
+					<Image src={SoilTestBefore1} alt={SoilTestBefore1} />
 				</div>
 				<div className={styles.imageContainer}>
 					<h4>After</h4>
-					<img
-						src="/images/field1-after.jpg"
-						alt="Field 1 - After MycorrPlus"
-					/>
+					<Image src={SoilTestAfter1} alt={SoilTestAfter1} />
 				</div>
 			</section>
 
@@ -47,17 +46,11 @@ const MycorrPlusSoilLabs = () => {
 				<h3>Field 2</h3>
 				<div className={styles.imageContainer}>
 					<h4>Before</h4>
-					<img
-						src="/images/field2-before.jpg"
-						alt="Field 2 - Before MycorrPlus"
-					/>
+					<Image src={SoilTestBefore2} alt={SoilTestBefore1} />
 				</div>
 				<div className={styles.imageContainer}>
 					<h4>After</h4>
-					<img
-						src="/images/field2-after.jpg"
-						alt="Field 2 - After MycorrPlus"
-					/>
+					<Image src={SoilTestAfter2} alt={SoilTestAfter2} />
 				</div>
 			</section>
 
