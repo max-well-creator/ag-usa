@@ -6,15 +6,17 @@ import SidebarLayout from "../SidebarLayout/SidebarLayout";
 export default function StructuredWater() {
 	return (
 		<SidebarLayout>
-			<h3>Structured Water</h3>
-			<ul>
-				<li>
-					<Link href="/NAT">Structure Water Benefits</Link>
-				</li>
-				<li>
-					<Link href="/Animals">Healtheir Livestock</Link>
-				</li>
-			</ul>
+			<div className={styles.container}>
+				<h3 className={styles.heading}>Structured Water</h3>
+				<ul className={styles.list}>
+					<li>
+						<Link href="/NAT">Structure Water Benefits</Link>
+					</li>
+					<li>
+						<Link href="/Animals">Healtheir Livestock</Link>
+					</li>
+				</ul>
+			</div>
 		</SidebarLayout>
 	);
 }

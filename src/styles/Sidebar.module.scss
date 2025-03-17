@@ -1,0 +1,14 @@
+.sidebar {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+
+  // Style nested components if needed
+  .info {
+    margin-bottom: 20px;
+  }
+
+  .structuredWater {
+    margin-top: 20px;
+  }
+}

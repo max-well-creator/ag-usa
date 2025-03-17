@@ -1,115 +1,70 @@
 import React from "react";
+import styles from "./SevenKeys.module.scss";
 
 const SevenKeys = () => {
 	return (
-		<div
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
-			<h1>7 Keys for Activating the Carbon Sequestration Switch</h1>
+		<div className={styles.container}>
+			<h1 className={styles.title}>
+				7 Keys for Activating the Carbon Sequestration Switch
+			</h1>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Key 1 - Balance the Soil</h2>
+			<section className={styles.section}>
+				<h2 className={styles.keyTitle}>Key 1 – Balance the Soil</h2>
 				<p>
-					You want to establish the Soil Food Web in the soil. To do so, you
-					need to provide a friendly living environment.
-					<br />
-					<br />
-					- Get rid of toxins
-					<br />
-					- Remediate any salt buildups
-					<br />
-					- Restore balance to nutrients in the soil
-					<br />
-					<br />
-					Fortunately, MycorrPlus-A and O (formerly called GroPal Balance) help
-					you do each of these.
+					Create a thriving Soil Food Web by removing toxins, remediating salts,
+					and balancing nutrients. MycorrPlus-A and O make it simple.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Key 2 - Don't Graze Grass Down Too Low</h2>
+			<section className={styles.section}>
+				<h2 className={styles.keyTitle}>Key 2 – Avoid Overgrazing</h2>
 				<p>
-					For pastures, grazing grass too short compromises the root system. A
-					deep root system is best maintained by avoiding very short grazing.
-					Rotational grazing and frequently moving cows can help preserve root
-					integrity.
-				</p>
-				<p>
-					"Sadly, in most of our agricultural soils, we have far more bacteria
-					than fungi. High density short duration grazing accompanied by
-					appropriate rest periods are moving soils toward fungal dominance."
-				</p>
-				<p>
-					Remember: Fungi are important for soil carbon sequestration and
-					nutrient acquisition. They are necessary for forming humus.
+					Prevent overgrazing to protect deep roots. Rotational grazing
+					maintains a robust root system and promotes fungal dominance,
+					essential for carbon sequestration.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Key 3 - Diversify</h2>
+			<section className={styles.section}>
+				<h2 className={styles.keyTitle}>Key 3 – Diversify Crops</h2>
 				<p>
-					Crop rotation helps diversify the types of microbes in the soil. Cover
-					crops, for example, can help with diversification. Some plants have
-					deep root systems that help take liquid carbon and structure the soil
-					to new depths.
+					Use crop rotation and cover crops to boost microbial diversity and
+					deepen roots, enhancing nutrient uptake and soil structure.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Key 4 - Cut Down on Chemical Applications</h2>
+			<section className={styles.section}>
+				<h2 className={styles.keyTitle}>Key 4 – Reduce Chemical Inputs</h2>
 				<p>
-					Herbicides, fungicides, and insecticides are chemicals that disrupt
-					soil biology. Every chemical application tends to hinder the
-					development of healthy soil. The good news is that MycorrPlus-A and O
-					help break these chemicals down and replenish the soil.
+					Minimize herbicides, fungicides, and insecticides that damage soil
+					biology. MycorrPlus helps break down these chemicals while
+					replenishing nutrients.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Key 5 - Limit Cultivation</h2>
+			<section className={styles.section}>
+				<h2 className={styles.keyTitle}>Key 5 – Minimize Tillage</h2>
 				<p>
-					Tilling the soil disturbs soil life—especially fungi—and disrupts
-					mycorrhizal networks that are essential for carbon sequestration.
-					No-till or minimum tillage practices help preserve these networks,
-					enhancing the soil’s ability to sequester carbon.
-				</p>
-			</section>
-
-			<section style={{ marginTop: "20px" }}>
-				<h2>Key 6 - Keep the Ground Covered</h2>
-				<p>
-					Soil aggregates do not form in bare soil; they tend to break down,
-					limiting the availability of organic nitrogen and hindering microbial
-					growth. Bare soil loses moisture faster, whereas cover crops help
-					conserve moisture and maintain the structure needed for effective
-					carbon flow.
-				</p>
-			</section>
-
-			<section style={{ marginTop: "20px" }}>
-				<h2>Key 7 - MycorrPlus</h2>
-				<p>
-					Although keys 1–6 set the stage for carbon sequestration, MycorrPlus-A
-					and O are the real secret. They accomplish the following:
-				</p>
-				<ul>
-					<li>Devour toxins and remediate salts</li>
-					<li>Restore balance to the soil, including pH</li>
-					<li>
-						Contain numerous specialized aerobic bacteria and stimulate
-						beneficial bacteria, nematodes, and mycorrhizal fungi
-					</li>
-					<li>Feed these microbes and help them establish in the soil</li>
-					<li>Raise the energy (measured in ergs) in the soil</li>
-					<li>Establish extensive networks of mycorrhizal fungi</li>
-				</ul>
-				<p>
-					MycorrPlus-A and O lay the foundation upon which the other keys are
-					built—establishing the conditions necessary for maximum carbon
+					Limit tillage to protect beneficial mycorrhizal networks. No-till
+					practices preserve the soil structure necessary for carbon
 					sequestration.
+				</p>
+			</section>
+
+			<section className={styles.section}>
+				<h2 className={styles.keyTitle}>Key 6 – Keep Ground Covered</h2>
+				<p>
+					Maintain plant or mulch cover to conserve moisture, prevent erosion,
+					and support microbial life.
+				</p>
+			</section>
+
+			<section className={styles.section}>
+				<h2 className={styles.keyTitle}>Key 7 – Use MycorrPlus</h2>
+				<p>
+					MycorrPlus-A and O are the secret to success—they detoxify the soil,
+					balance pH and nutrients, boost beneficial microbes, and create
+					extensive mycorrhizal networks.
 				</p>
 			</section>
 		</div>

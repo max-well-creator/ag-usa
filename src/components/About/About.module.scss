@@ -1,0 +1,53 @@
+.container {
+  padding: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.7;
+  color: #333;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 1em;
+  border-left: 4px solid #4CAF50;
+  padding-left: 10px;
+  color: #555;
+}
+
+.externalLinks {
+  margin-top: 20px;
+}
+
+.externalLinks h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  color: #4CAF50;
+}
+
+.externalLinks ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.externalLinks li {
+  margin-bottom: 0.5em;
+}
+
+.externalLinks a {
+  color: #1E90FF;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.externalLinks a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.officeInfo {
+  margin-top: 20px;
+  font-size: 0.95em;
+  color: #666;
+}

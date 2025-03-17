@@ -1,46 +1,28 @@
 import React from "react";
+import styles from "./About.module.scss";
 
 const About = () => {
 	return (
-		<div
-			className="tech-ag-container"
-			style={{
-				padding: "20px",
-				lineHeight: "1.6",
-				fontFamily: "Arial, sans-serif",
-			}}>
-			<p>
-				In 1969, animal nutritionist Paul Schneider started Tech Ag with an
-				exceptional program of minerals, vitamins and other nutrients to
-				maximize cattle health. After many years in the business, Paul realized
-				that the only way to take things to the next level was through improving
-				the soil, which in turn would improve the nutrients in crops. - Paul
-				Schneider Jr
+		<div className={styles.container}>
+			<p className={styles.quote}>
+				"In 1969, animal nutritionist Paul Schneider launched Tech Ag with a
+				revolutionary mineral and vitamin program to boost cattle health. Later,
+				his son and family expanded the quest for soil excellence. Lab tests
+				show our product makes abundant nutrients available, turning bland crops
+				into exciting, nutrient-rich yields—all while reducing fertilizer
+				costs." — Paul Schneider Jr.
 			</p>
-			<p>
-				Now, two of Paul's sons plus other family members have joined him in his
-				quest for soil excellence. After Tech Ag had experienced numerous
-				breakthroughs, Paul's son Paul Jr., under the company name AG-USA,
-				developed a product that seems to have achieved Paul Sr.'s lifelong
-				goal.
-			</p>
-			<p>
-				Laboratory tests indicate that this new product makes a wealth of
-				nutrients available to the plant and thus to livestock. Crops go from
-				blah to exciting. Add to this the fact that year after year the soil
-				just keeps getting better, and MycorrPlus (formerly called GroPal
-				Balance) is truly a product to get excited about.
-			</p>
-			<p>
-				Not only do growers experience increased production, they also save a
-				fortune on fertilizer. With MycorrPlus, soil and pH are brought more
-				into balance, and healthy soil microbes dominate, displacing harmful
-				nematodes and pathogens.
-			</p>
-			<p>Please contact us today for more details.</p>
 
-			<div className="external-links" style={{ marginTop: "20px" }}>
-				<h3>Other websites:</h3>
+			<p>
+				With MycorrPlus (formerly GroPal Balance), growers enjoy increased
+				production and balanced soil pH as healthy microbes displace harmful
+				pathogens.
+			</p>
+
+			<p>Contact us today for more details.</p>
+
+			<div className={styles.externalLinks}>
+				<h3>Other Websites</h3>
 				<ul>
 					<li>
 						<a
@@ -69,11 +51,9 @@ const About = () => {
 				</ul>
 			</div>
 
-			<div className="office-info" style={{ marginTop: "20px" }}>
-				<p>
-					Currently our office/warehouse is at 119 Palmetto Rd., Tyrone, GA.
-					Here are a few pictures of this facility.
-				</p>
+			<div className={styles.officeInfo}>
+				<p>Our office/warehouse: 119 Palmetto Rd., Tyrone, GA.</p>
+				<p>Check out our facility photos below.</p>
 			</div>
 		</div>
 	);

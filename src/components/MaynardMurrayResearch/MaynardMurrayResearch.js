@@ -1,23 +1,21 @@
 import Link from "next/link";
 import React from "react";
+import styles from "./MycorrPlusResearch.module.scss";
 
 const MycorrPlusResearch = () => {
 	return (
-		<div
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
-			<h1>MycorrPlus – Dr. Maynard Murray Research</h1>
-			<p>
+		<div className={styles.container}>
+			<h1 className={styles.title}>MycorrPlus – Dr. Maynard Murray Research</h1>
+			<p className={styles.intro}>
 				For 30 years, Dr. Maynard Murray studied the impact of sea minerals on
 				plants and animals—with remarkable results!
 			</p>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Animal Studies: Disease Resistance</h2>
-				<ul>
+			<section className={styles.section}>
+				<h2 className={styles.sectionHeading}>
+					Animal Studies: Disease Resistance
+				</h2>
+				<ul className={styles.list}>
 					<li>
 						<strong>Mice:</strong> Mice fed a diet grown with sea minerals did
 						not develop cancer, while all control mice did.
@@ -28,9 +26,8 @@ const MycorrPlusResearch = () => {
 						carcinogen injection.
 					</li>
 					<li>
-						<strong>Rabbits & Pigs:</strong> Experimental groups on sea
-						mineral–fertilized diets exhibited fewer signs of high cholesterol
-						and improved overall health.
+						<strong>Rabbits & Pigs:</strong> Experimental groups exhibited fewer
+						signs of high cholesterol and overall improved health.
 					</li>
 					<li>
 						<strong>Chickens:</strong> Chickens fed produce grown with sea
@@ -39,9 +36,11 @@ const MycorrPlusResearch = () => {
 				</ul>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Plant Studies: Enhanced Growth and Disease Resistance</h2>
-				<ul>
+			<section className={styles.section}>
+				<h2 className={styles.sectionHeading}>
+					Plant Studies: Enhanced Growth and Disease Resistance
+				</h2>
+				<ul className={styles.list}>
 					<li>
 						<strong>Peach Trees:</strong> Treated trees remained virus-free and
 						produced normal fruit yields, while untreated trees contracted
@@ -58,8 +57,8 @@ const MycorrPlusResearch = () => {
 				</ul>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Key Takeaways</h2>
+			<section className={styles.section}>
+				<h2 className={styles.sectionHeading}>Key Takeaways</h2>
 				<p>
 					Dr. Murray’s research, detailed in his book{" "}
 					<em>
@@ -71,46 +70,37 @@ const MycorrPlusResearch = () => {
 					health.
 				</p>
 				<p>
-					You can even supplement your diet with Ionic Sea Minerals – the next
+					You can even supplement your diet with Ionic Sea Minerals—the next
 					best thing if you don't consume produce grown with sea minerals.
 				</p>
 			</section>
 
-			<section
-				style={{ marginTop: "20px", fontStyle: "italic", color: "#555" }}>
+			<section className={styles.note}>
 				<p>
 					<small>
-						Note: Dr. Murray’s research is preliminary and is intended to
-						stimulate further study. The results should not be interpreted as
-						conclusive health claims.
+						Note: Dr. Murray’s research is preliminary and intended to stimulate
+						further study. These results should not be interpreted as conclusive
+						health claims.
 					</small>
 				</p>
 			</section>
 
-			<section style={{ marginTop: "30px", textAlign: "center" }}>
+			<section className={styles.ctaSection}>
 				<p>
-					<Link
-						href="/purchase-mycorrplus"
-						style={{
-							color: "blue",
-							textDecoration: "underline",
-							fontWeight: "bold",
-						}}>
-						Purchase MycorrPlus Today!
+					<Link href="/purchase-mycorrplus">
+						<span className={styles.link}>Purchase MycorrPlus Today!</span>
 					</Link>
 				</p>
 				<p>
-					<Link
-						href="/dr-christine-jones-interview"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Read Dr. Christine Jones’ Interview on Carbon Sequestration
+					<Link href="/dr-christine-jones-interview">
+						<span className={styles.link}>
+							Read Dr. Christine Jones’ Interview on Carbon Sequestration
+						</span>
 					</Link>
 				</p>
 				<p>
-					<Link
-						href="/contact"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Contact Us for More Information
+					<Link href="/contact">
+						<span className={styles.link}>Contact Us for More Information</span>
 					</Link>
 				</p>
 			</section>

@@ -1,9 +1,9 @@
-import styles from "../styles/Navigation.module.scss";
 import Link from "next/link";
+import styles from "../styles/Navigation.module.scss";
 
 const Navigation = () => {
 	return (
-		<nav className={styles.top_nav}>
+		<nav className={styles.topNav}>
 			<ul>
 				<li>
 					<Link href="/">Home</Link>
@@ -12,7 +12,6 @@ const Navigation = () => {
 					<Link href="/MycorrPlus">MycorrPlus</Link>
 				</li>
 				<li>
-					{/* TODO: make this a slider */}
 					<Link href="/Gallery">Photo Gallery</Link>
 				</li>
 				<li>
@@ -36,7 +35,6 @@ const Navigation = () => {
 				<li>
 					<Link href="/Sitemap">Sitemap</Link>
 				</li>
-				{/* I don't know where the following pages are linked from on the original site */}
 				<li>
 					<Link href="/BuildOrganicMatter">Build Organic Matter</Link>
 				</li>
@@ -52,7 +50,7 @@ const Navigation = () => {
 					<Link href="/Testimonials">MycorrPlus Testimonials</Link>
 				</li>
 				<li>
-					<Link href="/ConquereNature">Conquere Nature</Link>
+					<Link href="/ConquerNature">Conquer Nature</Link>
 				</li>
 				<li>
 					<Link href="/SuperFood">Super Food</Link>
@@ -64,7 +62,7 @@ const Navigation = () => {
 					<Link href="/BuildTopSoil">Build Top Soil</Link>
 				</li>
 				<li>
-					<Link href="/Great Value">MycorrPlus ROI</Link>
+					<Link href="/GreatValue">MycorrPlus ROI</Link>
 				</li>
 				<li>
 					<Link href="/Peanuts">Peanuts</Link>
@@ -87,7 +85,6 @@ const Navigation = () => {
 				<li>
 					<Link href="/SoilRestoration">Soil Restoration</Link>
 				</li>
-				{/* make page */}
 				<li>
 					<Link href="/Videos">Videos</Link>
 				</li>

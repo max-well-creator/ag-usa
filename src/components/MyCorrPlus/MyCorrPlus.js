@@ -2,106 +2,81 @@ import React from "react";
 import BenefitsOfMycorrPlus from "../Benefits/Benefits";
 import Functionality from "../Functionality/Functionality";
 import MycorrPlusInstructions from "../ApplicationInstructions/Instructions";
+import styles from "./MycorrPlus.module.scss";
 
 const MycorrPlus = () => {
 	return (
-		<div
-			className="mycorrplus-tm"
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
-			<h1>Mycorr Plus™</h1>
-			<p>
+		<div className={styles.container}>
+			<h1 className={styles.title}>Mycorr Plus™</h1>
+			<p className={styles.intro}>
 				Would you like to build dark, rich topsoil? AG-USA's MycorrPlus-A and
-				MycorrPlus-O prompt an incredible amount of carbon sequestration by the
-				plant into the soil. Carbon sequestration is the absolute fastest and
-				best way to create new topsoil. Learn why secreting sugars (carbon)
-				through the roots into the soil can create topsoil up to 10 times faster
-				than can be done through the use of compost or other organic matter.
+				MycorrPlus-O prompt an incredible amount of carbon sequestration into
+				the soil—the fastest and best way to create new topsoil. Learn why
+				secreting sugars (carbon) through plant roots can build topsoil up to 10
+				times faster than compost.
 			</p>
 			<p>
-				MycorrPlus-A and O help to provide the perfect growing environment for
-				plants—a growing environment that contains all the nutrients the plant
-				needs for optimum productivity and nutrient density.
+				MycorrPlus-A and O provide the perfect environment for plants by
+				delivering all the nutrients needed for optimum productivity and
+				nutrient density.
 			</p>
 			<p>
-				MycorrPlus-A and O are a combination of two products—Soil Balance and
-				GroPal (also marketed as Ocean Trace).
+				They combine two products—Soil Balance and GroPal (also marketed as
+				Ocean Trace).
 			</p>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Soil Balance</h2>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>Soil Balance</h2>
 				<p>
-					Soil Balance is a combination of numerous ingredients, including humic
-					and fulvic acids. Its job is to help balance nutrients AND energies in
-					the soil.
+					A blend of ingredients including humic and fulvic acids that balances
+					both nutrients and energies in the soil.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>GroPal</h2>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>GroPal</h2>
 				<p>
-					GroPal is a sea mineral concentrate. One hundred gallons of Australian
-					ocean water are evaporated down to a 1-gallon concentrate, making it a
-					product packed with trace minerals. GroPal supplies macro and trace
-					minerals that have been proven beneficial to plants.
+					A sea mineral concentrate produced by evaporating 100 gallons of
+					Australian ocean water down to 1 gallon, packed with trace minerals
+					that supply both macro and micronutrients.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>How MycorrPlus-A and O Work</h2>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>How MycorrPlus-A and O Work</h2>
 				<p>
-					MycorrPlus-A and O form something like an aerobic membrane that holds
-					and balances nutrients to help bring balance to the soil. This aerobic
-					membrane expands—almost like a sack—that holds carbon and other
-					nutrients, making them available to the plant.
+					They form an “aerobic membrane” that holds and balances nutrients for
+					the plant. This process re-establishes the natural relationship
+					between soil and plant by introducing beneficial bacteria, fungi, and
+					other soil organisms—using molasses as an energy source.
 				</p>
 				<p>
-					They offer the soil ingredients necessary to re-establish the natural
-					and productive relationship between soil and plants. The products
-					include several genera of aerobic bacteria, fungi, and soil organisms,
-					with molasses added as an energy source for the microorganisms. These
-					native micro-organisms help to make both macro and micro nutrients
-					available to plants.
+					As these microbes digest chemicals and flush out toxins, anaerobic
+					soil converts to aerobic soil. Their multiplication and the fixation
+					of plant-secreted sugars flocculate the soil, creating vital air
+					spaces for water and nutrient flow.
 				</p>
 				<p>
-					As the microorganisms begin digesting chemicals and salts and removing
-					harmful elements (including anaerobic bacteria, which cause most plant
-					diseases), the anaerobic soil is converted to aerobic soil.
-				</p>
-				<p>
-					The multiplication of microorganisms and the fixation of sugars
-					provided by plants flocculates the soil, separating soil particles and
-					creating air spaces essential for proper water and air balance in the
-					soil. Without these spaces, the soil may become oversaturated or too
-					dry, both of which slow root growth and restrict above-ground plant
-					growth.
-				</p>
-				<p>
-					Ultimately, MycorrPlus-A and O enable the soil to become the ideal
-					environment for plant life by changing soil pH to a near neutral level
-					(making sulfur available to plants) without the use of lime.
+					Ultimately, MycorrPlus adjusts soil pH to near neutral without using
+					lime.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>The Nutrient Package and Energy Balance</h2>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>
+					The Nutrient Package & Energy Balance
+				</h2>
 				<p>
-					Once the nutrients are balanced (both macro and micro), the energy in
-					the soil increases—resulting in increased plant growth. The results
-					are due not only to the nutrient release directly but from the
-					comprehensive nutrient package provided by MycorrPlus. The more
-					balanced the soil, the higher its energy.
+					When soil nutrients are balanced, its energy increases—boosting plant
+					growth. MycorrPlus delivers a comprehensive nutrient package that
+					raises soil energy and enhances plant development.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Give MycorrPlus a Try!</h2>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>Give MycorrPlus a Try!</h2>
 				<p>
-					Many farmers want to see results on a small scale before committing to
-					a large-scale application. Try it in one area and avoid applying any
+					Test it on a small area before large-scale application. Avoid using
 					other products in that test area.
 				</p>
 				<p>
@@ -109,8 +84,8 @@ const MycorrPlus = () => {
 						href="#"
 						target="_blank"
 						rel="noopener noreferrer"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Click here to view some side by side soil results.
+						className={styles.link}>
+						View side by side soil results
 					</a>
 				</p>
 				<p>
@@ -118,9 +93,8 @@ const MycorrPlus = () => {
 						href="#"
 						target="_blank"
 						rel="noopener noreferrer"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Take a look at a photo gallery of side by side fields where half was
-						treated with Soil Balance and the other half was not.
+						className={styles.link}>
+						Photo gallery of treated vs. untreated fields
 					</a>
 				</p>
 				<p>
@@ -128,9 +102,8 @@ const MycorrPlus = () => {
 						href="#"
 						target="_blank"
 						rel="noopener noreferrer"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Click here to read an authoritative interview on how MycorrPlus-A
-						and O transform the soil.
+						className={styles.link}>
+						Read an authoritative interview on soil transformation
 					</a>
 				</p>
 				<p>
@@ -138,57 +111,56 @@ const MycorrPlus = () => {
 						href="#"
 						target="_blank"
 						rel="noopener noreferrer"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Click here to view video testimonials by our customers.
+						className={styles.link}>
+						Watch video testimonials
 					</a>
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Customer Testimonial</h2>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>Customer Testimonial</h2>
 				<p>
 					<strong>Pastor Andrew Curtiss, Shalom Vegetables in Michigan:</strong>
 				</p>
 				<p>
-					"My experience with the GroPal Balance (MycorrPlus-A) was excellent. I
+					"My experience with GroPal Balance (MycorrPlus-A) was excellent. I
 					grow CSA and farm market vegetables on about 1 acre of land that had
-					been used for conventional agriculture for 30 years prior to 2015. On
-					your recommendation, I applied an equivalent of 40 oz. of GroPal
-					Balance A in May 2015. To say I was impressed is an understatement. I
-					planted 75 pounds of seed potatoes and ended up with a 1,200-pound
-					harvest. My shell peas produced large quantities of sweet peas for
-					nearly 6 weeks, and our bush snap beans kept flowering even after we
-					stopped picking them. The flavor of our produce was exceptional, and I
-					received weekly compliments at the farmers market. The product's
-					ability to help plants withstand stress—such as five inches of rain in
-					two days followed by 21 days without rain—was truly remarkable. When
-					it was time to tear the garden down, I was amazed by the mycorrhizal
-					fungi all over the roots. I firmly believe that the symbiotic
-					relationship between the plants and their roots was the key to our
-					success in 2015. God's creation is truly amazing! Thanks for an
-					awesome product."
+					been conventionally farmed for 30 years. On recommendation, I applied
+					40 oz of GroPal Balance A in May 2015. I planted 75 lbs of seed
+					potatoes and harvested 1,200 lbs of potatoes. My shell peas produced
+					sweet peas for nearly 6 weeks, and our snap beans kept flowering long
+					after picking ceased. The produce was exceptional, and I received
+					weekly compliments at the farmers market. The product's ability to
+					help plants withstand stress—like 5 inches of rain in 2 days followed
+					by 21 days without rain—was truly remarkable. When it was time to tear
+					the garden down, I was amazed by the mycorrhizal fungi on the roots. I
+					firmly believe that the symbiotic relationship between plants and
+					roots was key to our success in 2015. God's creation is amazing!
+					Thanks for an awesome product."
 				</p>
 				<p>
-					Some may choose to further boost the process by adding a natural
-					product like fish or kelp; however, you will likely achieve great
-					results without them!
+					You can further boost the process with natural products like fish or
+					kelp, although excellent results are achievable without them.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Good News!</h2>
-				<p>We have a product application that fits every budget.</p>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>Good News!</h2>
+				<p>We offer product applications that fit every budget.</p>
 			</section>
-			<section style={{ marginTop: "20px" }}>
-				<h2>How it works</h2>
+
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>How It Works</h2>
 				<Functionality />
 			</section>
-			<section style={{ marginTop: "20px" }}>
-				<h2>Benefits</h2>
+
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>Benefits</h2>
 				<BenefitsOfMycorrPlus />
 			</section>
-			<section style={{ marginTop: "20px" }}>
-				<h2>Application</h2>
+
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>Application</h2>
 				<MycorrPlusInstructions />
 			</section>
 		</div>

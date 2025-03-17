@@ -1,0 +1,51 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #2c3e50;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+.section {
+  margin-top: 20px;
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.75em;
+    color: #2c3e50;
+  }
+
+  .note {
+    font-style: italic;
+    color: #555;
+  }
+}
+
+.cta {
+  margin-top: 30px;
+  text-align: center;
+
+  p {
+    margin-bottom: 0.75em;
+  }
+}
+
+.link {
+  color: #0070f3;
+  text-decoration: underline;
+}
+
+.boldLink {
+  color: #0070f3;
+  text-decoration: underline;
+  font-weight: bold;
+}

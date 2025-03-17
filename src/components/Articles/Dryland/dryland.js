@@ -1,207 +1,136 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
+import styles from "./Dryland.module.scss";
 
 const OutlastDrySpells = () => {
 	return (
-		<div
-			className="keep-crops-growing"
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
-			<h1>Keep your Crops Growing even when it turns hot and dry</h1>
+		<div className={styles.container}>
+			<h1>Keep Your Crops Growing Even in Dry Spells</h1>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<p>
-					<strong>MycorrPlus-A and O</strong> (formerly named GroPal Balance)
-					are like a center pivot for dryland farmers!
+					<strong>MycorrPlus-A and O</strong> (formerly GroPal Balance) act like
+					a center pivot for dryland farmers!
 				</p>
-				<blockquote
-					style={{
-						margin: "20px 0",
-						padding: "10px",
-						borderLeft: "4px solid #ccc",
-					}}>
+				<blockquote className={styles.quote}>
 					<p>
-						Richard Fish says: "When the hot, dry July weather came when grass
-						normally goes back, the 'GroPal Balance' grass just kept coming on."
+						Richard Fish says: "When the hot, dry July weather came and grass
+						normally goes dormant, the 'GroPal Balance' grass just kept
+						growing."
 					</p>
 				</blockquote>
 				<p>
-					<Link
-						href="/video-transcription"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Click for the transcription of the 4 min. video
+					<Link href="/video-transcription" className={styles.link}>
+						View the 4-min video transcription
 					</Link>
 				</p>
 				<p>
-					<Link
-						href="/more-videos"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Click here to watch more MycorrPlus (GroPal Balance) videos
+					<Link href="/more-videos" className={styles.link}>
+						Watch more MycorrPlus videos
 					</Link>
 				</p>
 			</section>
 
-			<section style={{ marginTop: "40px" }}>
-				<h2>
-					Here's How MycorrPlus-A and O Help Keep Grass Growing Even During Dry
-					Spells
-				</h2>
-				<ol style={{ marginLeft: "20px" }}>
-					<li style={{ marginBottom: "15px" }}>
-						<strong>MycorrPlus fills the soil with beneficial microbes:</strong>
+			<section className={styles.section}>
+				<h2>How MycorrPlus Helps Keep Grass Growing</h2>
+				<ol>
+					<li>
+						<strong>Fills the Soil with Beneficial Microbes:</strong>
 						<p>
-							MycorrPlus is a bio-stimulant that helps beneficial microbes
-							restore harmony and balance to the soil. It inoculates the soil
-							with over 70 beneficial aerobic bacteria, fungi (including
-							mycorrhizal fungi), and other microbes. With adequate moisture (at
-							least 1.1"), these microbes become established. MycorrPlus also
-							contains sea minerals, fish, kelp, humic and fulvic acids, and
-							numerous other nutrients—all in a wonderfully balanced nutrient
-							solution.
+							It inoculates the soil with 70+ strains of aerobic bacteria and
+							fungi, along with sea minerals, fish, kelp, and humic acids.
 						</p>
 					</li>
-					<li style={{ marginBottom: "15px" }}>
-						<strong>Beneficial microbes transform the soil:</strong>
+					<li>
+						<strong>Transforms the Soil:</strong>
 						<p>
-							They consume or displace harmful elements such as destructive
-							nematodes, anaerobic disease-causing bacteria, plant toxins, old
-							weed seed, salts, and chemicals. Mycorrhizal fungi form
-							ever-enlarging webs that transport nutrients and moisture to
-							plants. Earthworms, dung beetles, and other Soil Food Web members
-							multiply, further transforming the soil and creating greater soil
-							energy.
+							Beneficial microbes displace harmful elements, form
+							nutrient-transporting mycorrhizal webs, and multiply earthworms
+							for better soil energy.
 						</p>
 					</li>
-					<li style={{ marginBottom: "15px" }}>
-						<strong>
-							Plants sequester Liquid Carbon to Free Up Soil Nutrients:
-						</strong>
+					<li>
+						<strong>Enhances Carbon Sequestration:</strong>
 						<p>
-							Favorable soil conditions prompt plants to sequester massive
-							amounts of sugars (liquid carbon) into the soil, cultivating and
-							feeding the microbes. Mycorrhizal plants photosynthesize much
-							faster than those not supported by mycorrhizal fungi. By reducing
-							tillage, more mycorrhizal networks form, releasing ever-increasing
-							carbon sequestration.
+							Favorable conditions prompt plants to secrete sugars into the
+							soil. These sugars act as a glue to bind soil particles, create
+							structure, and boost moisture retention.
 						</p>
-						<p style={{ fontStyle: "italic" }}>
-							(Andrew in Michigan reported that after applying MycorrPlus in
-							July on his acre of vegetables, not only did his produce win
-							awards at the Farmer's Market, but his soil exhibited massive root
-							structures and an amazing network of mycorrhizal fungi.)
+						<p className={styles.italic}>
+							(Andrew in Michigan reported award-winning produce and massive
+							root networks after applying MycorrPlus in July.)
 						</p>
 					</li>
-					<li style={{ marginBottom: "15px" }}>
-						<strong>
-							Microbes use liquid carbon to highly structure the soil:
-						</strong>
+					<li>
+						<strong>Structures the Soil:</strong>
 						<p>
-							Microbes feed on the sequestered sugars and use them as gums and
-							glues to bind soil particles together. This process rapidly builds
-							organic matter (including humus), deepens topsoil, increases
-							moisture storage, and boosts the soil's CEC (cation exchange
-							capacity).
+							Microbes use sugars to bind soil particles, building organic
+							matter and increasing moisture storage.
 						</p>
 					</li>
-					<li style={{ marginBottom: "15px" }}>
-						<strong>Highly structured soil means extra nitrogen:</strong>
+					<li>
+						<strong>Improves Nitrogen Availability:</strong>
 						<p>
-							As soil microbes flocculate the soil, they create trillions of air
-							spaces. These spaces allow air, which is 78% nitrogen, to flow
-							into the soil. MycorrPlus contains Nitrogen Fixing Bacteria that
-							convert this atmospheric nitrogen into forms available to the
-							plant—resulting in extra nitrogen in the soil.
+							Enhanced soil structure allows nitrogen (78% of air) to flow in
+							and be fixed by bacteria into forms available to plants.
 						</p>
 					</li>
-					<li style={{ marginBottom: "15px" }}>
-						<strong>Highly structured soil means lots of moisture!</strong>
+					<li>
+						<strong>Boosts Moisture Retention:</strong>
 						<p>
-							With improved soil structure, moisture is held in the air spaces
-							rather than running off. Some research suggests that certain
-							bacteria also help attract and fix moisture from the air,
-							contributing to improved sub-soil moisture even during dry spells.
+							Well-structured soil holds water in tiny air pockets, ensuring
+							moisture is available even during dry spells.
 						</p>
 					</li>
 				</ol>
 			</section>
 
-			<section style={{ marginTop: "40px", textAlign: "center" }}>
-				<p>
-					<em>
-						This is characteristic of the non-treated half of the field—when the
-						weather turned hot and dry, grass stopped growing.
-					</em>
-				</p>
-				<p>
-					<strong>MycorrPlus-treated half of the field:</strong> When it got hot
-					and dry, grass kept growing.
-				</p>
-			</section>
-
-			<section style={{ marginTop: "40px" }}>
-				<h2>To Recap:</h2>
-				<ul style={{ marginLeft: "20px" }}>
+			<section className={styles.section}>
+				<h2>Recap</h2>
+				<ul>
+					<li>MycorrPlus acts as a center pivot for dryland farmers.</li>
 					<li>
-						MycorrPlus-A and O act like a center pivot for dryland farmers.
+						It remediates soil issues and builds robust mycorrhizal networks.
 					</li>
 					<li>
-						Beneficial microbes in MycorrPlus remediate soil problems and
-						establish thriving mycorrhizal networks.
+						It "turns on" the carbon sequestration switch to boost organic
+						matter.
 					</li>
 					<li>
-						They "turn on the carbon sequestration switch" in the plant, causing
-						huge amounts of liquid carbon to be secreted into the soil.
-					</li>
-					<li>
-						Microbes use this liquid carbon to glue soil particles together,
-						creating highly structured soil with excellent moisture retention.
-					</li>
-					<li>
-						More consistent soil moisture results in more consistent yields—and
-						more money in your pocket.
+						Enhanced soil structure means better moisture retention and
+						consistent yields.
 					</li>
 				</ul>
 			</section>
 
-			<section style={{ marginTop: "40px" }}>
+			<section className={styles.cta}>
 				<h2>Want to Learn More?</h2>
-				<ul style={{ marginLeft: "20px" }}>
+				<ul>
 					<li>
 						<Link
 							href="/7-keys-for-activating-carbon-sequestration"
-							style={{ color: "blue", textDecoration: "underline" }}>
-							7 Keys for Activating the Carbon Sequestration Switch
+							className={styles.link}>
+							7 Keys for Activating Carbon Sequestration
 						</Link>
 					</li>
 					<li>
-						<Link
-							href="/benefits-of-using-mycorrplus"
-							style={{ color: "blue", textDecoration: "underline" }}>
+						<Link href="/benefits-of-using-mycorrplus" className={styles.link}>
 							Benefits of Using MycorrPlus
 						</Link>
 					</li>
 					<li>
 						<Link
 							href="/acresusa-interview-dr-christine-jones"
-							style={{ color: "blue", textDecoration: "underline" }}>
-							AcresUSA Interview with Carbon Sequestration Specialist Dr.
-							Christine Jones
+							className={styles.link}>
+							AcresUSA Interview with Dr. Christine Jones
 						</Link>
 					</li>
 					<li>
-						<Link
-							href="/buy-mycorrplus"
-							style={{ color: "blue", textDecoration: "underline" }}>
+						<Link href="/buy-mycorrplus" className={styles.link}>
 							Buy MycorrPlus now!
 						</Link>
 					</li>
 				</ul>
-			</section>
-
-			<section style={{ marginTop: "20px" }}>
 				<p>
 					<strong>By Dr. Mercola:</strong> "Reasons Why Farmers Should Work to
 					Sequester More Carbon"

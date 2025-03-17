@@ -1,121 +1,68 @@
+import Link from "next/link";
 import React from "react";
+import styles from "./Organic.module.scss";
 
 const MycorrPlusOrganic = () => {
 	return (
-		<div
-			className="mycorrplus-organic"
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
-			<h1>MycorrPlus for Organic Use</h1>
-			<p>
-				MycorrPlus-O and MycorrPlus-O-F (foliar) are registered for organic use
-				with WSDA (Washington State Dept. of Agriculture). Every US certifier
-				that we know of accepts WSDA organic registrations.
+		<div className={styles.container}>
+			<h1 className={styles.title}>MycorrPlus for Organic Use</h1>
+			<p className={styles.paragraph}>
+				MycorrPlus-O and MycorrPlus-O-F are WSDA-registered for organic use and
+				accepted by all major US certifiers. They have the same cost and
+				application rates as MycorrPlus-A but are approved for organic
+				applications.
 			</p>
-			<p>
-				MycorrPlus-O costs the same as MycorrPlus-A, and the application rates
-				and methods are the same. The big difference is that MycorrPlus-O can be
-				used for organic application.
-			</p>
-			<p>
-				To use either MycorrPlus-O or O-F, just give your certifier a copy of
-				the label and the organic certificate (below). Of course, we are more
-				than happy to work with your certifier to get MycorrPlus approved for
-				your operation.
+			<p className={styles.paragraph}>
+				Simply provide your certifier with our label and organic certificate.
+				We’re happy to work with your certifier for a smooth approval process.
 			</p>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Certificates and Labels</h2>
-				<p>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-						style={{ color: "blue", textDecoration: "underline" }}>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>Certificates and Labels</h2>
+				<p className={styles.linkParagraph}>
+					<Link href="#" className={styles.link}>
 						WSDA certificate for MycorrPlus-O and O-F (print certificate)
-					</a>
+					</Link>
 				</p>
-				<p>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-						style={{ color: "blue", textDecoration: "underline" }}>
+				<p className={styles.linkParagraph}>
+					<Link href="#" className={styles.link}>
 						MycorrPlus-O Label (print label)
-					</a>
+					</Link>
 				</p>
-				<p>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-						style={{ color: "blue", textDecoration: "underline" }}>
+				<p className={styles.linkParagraph}>
+					<Link href="#" className={styles.link}>
 						MycorrPlus-O-F Label (print label)
-					</a>
+					</Link>
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Want to Learn More?</h2>
-				<ul>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>Want to Learn More?</h2>
+				<ul className={styles.list}>
 					<li>
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							style={{ color: "blue", textDecoration: "underline" }}>
-							Photo gallery of side by side fields where half was treated and
-							the other half was not
-						</a>
+						<Link href="#" className={styles.link}>
+							Photo gallery: Treated vs. Untreated Fields
+						</Link>
 					</li>
 					<li>
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							style={{ color: "blue", textDecoration: "underline" }}>
-							An authoritative article that will help you to gain a more
-							in-depth understanding of how MycorrPlus transforms the soil
-						</a>
+						<Link href="#" className={styles.link}>
+							In-depth article on soil transformation with MycorrPlus
+						</Link>
 					</li>
 					<li>
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							style={{ color: "blue", textDecoration: "underline" }}>
-							Farmers tell what they saw with MycorrPlus
-						</a>
+						<Link href="#" className={styles.link}>
+							Customer testimonials
+						</Link>
 					</li>
 					<li>
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							style={{ color: "blue", textDecoration: "underline" }}>
-							Must-hear customer video testimonials
-						</a>
+						<Link href="#" className={styles.link}>
+							How to eliminate hardpan quickly
+						</Link>
 					</li>
 					<li>
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							style={{ color: "blue", textDecoration: "underline" }}>
-							How to quickly eliminate hardpan
-						</a>
-					</li>
-					<li>
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							style={{ color: "blue", textDecoration: "underline" }}>
-							MycorrPlus for Organic Use
-						</a>
+						<Link href="#" className={styles.link}>
+							MycorrPlus for Organic Use details
+						</Link>
 					</li>
 				</ul>
 			</section>

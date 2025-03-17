@@ -1,74 +1,53 @@
 import Link from "next/link";
 import React from "react";
+import styles from "./DroughtTolerance.module.scss";
 
 const SoilStructureDroughtTolerance = () => {
 	return (
-		<div
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
+		<div className={styles.container}>
 			<h1>Soil Structure is the Key to Superior Drought Tolerance</h1>
 			<p>
 				What if you could grow more grass on half the water? Poor soil structure
 				wastes water through run-off, while well-structured soil stores moisture
-				in billions of tiny air spaces (capillaries) and releases it when
-				needed. Well-structured soil also resists erosion.
+				in tiny air spaces and releases it when needed. Plus, it resists
+				erosion.
 			</p>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h2>The Power of Carbon Sequestration</h2>
 				<p>
-					The best way to improve soil structure is by boosting carbon
-					sequestration. In nature, plants use photosynthesis to produce extra
-					sugars. These sugars (mostly built from materials in the air) are
-					secreted by roots to feed soil microbes, which then bind soil
-					particles together to form stable, nutrient-rich topsoil.
+					The fastest way to improve soil structure is by boosting carbon
+					sequestration. Plants use photosynthesis to produce sugars—mostly from
+					the air—which are exuded by roots to feed soil microbes. These
+					microbes bind soil particles, forming stable, nutrient-rich topsoil.
 				</p>
 				<p>
-					MycorrPlus-A and O excel at stimulating this process, rapidly creating
-					topsoil that can hold more water – an ideal way to prepare for
-					drought.
+					MycorrPlus-A and O excel at this process, rapidly creating topsoil
+					that holds more water—ideal for drought conditions.
 				</p>
-				<p>
-					<em>
-						Note: At least 1.1" of moisture is needed to kick-start this
-						process.
-					</em>
+				<p className={styles.note}>
+					Note: At least 1.1" of moisture is needed to kick-start the process.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "30px", textAlign: "center" }}>
+			<section className={styles.cta}>
 				<p>
-					<Link
-						href="/contact"
-						style={{ color: "blue", textDecoration: "underline" }}>
+					<Link href="/contact" className={styles.link}>
 						Call 1-888-588-3139 to speak to a soil health consultant
 					</Link>
 				</p>
 				<p>
-					<Link
-						href="/contact"
-						style={{ color: "blue", textDecoration: "underline" }}>
+					<Link href="/contact" className={styles.link}>
 						Email us at info@ag-usa.net
 					</Link>
 				</p>
 				<p>
-					<Link
-						href="/purchase-mycorrplus"
-						style={{
-							color: "blue",
-							textDecoration: "underline",
-							fontWeight: "bold",
-						}}>
+					<Link href="/purchase-mycorrplus" className={styles.boldLink}>
 						Purchase MycorrPlus now!
 					</Link>
 				</p>
 				<p>
-					<Link
-						href="/dr-christine-jones-interview"
-						style={{ color: "blue", textDecoration: "underline" }}>
+					<Link href="/dr-christine-jones-interview" className={styles.link}>
 						Read Dr. Christine Jones’ article for more inspiration.
 					</Link>
 				</p>

@@ -1,114 +1,87 @@
 import React from "react";
+import Link from "next/link";
+import styles from "./Results.module.scss";
 
 const MycorrPlusSoilLabs = () => {
 	return (
-		<div
-			className="soil-labs-container"
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
-			<h1>Mycorr Plus (formerly called GroPal Balance)</h1>
+		<div className={styles.container}>
+			<h1 className={styles.title}>Mycorr Plus™ (formerly GroPal Balance)</h1>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Soil Labs</h2>
+			<section className={styles.section}>
+				<h2>Soil Lab Results</h2>
 				<p>
-					Below are soil tests, before and after, from 2 different fields in
-					southern Georgia/northern Florida.
+					View before-and-after soil tests from two fields in southern
+					Georgia/northern Florida.
 				</p>
 				<p>
-					Note that only 5 months after the application of MycorrPlus, soil pH
-					has been restored to neutral, plus many other nutrients have already
-					come into balance. It generally takes 2 years (with a quart of
-					MycorrPlus-A or O each year) for balance to be fully restored.
+					In just 5 months after applying MycorrPlus, soil pH is neutral and
+					many nutrients are balanced. Full balance is achieved in about 2 years
+					with annual quart applications.
 				</p>
 				<p>
-					Note in the following lab test that numerous trace minerals don't even
-					show up on the soil test. Also note the Base Saturation before and
-					after. It is great when calcium is around 75% to 80%. MycorrPlus helps
-					to restore this ratio, while lowering hydrogen!
+					Note: Standard tests may not detect many trace minerals. Base
+					Saturation improves as calcium reaches 75–80% while hydrogen
+					decreases.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h3>Field 1</h3>
-				<div style={{ marginBottom: "20px" }}>
-					<h4>Before MycorrPlus</h4>
-					{/* Replace the src with the actual image path */}
+				<div className={styles.imageContainer}>
+					<h4>Before</h4>
 					<img
 						src="/images/field1-before.jpg"
-						alt="Field 1 Soil Test Before MycorrPlus"
-						style={{ maxWidth: "100%", height: "auto", marginBottom: "10px" }}
+						alt="Field 1 - Before MycorrPlus"
 					/>
 				</div>
-				<div style={{ marginBottom: "20px" }}>
-					<h4>After MycorrPlus</h4>
-					{/* Replace the src with the actual image path */}
+				<div className={styles.imageContainer}>
+					<h4>After</h4>
 					<img
 						src="/images/field1-after.jpg"
-						alt="Field 1 Soil Test After MycorrPlus"
-						style={{ maxWidth: "100%", height: "auto" }}
+						alt="Field 1 - After MycorrPlus"
 					/>
 				</div>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h3>Field 2</h3>
-				<div style={{ marginBottom: "20px" }}>
-					<h4>Before MycorrPlus</h4>
-					{/* Replace the src with the actual image path */}
+				<div className={styles.imageContainer}>
+					<h4>Before</h4>
 					<img
 						src="/images/field2-before.jpg"
-						alt="Field 2 Soil Test Before MycorrPlus"
-						style={{ maxWidth: "100%", height: "auto", marginBottom: "10px" }}
+						alt="Field 2 - Before MycorrPlus"
 					/>
 				</div>
-				<div style={{ marginBottom: "20px" }}>
-					<h4>After MycorrPlus</h4>
-					{/* Replace the src with the actual image path */}
+				<div className={styles.imageContainer}>
+					<h4>After</h4>
 					<img
 						src="/images/field2-after.jpg"
-						alt="Field 2 Soil Test After MycorrPlus"
-						style={{ maxWidth: "100%", height: "auto" }}
+						alt="Field 2 - After MycorrPlus"
 					/>
 				</div>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<p>
-					MycorrPlus is emerging as a breakthrough for both pasture and crop
-					production. Call today for more info!
+					MycorrPlus is emerging as a breakthrough for pasture and crop
+					production. Call us today for more information!
 				</p>
-				<h2>Want to Learn More?</h2>
-				<ul>
+				<h2>Learn More</h2>
+				<ul className={styles.linkList}>
 					<li>
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							style={{ color: "blue", textDecoration: "underline" }}>
-							7 Keys for Activating the Carbon Sequestration Switch
-						</a>
+						<Link href="/7-keys-for-activating-carbon-sequestration">
+							7 Keys for Activating Carbon Sequestration
+						</Link>
 					</li>
 					<li>
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							style={{ color: "blue", textDecoration: "underline" }}>
+						<Link href="/benefits-of-using-mycorrplus">
 							Benefits of Using MycorrPlus
-						</a>
+						</Link>
 					</li>
 					<li>
-						<a
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							style={{ color: "blue", textDecoration: "underline" }}>
-							AcresUSA interview with Carbon Sequestration specialist Dr.
-							Christine Jones
-						</a>
+						<Link href="/acresusa-interview">
+							AcresUSA Interview with Dr. Christine Jones
+						</Link>
 					</li>
 				</ul>
 			</section>

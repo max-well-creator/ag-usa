@@ -1,186 +1,158 @@
 import Link from "next/link";
 import React from "react";
+import styles from "./Corn.module.scss";
 
 const MycorrPlusForCorn = () => {
 	return (
-		<div
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
+		<div className={styles.container}>
 			<h1>MycorrPlus™ for Corn</h1>
-			<p>(MycorrPlus is the new name for GroPal Balance)</p>
+			<p className={styles.subtitle}>
+				(MycorrPlus is the new name for GroPal Balance)
+			</p>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h2>Application Benefits</h2>
 				<ul>
-					<li>Up to 10–20% yield increase</li>
+					<li>10–20% yield increase</li>
 					<li>Higher test weights and protein</li>
 					<li>Larger root mass for better nutrient uptake</li>
 					<li>
-						Enhanced mycorrhizal networks (improved P, moisture, and nutrients)
+						Enhanced mycorrhizal networks (better P, moisture, and nutrients)
 					</li>
 					<li>Improved seed germination and fertilizer efficiency</li>
-					<li>Reduced compaction and enhanced moisture retention</li>
+					<li>Reduced compaction and improved moisture retention</li>
 					<li>Lower weed pressure and increased plant immunity</li>
-					<li>
-						Flushed salts and increased organic matter (raising CEC and
-						balancing pH)
-					</li>
+					<li>Flushed salts and boosted organic matter (balanced pH)</li>
 					<li>Greater Relative Feed Value and more earthworms</li>
 				</ul>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h2>Entry Level Application</h2>
-				<p>If you plan to make just one application of MycorrPlus:</p>
+				<p>For a single application:</p>
 				<ol>
 					<li>
-						Apply <strong>1 qt/acre</strong> in the row (on the seed or banded
-						over the row).
+						Apply <strong>1 qt/acre</strong> in the row (on seed or banded).
 					</li>
 					<li>
-						Alternatively, side-dress with 1–2 quarts per acre—with or without
-						28%/32% nitrogen (reduce N to 80–90 lbs/200 bushel corn).
+						Alternatively, side-dress with 1–2 qt/acre (with/without 28%/32%
+						nitrogen, reducing N to 80–90 lbs for 200-bushel corn).
 					</li>
-					<li>Or broadcast 1–2 quarts/acre at or before planting.</li>
+					<li>Or broadcast 1–2 qt/acre at or before planting.</li>
 				</ol>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h2>Secondary Applications</h2>
 				<ul>
 					<li>
-						If using 28%/32% nitrogen, add a pint to a quart of MycorrPlus-A per
-						application and reduce N by 30% or more.
+						When using 28%/32% nitrogen, add 1 pint of MycorrPlus-A per quart
+						and reduce N by 30%+.
 					</li>
 					<li>
-						Apply 1 quart of MycorrPlus-A or O 5 weeks after planting, or apply
-						a foliar treatment (MycorrPlus-F or O-F) at tassel.
+						Apply 1 qt of MycorrPlus-A/O 5 weeks after planting, or use a foliar
+						treatment at tassel.
 					</li>
 					<li>
-						Consider applying 1–2 quarts/acre in the summer, fall, or winter to
-						prepare for next year’s crop.
+						Additional applications in summer, fall, or winter prepare next
+						year's crop.
 					</li>
 					<li>
-						If using anhydrous ammonia, wait two or more weeks post-application,
-						then apply 1 quart MycorrPlus-A.
+						For anhydrous ammonia, wait 2+ weeks post-application, then apply 1
+						qt.
 					</li>
 				</ul>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h2>Application Guidelines for Liquid Nitrogen</h2>
+			<section className={styles.section}>
+				<h2>Liquid Nitrogen Guidelines</h2>
 				<p>
-					MycorrPlus is compatible with 28%/32% nitrogen. Add MycorrPlus to the
-					tank first, then water, and finally your nitrogen. Mixing MycorrPlus-A
-					with nitrogen helps bind it to the soil, reducing leaching. This may
-					allow a 30% cut in your nitrogen use.
+					MycorrPlus is compatible with 28%/32% nitrogen. Add MycorrPlus first,
+					then water, then nitrogen. This binds nitrogen to the soil, reducing
+					leaching and may cut N use by 30%.
 				</p>
 				<p>
-					<strong>Important:</strong> Never mix MycorrPlus with phosphorus or
-					potassium to avoid gel formation.
+					<strong>Note:</strong> Do not mix with phosphorus or potassium.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h2>For Organic/Biological Growers</h2>
-				<p>Use MycorrPlus-O as follows:</p>
+				<p>Use MycorrPlus‑O as follows:</p>
 				<ul>
 					<li>
-						Apply 1 qt/acre in the row (or banded over the row) if possible;
-						broadcast 1–2 qt/acre if not.
+						Apply 1 qt/acre in the row (or banded); if not possible, broadcast
+						1–2 qt/acre.
 					</li>
 					<li>
-						For foliar applications, use 3 qt/acre of MycorrPlus-O-F (or 2
-						qt/acre of MycorrPlus-F for non-organic growers) at tassel.
+						For foliar applications, use 3 qt/acre of MycorrPlus‑O‑F (or 2
+						qt/acre for non‑organic growers).
 					</li>
 					<li>
-						Additional applications in summer, fall, or winter can further
-						transform the soil.
+						Additional summer, fall, or winter applications further transform
+						the soil.
 					</li>
 				</ul>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h2>Why Use MycorrPlus for Corn?</h2>
 				<p>
 					MycorrPlus stimulates beneficial aerobic bacteria and mycorrhizal
 					fungi that:
 				</p>
 				<ul>
-					<li>Improve soil structure by reducing compaction and hardpan</li>
+					<li>Reduce compaction and eliminate hardpan</li>
 					<li>Enhance moisture retention and nutrient uptake</li>
+					<li>Bind nitrogen to reduce leaching (cut N by 30–50%)</li>
 					<li>
-						Bind nitrogen to prevent leaching, potentially cutting nitrogen
-						requirements by 30–50%
-					</li>
-					<li>
-						Free up existing phosphorus and potassium, reducing overall
-						fertilizer needs
+						Free up existing phosphorus and potassium, reducing fertilizer needs
 					</li>
 				</ul>
 				<p>
 					This leads to healthier, more productive corn with higher yields and
-					superior nutrient density.
+					nutrient density.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "30px", textAlign: "center" }}>
+			<section className={styles.cta}>
 				<p>
-					<Link
-						href="/contact"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Call 1-888-588-3139 to speak with a soil health consultant
+					<Link href="/contact">
+						<a>Call 1-888-588-3139 to speak with a soil health consultant</a>
 					</Link>
 				</p>
 				<p>
-					<Link
-						href="/contact"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Email us at info@ag-usa.net
+					<Link href="/contact">
+						<a>Email us at info@ag-usa.net</a>
 					</Link>
 				</p>
 				<p>
-					<Link
-						href="/purchase-mycorrplus"
-						style={{
-							color: "blue",
-							textDecoration: "underline",
-							fontWeight: "bold",
-						}}>
-						Purchase MycorrPlus now!
+					<Link href="/purchase-mycorrplus">
+						<a className={styles.boldLink}>Purchase MycorrPlus now!</a>
 					</Link>
 				</p>
 				<p>
-					<Link
-						href="/dr-christine-jones-interview"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Read Dr. Christine Jones' interview for more insights
+					<Link href="/dr-christine-jones-interview">
+						<a>Read Dr. Christine Jones' interview for more insights</a>
 					</Link>
 				</p>
 				<p>
-					<Link
-						href="/crop-application-guidelines"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Check our detailed crop application guidelines
+					<Link href="/crop-application-guidelines">
+						<a>Check our detailed crop application guidelines</a>
 					</Link>
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<p>
 					Apply MycorrPlus as early as possible for better corn production, and
-					experience the transformation of your soil and crop yields.
+					experience the transformation of your soil and yields.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<Link
-					href="/back"
-					style={{ color: "blue", textDecoration: "underline" }}>
-					Back
+			<section className={styles.back}>
+				<Link href="/back">
+					<a>Back</a>
 				</Link>
 			</section>
 		</div>

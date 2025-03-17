@@ -1,33 +1,26 @@
 import Link from "next/link";
 import React from "react";
+import styles from "./Sitemap.module.scss";
 
 const SiteMap = () => {
 	return (
-		<div
-			className="sitemap-container"
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
-			<h1>Site Map for AG-USA.net</h1>
-			<ul style={{ listStyle: "none", paddingLeft: 0 }}>
-				<li style={{ marginBottom: "20px" }}>
-					<Link href="/" style={{ fontWeight: "bold", fontSize: "18px" }}>
+		<div className={styles.container}>
+			<h1 className={styles.heading}>Site Map for AG-USA.net</h1>
+			<ul className={styles.list}>
+				<li className={styles.listItem}>
+					<Link href="/" className={styles.link}>
 						Home
 					</Link>
 					<p>Our home page</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link href="/about" style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/about" className={styles.link}>
 						About
 					</Link>
 					<p>Who we are, a list of our websites</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/mycorrplus"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/mycorrplus" className={styles.link}>
 						MycorrPlus
 					</Link>
 					<p>
@@ -35,293 +28,196 @@ const SiteMap = () => {
 						MycorrPlus
 					</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/how-mycorrplus-works"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/how-mycorrplus-works" className={styles.link}>
 						How MycorrPlus works
 					</Link>
 					<p>
-						An interview with Dr. Christine Jones. This article explains
-						beautifully how carbon sequestration is the best way to build
-						topsoil and grow nutrient-dense plants.
+						An interview with Dr. Christine Jones on carbon sequestration and
+						topsoil building
 					</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/good-moisture-dryland-farms"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/good-moisture-dryland-farms" className={styles.link}>
 						Good Moisture for Dryland Farms
 					</Link>
-					<p>
-						How MycorrPlus helps to keep plants green and growing even during
-						dry spells
-					</p>
+					<p>How MycorrPlus keeps plants green even during dry spells</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/building-organic-matter"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/building-organic-matter" className={styles.link}>
 						Building Organic Matter
 					</Link>
 					<p>
-						The best way to build organic matter is through Carbon
-						Sequestration. Now you can send a signal to the plant to sequester
-						large amounts of sugars (liquid carbon) into the soil, rapidly
-						building organic matter.
+						The best way to build organic matter is through carbon sequestration
 					</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
+				<li className={styles.listItem}>
 					<Link
 						href="/7-keys-for-activating-carbon-sequestration"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+						className={styles.link}>
 						7 Keys for Activating the Carbon Sequestration Switch
 					</Link>
-					<p>
-						How do you get Carbon Sequestration really going in your soil? This
-						is how!
-					</p>
+					<p>How to get carbon sequestration really going in your soil</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/benefits-to-applying-mycorrplus"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/benefits-to-applying-mycorrplus" className={styles.link}>
 						Benefits to Applying MycorrPlus
 					</Link>
-					<p>There are numerous benefits to applying MycorrPlus.</p>
+					<p>There are numerous benefits to applying MycorrPlus</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/carbon-sequestration-solution"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/carbon-sequestration-solution" className={styles.link}>
 						Carbon Sequestration IS Your Solution
 					</Link>
 					<p>
-						Dr. Mercola article on why carbon sequestration is so important for
-						farmers who want to improve both their soil and their yields.
+						Dr. Mercola on why carbon sequestration is key for improving soil
+						and yields
 					</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/mycorrplus-videos"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/mycorrplus-videos" className={styles.link}>
 						MycorrPlus videos
 					</Link>
-					<p>MycorrPlus (formerly called GroPal Balance) video testimonials.</p>
+					<p>Video testimonials about MycorrPlus (formerly GroPal Balance)</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/mycorrplus-testimonials"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/mycorrplus-testimonials" className={styles.link}>
 						MycorrPlus testimonials
 					</Link>
-					<p>
-						Unsolicited testimonials from our customers concerning their
-						experience with MycorrPlus (formerly called GroPal Balance).
-					</p>
+					<p>Customer testimonials regarding MycorrPlus</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link href="/faqs" style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/faqs" className={styles.link}>
 						FAQs
 					</Link>
-					<p>Helpful facts about MycorrPlus.</p>
+					<p>Helpful facts about MycorrPlus</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/soil-balance-studies"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/soil-balance-studies" className={styles.link}>
 						Soil Balance studies
 					</Link>
 					<p>
-						Results from studies done with Soil Balance, a component of
-						MycorrPlus.
+						Results from studies with Soil Balance, a component of MycorrPlus
 					</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/gropal-for-animal-consumption"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/gropal-for-animal-consumption" className={styles.link}>
 						GroPal for animal consumption
 					</Link>
-					<p>Adding GroPal sea mineral concentrate to animal drinking water</p>
+					<p>Using GroPal sea mineral concentrate in animal drinking water</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/photo-gallery"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/photo-gallery" className={styles.link}>
 						Photo Gallery
 					</Link>
-					<p>See photos of Soil Balance, a component of MycorrPlus, at work.</p>
+					<p>Photos of Soil Balance at work</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/application-for-every-budget"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/application-for-every-budget" className={styles.link}>
 						An application to fit every budget
 					</Link>
-					<p>
-						We have application rates that can produce great results even for
-						the most modest budget.
-					</p>
+					<p>Application rates that work for any budget</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/available-plant-food"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/available-plant-food" className={styles.link}>
 						Available plant food
 					</Link>
 					<p>
-						How MycorrPlus takes nutrients tied up in the soil and changes them
-						into available plant food.
+						How MycorrPlus converts tied-up nutrients into available plant food
 					</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/conquer-nature"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/conquer-nature" className={styles.link}>
 						Conquer nature
 					</Link>
-					<p>
-						The best way to conquer nature is to learn how to cooperate with it.
-					</p>
+					<p>Learn how to cooperate with nature for better yields</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/eliminating-hardpan"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/eliminating-hardpan" className={styles.link}>
 						Eliminating hardpan
 					</Link>
-					<p>
-						MycorrPlus bacteria use sugars secreted by plants as gums and glues
-						to bind together soil particles, thereby highly structuring the soil
-						and eliminating hardpan.
-					</p>
+					<p>How MycorrPlus eliminates hardpan by structuring the soil</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/controlling-soil-ph"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/controlling-soil-ph" className={styles.link}>
 						Controlling soil pH
 					</Link>
-					<p>
-						Why lime is not the most effective method of controlling soil pH.
-						The best method is to restore balance to the soil.
-					</p>
+					<p>The best way to balance soil pH without excessive lime</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/soil-labs"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/soil-labs" className={styles.link}>
 						Soil labs
 					</Link>
-					<p>
-						Lab results that demonstrate how MycorrPlus helps restore nutrient
-						balance to the soil without the use of fertilizers and lime.
-					</p>
+					<p>Lab results showing nutrient balance restoration</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/grow-superfoods"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/grow-superfoods" className={styles.link}>
 						Grow superfoods
 					</Link>
-					<p>How MycorrPlus can help turn grass into a "superfood".</p>
+					<p>How MycorrPlus can turn grass into a "superfood"</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/build-drought-tolerance"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/build-drought-tolerance" className={styles.link}>
 						Build drought tolerance
 					</Link>
-					<p>How MycorrPlus helps to make soils drought tolerant.</p>
+					<p>How MycorrPlus improves soil moisture retention</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/build-topsoil"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/build-topsoil" className={styles.link}>
 						Build topsoil
 					</Link>
-					<p>
-						Why MycorrPlus may be the very best solution for building topsoil.
-					</p>
+					<p>Why MycorrPlus is the best solution for building topsoil</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/nutrient-density"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/nutrient-density" className={styles.link}>
 						Nutrient density
 					</Link>
-					<p>How MycorrPlus helps increase the nutrient density of plants.</p>
+					<p>How MycorrPlus increases the nutrient density of plants</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/organic-applications"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/organic-applications" className={styles.link}>
 						Organic applications
 					</Link>
-					<p>MycorrPlus registered with WSDA for organic application.</p>
+					<p>MycorrPlus is registered with WSDA for organic use</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/mycorrplus-application-sheet"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/mycorrplus-application-sheet" className={styles.link}>
 						MycorrPlus application sheet
 					</Link>
-					<p>
-						Detailed information to help you get the best results using
-						MycorrPlus.
-					</p>
+					<p>Detailed application guidelines for optimal results</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/mycorrplus-price-list"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/mycorrplus-price-list" className={styles.link}>
 						MycorrPlus price list
 					</Link>
-					<p>The various sizes of MycorrPlus that are available.</p>
+					<p>Various sizes available</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/more-bang-for-your-buck"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/more-bang-for-your-buck" className={styles.link}>
 						Why MycorrPlus is "more bang for the buck"
 					</Link>
-					<p>
-						If you want the most bang for your fertilizer dollar, consider
-						MycorrPlus.
-					</p>
+					<p>Get maximum fertilizer efficiency</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/dr-maynard-murrays-research"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/dr-maynard-murrays-research" className={styles.link}>
 						Dr. Maynard Murray's Research
 					</Link>
-					<p>Dr. Maynard Murray's groundbreaking research on sea minerals.</p>
+					<p>Breakthrough research on sea minerals</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/mycorrplus-magazine-articles"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/mycorrplus-magazine-articles" className={styles.link}>
 						MycorrPlus magazine articles
 					</Link>
-					<p>
-						Advertising articles on MycorrPlus (formerly GroPal Balance) that we
-						have placed in various agricultural magazines.
-					</p>
+					<p>Our advertising articles in various agricultural magazines</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/pages-for-gardeners"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/pages-for-gardeners" className={styles.link}>
 						Pages for gardeners
 					</Link>
-					<p>AG-USA pages with helpful information for gardeners.</p>
+					<p>Helpful AG-USA info for gardeners</p>
 				</li>
-				<li style={{ marginBottom: "20px" }}>
-					<Link
-						href="/contact"
-						style={{ fontWeight: "bold", fontSize: "18px" }}>
+				<li className={styles.listItem}>
+					<Link href="/contact" className={styles.link}>
 						Contact
 					</Link>
 					<p>Ways to contact us</p>

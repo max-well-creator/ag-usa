@@ -1,17 +1,12 @@
 import React from "react";
+import styles from "./Contact.module.scss";
 
 const ContactUs = () => {
 	return (
-		<div
-			className="contact-us-container"
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
+		<div className={styles.container}>
 			<h2>Contact Us</h2>
 
-			<section style={{ marginBottom: "20px" }}>
+			<section className={styles.section}>
 				<h3>Mailing Address</h3>
 				<p>
 					AG-USA, LLC <br />
@@ -19,16 +14,16 @@ const ContactUs = () => {
 					Newnan, GA 30271
 				</p>
 			</section>
-			<section style={{ marginBottom: "20px" }}>
+
+			<section className={styles.section}>
+				<h3>Contact Info</h3>
 				<p>
 					Call: 1-888-588-3139 <br />
 					Email: <a href="mailto:contact@ag-usa.net">contact@ag-usa.net</a>
-					<br />
-					Newnan, GA 30271
 				</p>
 			</section>
 
-			<section style={{ marginBottom: "20px" }}>
+			<section className={styles.section}>
 				<h3>Physical Location</h3>
 				<p>
 					AG-USA, LLC <br />
@@ -37,7 +32,7 @@ const ContactUs = () => {
 				</p>
 			</section>
 
-			<section>
+			<section className={styles.section}>
 				<h3>Website</h3>
 				<p>
 					<a

@@ -1,13 +1,16 @@
 .banner {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #f0f4f8, #ffffff);
+  border-bottom: 2px solid #e0e6ed;
 
-  .banner_left,
-  .banner_right {
+  &__left,
+  &__right {
     flex: 1;
-
-    img {
-      width: 100%;
-      height: auto;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

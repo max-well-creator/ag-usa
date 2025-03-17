@@ -1,125 +1,83 @@
 import Link from "next/link";
 import React from "react";
+import styles from "./FoodPlots.module.scss";
 
 const EnhancingFoodPlots = () => {
 	return (
-		<div
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
+		<div className={styles.container}>
 			<h1>Don't Conform; Transform!</h1>
-			<h2>Enhancing Food Plots with MycorrPlus™</h2>
+			<h2>Enhance Your Food Plots with MycorrPlus™</h2>
 			<p>
-				Want deer to favor your food plots? Great soil means better drought
-				tolerance, less weed pressure, and more nutrient‑dense plants—ideal for
-				larger racks, healthier deer, and robust livestock.
+				Create food plots that attract deer and boost livestock health with
+				nutrient‑dense, drought‑tolerant forage.
 			</p>
 
-			<section style={{ marginTop: "20px" }}>
-				<h3>Stimulating Soil Life</h3>
+			<section className={styles.section}>
+				<h3>Revitalize Soil Life</h3>
 				<p>
-					MycorrPlus‑A and MycorrPlus‑O are biostimulants that revitalize soil
-					life by:
-				</p>
-				<ul>
-					<li>
-						Introducing 70+ specialized aerobic bacteria (including nitrogen
-						fixers)
-					</li>
-					<li>
-						Establishing deep mycorrhizal networks to transport moisture and
-						nutrients
-					</li>
-					<li>Attracting earthworms, which add valuable castings</li>
-					<li>Displacing pathogens and harmful nematodes</li>
-				</ul>
-			</section>
-
-			<section style={{ marginTop: "20px" }}>
-				<h3>What Our Customers Report</h3>
-				<ul>
-					<li>
-						<strong>Calves:</strong> Faster growth (market weight reached in 10
-						months), stronger and more uniform births.
-					</li>
-					<li>
-						<strong>Cattle:</strong> Cows now preferentially graze on treated
-						pasture.
-					</li>
-					<li>
-						<strong>Deer:</strong> In Wisconsin, deer bypass neighboring corn
-						fields to favor nutrient‑dense, MycorrPlus‑treated plots.
-					</li>
-				</ul>
-				<p>
-					Experts say that 97% of nutrients in the soil are tied up. MycorrPlus
-					frees these nutrients and, with concentrated sea minerals, boosts
-					plant nutrient density—translating into healthier animals and larger
-					antler growth.
+					MycorrPlus™ (A &amp; O) infuses the soil with 70+ aerobic bacteria,
+					establishes deep mycorrhizal networks, and attracts earthworms to
+					naturally displace harmful pathogens.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
-				<h3>How MycorrPlus Transforms the Soil</h3>
-				<ol>
+			<section className={styles.section}>
+				<h3>Customer Feedback</h3>
+				<ul className={styles.list}>
 					<li>
-						<strong>Structures the Soil:</strong> Microbes create trillions of
-						air pockets, reducing compaction and improving water infiltration.
+						<strong>Calves:</strong> Faster growth and uniform births.
 					</li>
 					<li>
-						<strong>Balances Nutrients & pH:</strong> Enhances nutrient
-						availability and makes calcium accessible—often eliminating the need
-						for lime.
+						<strong>Cattle:</strong> Prefer treated pasture.
 					</li>
 					<li>
-						<strong>Supports Mycorrhizal Fungi:</strong> Promotes deep root
-						activity by supplying sugars through photosynthesis, allowing fungi
-						to deliver essential nutrients back to the plant.
+						<strong>Deer:</strong> Favor nutrient‑dense, MycorrPlus‑treated
+						fields.
+					</li>
+				</ul>
+				<p>
+					Experts estimate that 97% of soil nutrients are locked up. MycorrPlus
+					unlocks these nutrients and boosts plant density for healthier
+					animals.
+				</p>
+			</section>
+
+			<section className={styles.section}>
+				<h3>How It Works</h3>
+				<ol className={styles.orderedList}>
+					<li>
+						<strong>Structure:</strong> Microbes create air pockets that reduce
+						compaction and improve water infiltration.
 					</li>
 					<li>
-						<strong>Boosts Carbon Sequestration:</strong> Sequestered sugars
-						build organic matter, creating a rich, sponge-like topsoil.
+						<strong>Balance:</strong> Enhances nutrient availability and pH
+						balance, often eliminating the need for lime.
 					</li>
 					<li>
-						<strong>Remediates Salts:</strong> In saline soils, it flushes out
-						salts from the root zone.
+						<strong>Mycorrhizae Support:</strong> Promotes deep root growth by
+						supplying sugars to fungi.
+					</li>
+					<li>
+						<strong>Carbon Sequestration:</strong> Builds organic matter,
+						forming rich, sponge-like topsoil.
+					</li>
+					<li>
+						<strong>Salt Remediation:</strong> Flushes salts from the root zone.
 					</li>
 				</ol>
-				<p>
-					Healthier soil means healthier plants—and when plants are nutrient
-					dense, livestock (and deer!) thrive.
-				</p>
+				<p>Healthy soil means healthier plants and livestock.</p>
 			</section>
 
-			<section style={{ marginTop: "20px", textAlign: "center" }}>
+			<section className={styles.ctaSection}>
 				<p>
-					<Link
-						href="/testimonials"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Click here to read more customer testimonials
-					</Link>
+					<Link href="/testimonials">Read customer testimonials</Link>
 				</p>
 				<p>
-					<Link
-						href="/videos"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Watch video transcriptions and more MycorrPlus™ videos
-					</Link>
+					<Link href="/videos">Watch our videos</Link>
 				</p>
-			</section>
-
-			<section style={{ marginTop: "30px", textAlign: "center" }}>
 				<p>
-					<Link
-						href="/purchase-mycorrplus"
-						style={{
-							color: "blue",
-							textDecoration: "underline",
-							fontWeight: "bold",
-						}}>
-						Purchase MycorrPlus™ now!
+					<Link href="/purchase-mycorrplus">
+						<strong>Purchase MycorrPlus™ now!</strong>
 					</Link>
 				</p>
 			</section>

@@ -1,144 +1,125 @@
 import Link from "next/link";
 import React from "react";
+import styles from "./SASInfo.module.scss";
 
 const SASInfo = () => {
 	return (
-		<div
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
-			<h1>SAS – All-Natural Soap, Adjuvant, Surfactant</h1>
-			<p>
+		<div className={styles.container}>
+			<h1 className={styles.title}>
+				SAS – All-Natural Soap, Adjuvant, Surfactant
+			</h1>
+			<p className={styles.description}>
 				SAS cuts through grease, wax, and oil—use it anywhere you need a deep
 				clean!
 			</p>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h2>Usage Guidelines</h2>
-				<ul>
+				<ul className={styles.list}>
 					<li>
-						<strong>Laundry Soap:</strong> Use 2 oz per average load.
+						<strong>Laundry:</strong> 2 oz per load.
 					</li>
 					<li>
-						<strong>Hand Soap:</strong> Dilute 1:1 to break down oil and grease.
+						<strong>Hand Soap:</strong> Dilute 1:1 for effective grease removal.
 					</li>
 					<li>
-						<strong>Dishwashing:</strong> Apply a squirt on your sponge to clean
-						dishes, pots, and pans.
+						<strong>Dishwashing:</strong> Squeeze a squirt on your sponge.
 					</li>
 					<li>
-						<strong>All-Purpose Cleaner/Antiseptic:</strong> Dilute 4:1 with
-						water, an alternative to Formula 409.
+						<strong>All-Purpose Cleaner:</strong> Dilute 4:1 with water
+						(alternative to Formula 409).
 					</li>
 					<li>
-						<strong>Acne Treatment:</strong> Dilute 4:1; helps dry out oily
-						skin.
+						<strong>Acne Treatment:</strong> Dilute 4:1 to dry out oily skin.
 					</li>
 					<li>
-						<strong>Mosquito & Insect Bites:</strong> Dilute 10:1 to break down
+						<strong>Insect & Bite Relief:</strong> Dilute 10:1 to break down
 						venom.
 					</li>
 					<li>
-						<strong>Livestock Wound Wash:</strong> Dilute 4:1 to clean wounds
-						and promote healing.
+						<strong>Livestock Wound Wash:</strong> Dilute 4:1 for cleaning
+						wounds.
 					</li>
 					<li>
 						<strong>Livestock Wash:</strong> Dilute 10:1 to deter ticks and
 						fleas.
 					</li>
 					<li>
-						<strong>Wax Stripper for Floors:</strong> Use as directed.
+						<strong>Wax Stripping:</strong> Use as directed for floors.
 					</li>
 					<li>
-						<strong>Engine/Transmission Cleaner:</strong> Use in the shop to
-						remove grease.
+						<strong>Engine Cleaner:</strong> Use in the shop to remove grease.
 					</li>
 					<li>
 						<strong>Mold/Fungus Cleaner:</strong> For walls and surfaces.
 					</li>
 					<li>
-						<strong>Pressure Washing:</strong> Use with a pressure washer for
-						optimal results.
+						<strong>Pressure Washing:</strong> Use with a pressure washer.
 					</li>
 					<li>
-						<strong>Septic Tank Cleaner:</strong> Pour a few ounces to break
-						down clogging oils.
-					</li>
-					<li>
-						<strong>Drain Cleaner:</strong> Dilute 4:1 to clear grease clogs.
+						<strong>Septic & Drain Cleaner:</strong> Pour a few oz (or dilute
+						4:1) to break down oils and clear clogs.
 					</li>
 					<li>
 						<strong>Milk Tank Disinfectant:</strong> Dilute 4:1.
 					</li>
 					<li>
-						<strong>Insecticide:</strong> Dilute 4:1 and spray on whiteflies and
-						other pests.
+						<strong>Insecticide:</strong> Dilute 4:1 and spray on pests.
 					</li>
 				</ul>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h2>Foliar Applications</h2>
 				<p>
-					Use 1 oz per 60–100 oz of water. SAS works like a mini shotgun to
-					penetrate waxy plant surfaces, allowing fertilizer or herbicide
-					solutions to be absorbed quickly.
-				</p>
-				<p>
-					SAS improves spray solution rainfastness and can reduce your overall
-					fertilizer usage.
+					Use 1 oz per 60–100 oz of water. SAS acts like a mini shotgun to
+					penetrate waxy leaves, enhancing absorption of fertilizers or
+					herbicides. It also improves rainfastness, reducing overall fertilizer
+					usage.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h2>SAS as an Insecticide</h2>
-				<ul>
+				<ul className={styles.list}>
 					<li>
-						Dries out soft-bodied insects and worms on leaves (use with caution
-						to protect beneficial insects).
+						Dries out soft-bodied insects and worms (use 2–4 oz/gal, with
+						caution).
 					</li>
-					<li>Add 2–4 oz per gallon for insect control.</li>
 				</ul>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h2>SAS for Oil Fields</h2>
 				<p>
-					Use SAS to clean up oil spills or strip paraffin (wax) build-up in oil
-					wells. Pour 50 gallons into an oil well to break down the wax
-					lining—sometimes doubling production.
+					Use 50 gallons in an oil well to break down paraffin (wax)
+					build-up—sometimes doubling production.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "20px" }}>
+			<section className={styles.section}>
 				<h2>Pricing & Multi-Pack Offer</h2>
-				<ul>
-					<li>$100 per gallon concentrate (plus $15.05 shipping)</li>
-					<li>$400 per bucket (plus shipping)</li>
-					<li>$71/gal for a 150–275 gallon tote (plus shipping)</li>
+				<ul className={styles.list}>
+					<li>$100 per gallon concentrate (+ $15.05 shipping)</li>
+					<li>$400 per bucket (+ shipping)</li>
+					<li>$71/gal for a 150–275 gallon tote (+ shipping)</li>
 				</ul>
 				<p>
-					Dealer pricing starts at 7 buckets. For more details, request our SAS
-					info pack.
+					Dealer pricing starts at 7 buckets. Request our SAS info pack for
+					details.
 				</p>
 				<p>
-					<strong>Multi-Pack Offer:</strong> $130 (includes: 1-gal concentrate,
-					1-qt spray cleaner [4:1 dilution], and two 8 oz foaming hand soap
-					bottles [1:1 dilution]). Send a check for $130 and request the SAS
-					multi-pack!
+					<strong>Multi-Pack Offer:</strong> $130 includes a 1-gal concentrate,
+					1-qt spray cleaner (4:1 dilution), and two 8 oz foaming hand soap
+					bottles (1:1 dilution). Send a check for $130 and request the SAS
+					multi-pack.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "30px", textAlign: "center" }}>
-				<p>
-					<a
-						href="mailto:info@ag-usa.net"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Contact us for more details
-					</a>
-				</p>
+			<section className={styles.sectionCentered}>
+				<a href="mailto:info@ag-usa.net" className={styles.link}>
+					Contact us for more details
+				</a>
 			</section>
 		</div>
 	);

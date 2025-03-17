@@ -1,28 +1,20 @@
 import React from "react";
+import styles from "./SoilRestoration.module.scss";
 
 const WestCoastOfficeInfo = () => {
 	return (
-		<div
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
+		<div className={styles.container}>
 			<h1>AG-USA West Coast Office</h1>
 			<p>
-				AG-USA has a West Coast office in Oregon. If you are on the West Coast,
-				you'll save money on shipping by ordering directly from them.
+				AG-USA has a West Coast office in Oregon. If you're on the West Coast,
+				ordering directly from them can save you on shipping costs.
 			</p>
 			<p>
-				Please note: Orders for buckets or totes placed through our website will
-				be shipped from our East Coast Office, which may incur additional
-				shipping charges.
+				Note: Orders for buckets or totes placed through our website ship from
+				our East Coast office and may incur additional charges.
 			</p>
-			<p>
-				Learn more on our website, but to place an order directly, please call
-				our West Coast office:
-			</p>
-			<div style={{ marginTop: "20px" }}>
+			<p>To place an order directly, please call our West Coast office:</p>
+			<div className={styles.officeInfo}>
 				<strong>Global Restoration LLC</strong>
 				<p>
 					1513 NW Jackpine Ave.

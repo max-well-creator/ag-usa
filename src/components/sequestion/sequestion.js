@@ -1,187 +1,145 @@
 import Link from "next/link";
 import React from "react";
+import styles from "./Sequestion.module.scss";
 
 const Sequestion = () => {
 	return (
-		<div
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
-			<h1>Great Soil Is Your Solution</h1>
-			<h2>Reasons to Sequester More Carbon</h2>
-			<p style={{ fontStyle: "italic" }}>By Dr. Mercola</p>
+		<div className={styles.container}>
+			<h1 className={styles.title}>Great Soil Is Your Solution</h1>
+			<h2 className={styles.subtitle}>Reasons to Sequester More Carbon</h2>
+			<p className={styles.byline}>By Dr. Mercola</p>
 
-			<section style={{ marginTop: "30px" }}>
-				<h3>Story at-a-Glance</h3>
-				<ul>
+			<section className={styles.section}>
+				<h3 className={styles.heading}>Story at-a-Glance</h3>
+				<ul className={styles.list}>
 					<li>
-						<strong>Regenerating Soil:</strong> In nature, plants thrive because
-						of a symbiotic relationship with their surrounding environment,
-						including microorganisms in the soil.
+						<strong>Regenerating Soil:</strong> Plants thrive by partnering with
+						soil microbes.
 					</li>
 					<li>
-						The excessive use of synthetic fertilizers irreparably damages this
-						relationship.
+						Excessive synthetic fertilizers damage this natural relationship.
 					</li>
 					<li>
-						Game-changing practices like no-till and planting winter cover crops
-						can help make soils “net mitigating” – capturing more greenhouse
-						gases than they emit.
+						No-till and cover crops help soils capture more greenhouse gases.
+					</li>
+					<li>Healthy soil is our planet’s “black gold” that gives life.</li>
+				</ul>
+			</section>
+
+			<section className={styles.section}>
+				<h3 className={styles.heading}>Nature’s Symbiotic System</h3>
+				<p>
+					In nature, plants share a mutually beneficial relationship with
+					microorganisms in their root zone. These microbes feed on plant
+					exudates and return vital nutrients such as nitrogen, phosphorus, and
+					potassium.
+				</p>
+				<p>
+					When forced to rely on synthetic NPK, plants reduce their energy
+					output for feeding microbes, resulting in nutrient-poor growth and
+					diminished natural defenses.
+				</p>
+			</section>
+
+			<section className={styles.section}>
+				<h3 className={styles.heading}>
+					Why Synthetic Fertilizers Harm the Planet
+				</h3>
+				<p>
+					Although they boost growth in the short term, synthetic fertilizers
+					disrupt the natural root–microbe exchange. Less than half is absorbed
+					by plants; the rest pollutes water systems, causing algal blooms and
+					dead zones.
+				</p>
+			</section>
+
+			<section className={styles.section}>
+				<h3 className={styles.heading}>Changing Practices in Soil Health</h3>
+				<p>
+					The USDA’s NRCS now promotes regenerative practices that build a
+					thriving soil microbiome—allowing farmers to achieve high yields
+					naturally while reducing chemical inputs.
+				</p>
+			</section>
+
+			<section className={styles.section}>
+				<h3 className={styles.heading}>Three Game-Changing Practices</h3>
+				<ul className={styles.list}>
+					<li>
+						No-till cultivation preserves soil structure and beneficial
+						microbes.
 					</li>
 					<li>
-						The dirt beneath your feet is one of our planet’s most
-						under-appreciated assets. When at its prime, this “black gold” gives
-						life.
+						Advanced nitrogen management minimizes waste by applying only what
+						is needed.
+					</li>
+					<li>
+						Cover crops conserve moisture, reduce irrigation needs, and enhance
+						soil health.
 					</li>
 				</ul>
 			</section>
 
-			<section style={{ marginTop: "30px" }}>
-				<h3>Nature’s Symbiotic System</h3>
+			<section className={styles.section}>
+				<h3 className={styles.heading}>Economic Incentives</h3>
 				<p>
-					In nature, plants thrive because they share a mutually beneficial
-					relationship with the microorganisms in their rhizosphere—the zone
-					immediately around a plant’s roots. These microorganisms feed on
-					exudates (carbohydrates, phytochemicals, and other compounds) released
-					by the plant. In return, the root microbiome supplies the plant with
-					vital metabolites and nutrients, including nitrogen (N), phosphorus
-					(P), and potassium (K)—the same ingredients found in most synthetic
-					fertilizers.
-				</p>
-				<p>
-					When the plant is forced to rely on synthetic NPK, it stops “wasting”
-					energy to feed its microbiome, and in turn receives fewer benefits.
-					The result is a plant that looks robust on the outside but lacks
-					internal nutrient density and natural pest defenses.
+					Regenerative practices can earn carbon credits through USDA programs
+					like COMET-Farm, rewarding farmers for reducing their carbon
+					footprint.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "30px" }}>
-				<h3>Why Synthetic Fertilizers Are Ruining the Planet</h3>
+			<section className={styles.section}>
+				<h3 className={styles.heading}>Regenerating Our Soil</h3>
 				<p>
-					Synthetic fertilizers can boost plant size in the short term, but they
-					also disrupt the natural symbiotic exchange between plant roots and
-					soil microbes. As a result, plants miss out on essential metabolites
-					and phytochemicals that contribute to overall health. Moreover, less
-					than 50% of the applied fertilizer is used by the plant; the remainder
-					runs off into water systems, causing nutrient pollution, algal blooms,
-					and even dead zones in bodies of water like the Gulf of Mexico.
+					Enhancing soil biology and carbon sequestration boosts fertility,
+					reduces water usage, and increases yields—all while decreasing the
+					need for chemicals.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "30px" }}>
-				<h3>Soil Health Campaigns and Changing Practices</h3>
+			<section className={styles.section}>
+				<h3 className={styles.heading}>Great Soil Means a Great Future</h3>
 				<p>
-					Recognizing that soil is a living, biological system—not just a
-					chemistry set—the USDA’s NRCS is educating farmers on practices that
-					promote soil biology. By shifting focus from chemical inputs to
-					building a thriving microbial community, farmers can achieve the same
-					(or better) yields while naturally reducing their carbon footprint.
+					Healthy, carbon-rich soil naturally retains moisture and supports
+					nutrient‑dense crops, reversing decades of chemical damage.
 				</p>
 			</section>
 
-			<section style={{ marginTop: "30px" }}>
-				<h3>Three 'Game-Changing' Practices for Agriculture</h3>
-				<ul>
-					<li>
-						No-till cultivation – growing crops without plowing preserves soil
-						structure and the beneficial microbes within.
-					</li>
-					<li>
-						Advanced nitrogen fertilizer management – applying minimal,
-						precisely measured amounts of fertilizer.
-					</li>
-					<li>
-						Cover crops – these not only insulate and conserve soil moisture but
-						can virtually eliminate the need for irrigation when done correctly.
-					</li>
-				</ul>
+			<section className={styles.sectionCentered}>
+				<Link href="https://www.drmercola.com" passHref>
+					<span className={styles.link} role="link">
+						View the article on Dr. Mercola's website
+					</span>
+				</Link>
 			</section>
 
-			<section style={{ marginTop: "30px" }}>
-				<h3>Economic Incentives: Carbon Credits & Cover Crops</h3>
-				<p>
-					Many farmers are beginning to adopt regenerative practices—such as
-					cover cropping, reduced tillage, and compost application—not only for
-					environmental benefits but also because they can earn carbon credits.
-					Programs like USDA’s COMET-Farm help farmers estimate their carbon
-					footprint, and participation in regional carbon markets can offer
-					financial rewards.
-				</p>
-			</section>
-
-			<section style={{ marginTop: "30px" }}>
-				<h3>Regenerating Our Soil Is the Solution</h3>
-				<p>
-					By restoring soil biology and enhancing carbon sequestration, we can
-					improve soil fertility, reduce water usage, increase crop yields, and
-					mitigate climate change. As more carbon is fixed in the soil, our
-					agricultural lands become more resilient and productive,
-					simultaneously reducing the need for chemical inputs.
-				</p>
-			</section>
-
-			<section style={{ marginTop: "30px" }}>
-				<h3>Great Soil Is Your Solution</h3>
-				<p>
-					The evidence is clear: when soil is healthy, it naturally sequesters
-					more carbon, retains moisture better, and supports higher nutrient
-					density in crops. Regenerative practices—like those championed by Dr.
-					Mercola and experts worldwide—are essential for reversing the damage
-					caused by decades of synthetic fertilizer use.
-				</p>
-			</section>
-
-			<section style={{ marginTop: "40px", textAlign: "center" }}>
-				<p>
-					<a
-						href="https://www.drmercola.com"
-						target="_blank"
-						rel="noopener noreferrer"
-						style={{
-							color: "blue",
-							textDecoration: "underline",
-							fontWeight: "bold",
-						}}>
-						Click here to see the above article on Dr. Mercola's website.
-					</a>
-				</p>
-			</section>
-
-			<section style={{ marginTop: "40px" }}>
+			<section className={styles.sectionCentered}>
 				<h3>Take Action Today</h3>
-				<ul>
+				<ul className={styles.actionList}>
 					<li>
 						<strong>Call:</strong>{" "}
-						<a
-							href="tel:18885883139"
-							style={{ color: "blue", textDecoration: "underline" }}>
+						<a href="tel:18885883139" className={styles.link}>
 							1-888-588-3139
-						</a>{" "}
-						to speak to a soil health consultant.
+						</a>
 					</li>
 					<li>
 						<strong>Email:</strong>{" "}
-						<a
-							href="mailto:info@ag-usa.net"
-							style={{ color: "blue", textDecoration: "underline" }}>
+						<a href="mailto:info@ag-usa.net" className={styles.link}>
 							info@ag-usa.net
 						</a>
 					</li>
 					<li>
-						<strong>Order MycorrPlus now!</strong>{" "}
-						{/* You can replace this with an internal Next.js Link if desired */}
+						<strong>Order MycorrPlus now!</strong>
 					</li>
 				</ul>
 			</section>
 
-			<section style={{ marginTop: "30px", textAlign: "center" }}>
-				<p>
+			<section className={styles.sectionCentered}>
+				<p className={styles.finalNote}>
 					<em>
-						Great Soil Is Your Solution – Because a healthier soil means a
-						healthier planet and a more prosperous future for all.
+						Great Soil Is Your Solution – because healthier soil means a
+						healthier planet and a more prosperous future.
 					</em>
 				</p>
 			</section>

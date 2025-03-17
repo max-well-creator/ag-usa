@@ -1,168 +1,129 @@
 import Link from "next/link";
 import React from "react";
+import styles from "./Animals.module.scss";
 
 const OceanTraceForAnimalWater = () => {
 	return (
-		<div
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
+		<div className={styles.container}>
 			{/* Header / Logo */}
-			<header style={{ textAlign: "center", marginBottom: "30px" }}>
+			<header className={styles.header}>
 				<img
 					src="/images/ocean-trace-logo.png"
 					alt="Ocean Trace Logo"
-					style={{ maxWidth: "200px", marginBottom: "10px" }}
+					className={styles.logo}
 				/>
 				<h1>Ocean Trace</h1>
 				<h2>Sea Minerals for Animal Drinking Water</h2>
 			</header>
 
 			{/* Introduction */}
-			<section>
+			<section className={styles.section}>
 				<p>
-					You can provide your animals with exceptional drinking water by using
-					the AG-USA water treatment program:
+					Enhance your animals’ drinking water with our simple three‑step AG-USA
+					water treatment program:
 				</p>
 				<ol>
-					<li>Filter the water, if needed.</li>
-					<li>Add Ocean Trace to the water.</li>
-					<li>Pass the water through a NAT Water Structuring Machine.</li>
+					<li>Filter the water (if needed).</li>
+					<li>Add Ocean Trace.</li>
+					<li>
+						Run the water through a NAT Water Structuring Machine to boost its
+						energy.
+					</li>
 				</ol>
 				<p>
-					Previously, Ocean Trace was listed for organic use for animal drinking
-					water. Although demand was low for that listing, you can be assured
-					that this product is organic in nature.
+					Although previously listed as organic for animal water, demand was
+					low. Rest assured, Ocean Trace is organic in nature.
 				</p>
 			</section>
 
-			{/* Importance of Good Drinking Water */}
-			<section style={{ marginTop: "30px" }}>
-				<h3>Is Good Drinking Water That Important?</h3>
+			{/* Why It Matters */}
+			<section className={styles.section}>
+				<h3>Why Good Drinking Water Matters</h3>
 				<p>
-					Many Americans recognize that good drinking water is essential for
-					maintaining health—filtering water or buying bottled water to remove
-					chlorine and other chemicals. But have we ever considered that poor
-					water quality might also affect our animals?
-				</p>
-				<p>
-					AG-USA wants to help improve the quality of the water you give to your
-					animals. Our cutting-edge technology is now available for livestock,
-					too.
+					Just as we filter our water to remove chemicals, our animals deserve
+					clean, nutrient‑rich water. AG‑USA’s advanced technology now improves
+					water quality for livestock.
 				</p>
 			</section>
 
 			{/* Our Program */}
-			<section style={{ marginTop: "30px" }}>
+			<section className={styles.section}>
 				<h3>Our Water Treatment Program</h3>
-				<p>Our program is simple, yet effective. Here’s what we recommend:</p>
+				<p>Our easy process:</p>
 				<ol>
 					<li>
-						<strong>Filter the water:</strong> For those rare cases where it is
-						needed, place the filter before injecting Ocean Trace.
+						<strong>Filter:</strong> Install the filter before adding Ocean
+						Trace.
 					</li>
 					<li>
-						<strong>Inject or add Ocean Trace:</strong> Inject Ocean Trace into
-						the water or add it manually. Please contact us if you need
-						assistance purchasing an injector (medicator) that suits your
-						system.
+						<strong>Inject/Add:</strong> Add Ocean Trace manually or with an
+						injector.
 					</li>
 					<li>
-						<strong>Water Structuring:</strong> Pass the water through a NAT
-						Water Structuring Machine. This device induces a unified field of
-						energy in the water molecules by drawing in biophotons, thereby
-						highly structuring the water.
+						<strong>Structure:</strong> Process the water with a NAT Water
+						Structuring Machine.
 					</li>
 				</ol>
 			</section>
 
 			{/* What Is Ocean Trace? */}
-			<section style={{ marginTop: "30px" }}>
+			<section className={styles.section}>
 				<h3>What Is Ocean Trace?</h3>
 				<p>
-					We take 100 gallons of ocean water and evaporate it down to 1 gallon.
-					During evaporation, most of the sodium chloride solidifies and is
-					removed, leaving behind a dense sea mineral solution.
-				</p>
-				<p>
-					The ocean naturally contains all 76 minerals found in nature. We add a
-					small amount of these sea minerals to animal drinking water (typically
-					1 part Ocean Trace to 2,000–4,000 parts water) to improve its quality.
+					We evaporate 100 gallons of ocean water down to 1 gallon. Most sodium
+					chloride is removed, leaving a dense sea mineral solution that
+					naturally contains all 76 minerals.
 				</p>
 			</section>
 
-			{/* Recommended Amount for Animals */}
-			<section style={{ marginTop: "30px" }}>
-				<h3>Recommended Amount for Animals</h3>
+			{/* Recommended Amounts */}
+			<section className={styles.section}>
+				<h3>Recommended Amounts</h3>
 				<p>
-					Inject 1 part Ocean Trace into 3,000 parts water. Alternatively, if
-					adding manually, calculate the combined weight of the animals:
+					For animals: Inject 1 part Ocean Trace into 3,000 parts water. Or, if
+					adding manually, use:
 				</p>
 				<ul>
-					<li>0.8 ounces (12 cc) daily for every 1,000 lbs of animal weight</li>
-					<li>2 tsp daily for every 400 lbs</li>
-					<li>2 cc daily for every 80 lbs</li>
+					<li>0.8 oz (12 cc) per 1,000 lbs daily</li>
+					<li>2 tsp per 400 lbs daily</li>
+					<li>2 cc per 80 lbs daily</li>
 				</ul>
-				<p>
-					Always maintain a minimum ratio of 1,000 parts water to 1 part Ocean
-					Trace.
-				</p>
+				<p>Maintain at least a 1,000:1 water-to-Ocean Trace ratio.</p>
 			</section>
 
-			{/* Recommended Amount for Fowls */}
-			<section style={{ marginTop: "30px" }}>
-				<h3>Recommended Amount for Fowls</h3>
+			<section className={styles.section}>
+				<h3>For Fowls</h3>
 				<p>
-					For a 32,000-bird chicken house where about 45,000 gallons of water
-					are consumed during a 40-day grow-out, at a 1:3,000 ratio, you will
-					need approximately 15 gallons of Ocean Trace per grow-out. This is
-					equivalent to roughly 3/8 oz (12 cc) per 1,000 lbs of birds per day.
-					The same amount works for chickens, geese, ducks, turkeys, and other
-					fowl.
+					In a 32,000‑bird chicken house consuming about 45,000 gallons in a
+					40‑day grow-out, about 15 gallons of Ocean Trace are needed (roughly
+					3/8 oz per 1,000 lbs of birds daily). This applies to chickens, geese,
+					ducks, turkeys, and other fowl.
 				</p>
 			</section>
 
 			{/* Water Structuring Machine */}
-			<section style={{ marginTop: "30px" }}>
+			<section className={styles.section}>
 				<h3>Water Structuring</h3>
 				<p>
-					A NAT Water Structuring Machine induces a unified field of energy in
-					the water molecules by drawing in biophotons. The more biophotons
-					present, the more highly structured the water becomes.
+					A NAT Water Structuring Machine creates a unified energy field in the
+					water by drawing in biophotons—resulting in highly structured,
+					energy‑rich water.
 				</p>
-				<p>
-					<Link
-						href="/nat-water-structuring-machines"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						Check out our NAT Water Structuring Machines
+				<p className={styles.link}>
+					<Link href="/nat-water-structuring-machines">
+						Explore NAT Machines
 					</Link>
 				</p>
 			</section>
 
 			{/* Call to Action */}
-			<section style={{ marginTop: "40px", textAlign: "center" }}>
-				<h2>Ready to Improve Your Animal Drinking Water?</h2>
-				<p>
-					<Link
-						href="/purchase-ocean-trace"
-						style={{
-							color: "blue",
-							textDecoration: "underline",
-							fontWeight: "bold",
-						}}>
-						Purchase Ocean Trace
-					</Link>
+			<section className={styles.cta}>
+				<h2>Ready to Improve Your Animal Water?</h2>
+				<p className={styles.ctaLink}>
+					<Link href="/purchase-ocean-trace">Purchase Ocean Trace</Link>
 				</p>
-				<p>
-					For more information, please{" "}
-					<Link
-						href="/contact"
-						style={{ color: "blue", textDecoration: "underline" }}>
-						contact us
-					</Link>
-					.
+				<p className={styles.ctaLink}>
+					<Link href="/contact">Contact Us for More Information</Link>
 				</p>
 			</section>
 		</div>

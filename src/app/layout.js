@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import "../styles/globals.css";
 import Footer from "@/components/Footer";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/components/Sidebar/Sidebar";
 import ArticlesSidebar from "@/components/ArticlesSidebar/ArticlesSidebar";
 export const metadata = {
 	title: "Create Next App",

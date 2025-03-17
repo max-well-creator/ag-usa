@@ -1,0 +1,29 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .officeInfo {
+    margin-top: 20px;
+    
+    strong {
+      display: block;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    p {
+      margin: 0.5rem 0;
+    }
+  }
+}

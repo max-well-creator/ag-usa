@@ -1,316 +1,227 @@
+import Link from "next/link";
 import React from "react";
+import styles from "./CropApplicationGuidelines.module.scss";
 
 const CropApplicationGuidelines = () => {
 	return (
-		<div
-			className="crop-application-guidelines"
-			style={{
-				padding: "20px",
-				fontFamily: "Arial, sans-serif",
-				lineHeight: "1.6",
-			}}>
-			<h1>Mycorr Plus™ Crop Application Guidelines</h1>
+		<div className={styles.container}>
+			<h1>MycorrPlus™ Crop Application Guidelines</h1>
 			<p>
-				When used correctly, MycorrPlus (formerly called GroPal Balance) can
-				make a real difference in what you grow. Here are some application
-				guidelines for various crops.
+				Use MycorrPlus (formerly GroPal Balance) to transform your crops and
+				soil. Below are streamlined guidelines for various crops.
 			</p>
 
-			<h2>General Guidelines</h2>
-			<p>
-				Broadcast in a 20 gal./acre tank mix, or 40+ gal./acre if no rain is
-				expected for a few days. A 10 gal./acre tank mix (or 3 gal. with a
-				plane) may be used if within 24 hours rain or irrigation water carries
-				it in, or if it is worked into the ground. MycorrPlus needs at least an
-				inch of soil moisture before it will really take off in the soil.
-			</p>
-			<p>Organic growers: MycorrPlus-O may be used in place of MycorrPlus-A.</p>
-			<p>
-				<strong>Herbicide or other chemical apps.</strong> <br />
-				If an herbicide or other chemical application is needed, wait 3 or more
-				days after the application and then apply 16 to 32 ounces of
-				MycorrPlus-A per acre.
-			</p>
-			<p>
-				If regular chemical applications are being made, to restore balance to
-				the soil, once a month you may apply 32 ounces per acre of MycorrPlus-A.
-			</p>
-			<p>
-				<strong>Do NOT</strong> apply MycorrPlus in the same tank mix as
-				herbicides, fungicides or insecticides.
-			</p>
+			<section className={styles.section}>
+				<h2>General Guidelines</h2>
+				<p>
+					Use a 20 gal/acre tank mix (or 40+ gal if no rain is expected) to
+					broadcast MycorrPlus. If rain or irrigation will carry it in within 24
+					hours, use a 10 gal/acre tank mix (or 3 gal with a plane). MycorrPlus
+					requires at least 1" of soil moisture.
+				</p>
+				<p>Organic growers: Use MycorrPlus-O in place of MycorrPlus-A.</p>
+				<p>
+					<strong>Chemical apps:</strong> Wait 3+ days after applying herbicides
+					or other chemicals before using 16–32 oz/acre of MycorrPlus-A. For
+					regular chemical treatments, monthly apply 32 oz/acre.
+				</p>
+				<p className={styles.warning}>
+					Do NOT mix MycorrPlus with herbicides, fungicides, or insecticides.
+				</p>
+			</section>
 
-			<h2>Crop-Specific Guidelines</h2>
+			<section className={styles.section}>
+				<h2>Crop-Specific Guidelines</h2>
 
-			<h3>Pasture</h3>
-			<p>
-				MycorrPlus does a great job on pastures. Apply MycorrPlus-A or O once a
-				year, any time of year.
-			</p>
-			<p>
-				The standard application for pastures is 1 quart per acre. For quicker
-				results, apply 64 ounces per acre.
-			</p>
+				<h3>Pasture</h3>
+				<p>
+					Apply MycorrPlus-A or O once a year, any time. Standard rate is 1
+					qt/acre; for faster results, use 64 oz/acre.
+				</p>
 
-			<h3>Grass Hay</h3>
-			<p>
-				Apply 1 to 2 quarts per acre of MycorrPlus-A or O. If nitrogen is needed
-				the first year, it is best to use 28% or 32% nitrogen, or manure.
-			</p>
-			<p>
-				Along with a yearly soil application, for even better results apply 2
-				quarts per acre of MycorrPlus-F (or MycorrPlus-O-F for organic) as a
-				foliar application 7 to 10 days after cuttings.
-			</p>
+				<h3>Grass Hay</h3>
+				<p>
+					Use 1–2 qt/acre. If nitrogen is needed, apply 28%/32% nitrogen or
+					manure. For even better results, apply 2 qt/acre of MycorrPlus-F (or
+					O-F for organic) as a foliar treatment 7–10 days after cutting.
+				</p>
 
-			<h3>Alfalfa</h3>
-			<p>
-				MycorrPlus is wonderful for strengthening the root structure and
-				thickening up alfalfa. Apply 1 to 2 quarts per acre of MycorrPlus-A or
-				O. A great time to apply is in the fall, winter or spring.
-			</p>
-			<p>
-				<em>(Optional foliar application)</em> 10 to 15 days after each cutting,
-				when there is sufficient leaf for a foliar application, apply 2 quarts
-				per acre of MycorrPlus-F or O-F as a top-dress/foliar application.
-			</p>
+				<h3>Alfalfa</h3>
+				<p>
+					Strengthens roots and thickens stands. Apply 1–2 qt/acre (fall,
+					winter, or spring). Optionally, foliar apply 2 qt/acre 10–15 days
+					after cutting.
+				</p>
 
-			<h3>Soybeans</h3>
-			<p>
-				MycorrPlus promotes a huge root structure, which can result in more pods
-				and fuller pods. MycorrPlus is a world-class inoculant that can produce
-				excellent nodulation; no other inoculant should be needed besides
-				MycorrPlus. However, other inoculants may be mixed in if desired.
-			</p>
-			<p>
-				At planting, apply 1 quart of MycorrPlus-A or O either in the row, on
-				the seed, or banded over the row. If not set up for in-row or
-				over-the-row applications, broadcast 2 quarts per acre around planting
-				time.
-			</p>
-			<p>
-				For increased yields, apply 2 quarts per acre as a MycorrPlus-F foliar
-				application (or 3 quarts O-F for organic) at flower. A second foliar
-				application 3 to 4 weeks later may be beneficial if the beans are
-				looking good.
-			</p>
-			<p>
-				Foliar applications may be mixed with herbicides.{" "}
-				<a href="#" target="_blank" rel="noopener noreferrer">
-					Click here to see a detailed soybean applications page.
-				</a>
-			</p>
-
-			<h3>Corn</h3>
-			<p>
-				Apply 1 quart of MycorrPlus-A in the row, on the seed. Another quart may
-				be side-dressed with 28% or 32% to stabilize it, then reduce your total
-				nitrogen to 80 or 90 pounds for 200-bushel corn. You may mix a quart of
-				MycorrPlus-A with other applications of 28% or 32% nitrogen to help bind
-				it to the soil, allowing you to reduce the nitrogen applied by 30%.
-				<strong>Do NOT mix with phosphorus or potassium.</strong>
-			</p>
-			<p>
-				Five to six weeks after planting, another quart of MycorrPlus-A may be
-				applied to boost yields.
-			</p>
-			<p>
-				If using anhydrous ammonia, broadcast a quart of MycorrPlus-A at least 2
-				weeks after its application to help reduce the negative effects on the
-				soil.
-			</p>
-			<p>
-				A top-dress/foliar application of 2 quarts of MycorrPlus-F or O-F may be
-				applied at tassel using a 10 gal./acre tank mix. This can help increase
-				test weights, protein, RFV and yields. Alternatively, a quick pass of
-				the sprinkler over the field using 3 quarts of MycorrPlus-O-F may be
-				used.
-			</p>
-			<p>
-				<a href="#" target="_blank" rel="noopener noreferrer">
-					Click here for a more detailed corn page.
-				</a>
-			</p>
-
-			<h3>Wheat, Milo and Millet</h3>
-			<p>
-				For winter wheat, spring wheat, milo and millet, broadcast 1 to 2 quarts
-				of MycorrPlus-A or O around planting time. Use just 1 quart per acre
-				when applying with a drill or in the row. For winter wheat, if applying
-				in the spring, apply early spring.
-			</p>
-			<p>
-				To boost yields, a top-dress/foliar application of 2 quarts of
-				MycorrPlus-F (or 3 quarts of MycorrPlus-O-F for organic) may be made at
-				flag leaf.
-			</p>
-
-			<h3>Cotton</h3>
-			<p>
-				Apply 1 quart of MycorrPlus-A or O in-the-row, on-the-seed (in furrow)
-				or broadcast 1 to 2 quarts.{" "}
-				<strong>
-					Do NOT mix MycorrPlus-A with any chemical except 28% or 32% nitrogen.
-				</strong>
-			</p>
-			<p>
-				For pre-planting, for even better results, apply 1 to 2 quarts of
-				MycorrPlus-A or O in the summer, fall or winter before planting. This
-				helps eliminate harmful nematodes, salts, fungus, mold, mildew, rot and
-				plant toxins so that the soil is ready at planting time.
-			</p>
-			<p>
-				During the growing season for increased yields, apply 1 quart of
-				MycorrPlus-A 5 to 6 weeks after planting to give more energy for
-				fruiting, or a 2-quart per acre top-dress/foliar application of
-				MycorrPlus-F (3 quarts O-F for organic) as the plant begins to set
-				bolls.
-			</p>
-			<p>MycorrPlus-F may be mixed with an herbicide if needed.</p>
-
-			<h3>Peanuts</h3>
-			<p>
-				Apply 1 quart of MycorrPlus-A or O in-the-row, on-the-seed (in furrow)
-				or broadcast 2 quarts.
-			</p>
-			<p>
-				For pre-planting, apply 1 to 2 quarts of MycorrPlus-A or O in the
-				summer, fall or winter to prepare the soil.
-			</p>
-			<p>
-				<strong>
-					Do NOT mix MycorrPlus-A with any chemical except 28% or 32% nitrogen.
-				</strong>
-			</p>
-			<p>
-				For increased yields, a foliar application of 2 quarts of MycorrPlus-F
-				may be made every 4 weeks during the growing season.
-			</p>
-			<p>
-				If chemical applications are being made, apply 1 quart of MycorrPlus-A
-				each month in place of MycorrPlus-F.
-			</p>
-			<p>
-				Although MycorrPlus may be mixed with an inoculant, it is a world-class
-				inoculant that produces excellent nodulation, so it should be the only
-				inoculant needed.
-			</p>
-
-			<h3>Potatoes</h3>
-			<p>
-				In the fall, winter or early spring, apply 2 quarts of MycorrPlus-A to
-				help prepare the soil for a good crop.
-			</p>
-			<p>
-				Apply 1 quart in-the-row, or broadcast 1 to 2 quarts around planting,
-				and/or after an herbicide application.
-			</p>
-
-			<h3>Fruit and Nut Trees</h3>
-			<p>
-				In the fall, broadcast 1 to 2 quarts per acre of MycorrPlus-A over an
-				area twice the diameter of the tree for great results the following
-				year. For best results, apply as early as possible when the ground is
-				not frozen.
-			</p>
-			<p>
-				In the spring, once the tree has good leaf coverage, apply one or more
-				foliar applications of MycorrPlus-F. Use 2 quarts per acre with a 20
-				gal./acre tank mix. For tank mixes over 20 gal./acre, use
-				MycorrPlus-O-F. When planning 4 or more foliar applications, divide up
-				to 2 gallons of MycorrPlus-F by the number of applications.
-			</p>
-
-			<h3>Grape Vines</h3>
-			<p>
-				MycorrPlus can help maintain neutral soil pH for grape vines. Apply 2
-				quarts of MycorrPlus-A per acre (or 1 ounce for every 600 sq. ft.). This
-				can be done in the fall or early spring.
-			</p>
-			<p>
-				In the spring, once the vines have sufficient leaf coverage, one or more
-				foliar applications of MycorrPlus-F may be made. Apply 2 quarts per acre
-				per application. If planning 4 or more foliar applications, divide up to
-				2 gallons of MycorrPlus-F by the number of desired applications.
-			</p>
-
-			<h3>Sod Farms</h3>
-			<p>
-				MycorrPlus-A works well to increase root structure and thicken up grass.
-				Once the sod has been harvested, apply 2 quarts of MycorrPlus-A to the
-				soil.
-			</p>
-			<p>
-				If desired, apply an additional 32 ounces of MycorrPlus-A each month. Do
-				not mix with herbicides, pesticides, or most fertilizers.
-			</p>
-
-			<h3>Blueberries and Other Acid-Loving Plants</h3>
-			<p>
-				MycorrPlus helps to balance pH; however, at this time we are not
-				recommending its use for acid-loving plants.
-			</p>
-
-			<h2>Additional Information</h2>
-			<p>
-				Use the above applications as a general guide. For additional
-				information or for crops not listed here, please contact AG-USA
-				toll-free at <strong>1-888-588-3139</strong> or email:{" "}
-				<a href="mailto:info@ag-usa.net">info@ag-usa.net</a>.
-			</p>
-
-			<h2>Links to More MycorrPlus (GroPal Balance) Information</h2>
-			<ul>
-				<li>
+				<h3>Soybeans</h3>
+				<p>
+					At planting, apply 1 qt of MycorrPlus-A or O in the row or banded over
+					the row. Alternatively, broadcast 2 qt/acre. For yield boost, foliar
+					treat with 2 qt/acre at flowering (a second treatment 3–4 weeks later
+					may help).
+				</p>
+				<p className={styles.externalLink}>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						Soil Balance results
+						Detailed soybean guidelines
 					</a>
-				</li>
-				<li>
+				</p>
+
+				<h3>Corn</h3>
+				<p>
+					Apply 1 qt of MycorrPlus-A in the row (on the seed). Optionally
+					side-dress with an extra qt with 28%/32% nitrogen (reduce total N to
+					80–90 lbs for 200- bushel corn), or broadcast 1–2 qt/acre. Five to six
+					weeks after planting, an extra qt may boost yields.
+				</p>
+				<p>
+					For anhydrous ammonia, apply 1 qt at least 2 weeks later. A top-dress
+					foliar treatment of 2 qt/acre of MycorrPlus-F (or O-F) at tassel helps
+					boost test weights, protein, and yields.
+				</p>
+				<p className={styles.externalLink}>
 					<a href="#" target="_blank" rel="noopener noreferrer">
-						Photo gallery of side by side fields where half was treated with
-						Soil Balance and the other half was not
+						Detailed corn page
 					</a>
-				</li>
-				<li>
-					<a href="#" target="_blank" rel="noopener noreferrer">
-						Lab test results, before and after MycorrPlus
-					</a>
-				</li>
-				<li>
-					<a href="#" target="_blank" rel="noopener noreferrer">
-						Soil pH balanced without lime
-					</a>
-				</li>
-				<li>
-					<a href="#" target="_blank" rel="noopener noreferrer">
-						An authoritative article that explains how MycorrPlus transforms the
-						soil
-					</a>
-				</li>
-				<li>
-					<a href="#" target="_blank" rel="noopener noreferrer">
-						Helpful FAQs about MycorrPlus
-					</a>
-				</li>
-				<li>
-					<a href="#" target="_blank" rel="noopener noreferrer">
-						Application guidelines
-					</a>
-				</li>
-				<li>
-					<a href="#" target="_blank" rel="noopener noreferrer">
-						GroPal Balance (MycorrPlus) for organic use
-					</a>
-				</li>
-			</ul>
-			<p>
-				GroPal Balance will probably be the only fertilizer you will need for
-				great pasture. Some may choose to further boost the process by adding a
-				natural product like fish or kelp. However, though these are great
-				products, you will probably find yourself producing amazing pastures
-				without them!
-			</p>
+				</p>
+
+				<h3>Wheat, Milo, and Millet</h3>
+				<p>
+					Broadcast 1–2 qt/acre at planting or use 1 qt if drilling in-row. For
+					winter wheat, apply in early spring. To boost yields, top-dress with 2
+					qt/acre of MycorrPlus-F (or 3 qt/acre of MycorrPlus-O-F) at flag leaf.
+				</p>
+
+				<h3>Cotton</h3>
+				<p>
+					Apply 1 qt of MycorrPlus-A or O in the row (or broadcast 1–2 qt/acre).
+					<strong>
+						{" "}
+						Do NOT mix with any chemicals except 28% or 32% nitrogen.
+					</strong>
+				</p>
+				<p>
+					Pre-planting: Apply 1–2 qt/acre in summer, fall, or winter to prepare
+					the soil. During growth, apply 1 qt 5–6 weeks after planting or a 2 qt
+					foliar treatment at boll set.
+				</p>
+
+				<h3>Peanuts</h3>
+				<p>
+					At planting, apply 1 qt of MycorrPlus-A or O in the row (or broadcast
+					2 qt/acre). Pre-planting, use 1–2 qt/acre in summer, fall, or winter.
+					<strong>
+						{" "}
+						Do NOT mix with any chemical except 28% or 32% nitrogen.
+					</strong>
+				</p>
+				<p>
+					For yield boost, foliar treat with 2 qt/acre every 4 weeks during
+					growth. If chemicals are used, substitute with a monthly 1 qt
+					application.
+				</p>
+				<p>
+					MycorrPlus is an excellent inoculant for nodulation—no additional
+					inoculant is needed.
+				</p>
+
+				<h3>Potatoes</h3>
+				<p>
+					In fall, winter, or early spring, apply 2 qt of MycorrPlus-A to
+					prepare the soil. Use 1 qt in the row or broadcast 1–2 qt around
+					planting or after herbicide application.
+				</p>
+
+				<h3>Fruit and Nut Trees</h3>
+				<p>
+					In fall, broadcast 1–2 qt/acre over an area twice the tree's diameter
+					for next- year results. Apply early when the ground is unfrozen. In
+					spring, once the tree has good leaf coverage, apply one or more foliar
+					treatments of 2 qt/acre (use MycorrPlus-O-F for larger tank mixes over
+					20 gal/acre). For 4+ applications, divide 2 gallons of MycorrPlus-F
+					accordingly.
+				</p>
+
+				<h3>Grape Vines</h3>
+				<p>
+					Apply 2 qt/acre (or 1 oz per 600 sq ft) of MycorrPlus-A in fall or
+					early spring to maintain neutral pH. In spring, foliar treat with 2
+					qt/acre.
+				</p>
+
+				<h3>Sod Farms</h3>
+				<p>
+					After harvesting sod, apply 2 qt/acre of MycorrPlus-A to the soil. For
+					continuous benefit, apply an extra 32 oz monthly. Do not mix with
+					herbicides, pesticides, or most fertilizers.
+				</p>
+
+				<h3>Blueberries & Acid-Loving Plants</h3>
+				<p>
+					MycorrPlus helps balance pH but is not recommended for acid-loving
+					plants.
+				</p>
+			</section>
+
+			<section className={styles.section}>
+				<h2>Additional Information</h2>
+				<p>
+					Use these guidelines as a starting point. For crops not listed or for
+					more details, please contact AG-USA toll-free at{" "}
+					<strong>1-888-588-3139</strong> or email{" "}
+					<a href="mailto:info@ag-usa.net">info@ag-usa.net</a>.
+				</p>
+			</section>
+
+			<section className={styles.section}>
+				<h2>Additional Information & Resources</h2>
+				<ul>
+					<li>
+						<a href="#" target="_blank" rel="noopener noreferrer">
+							Soil Balance results
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" rel="noopener noreferrer">
+							Photo gallery: Treated vs. Untreated fields
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" rel="noopener noreferrer">
+							Lab test results (before & after)
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" rel="noopener noreferrer">
+							Soil pH balanced without lime
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" rel="noopener noreferrer">
+							In-depth article on how MycorrPlus transforms the soil
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" rel="noopener noreferrer">
+							Helpful FAQs about MycorrPlus
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" rel="noopener noreferrer">
+							Application guidelines
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" rel="noopener noreferrer">
+							GroPal Balance (MycorrPlus) for organic use
+						</a>
+					</li>
+				</ul>
+				<p>
+					GroPal Balance may be the only fertilizer you need for great pasture.
+					Some boost with natural products like fish or kelp, but many find
+					MycorrPlus alone produces amazing results.
+				</p>
+			</section>
 		</div>
 	);
 };

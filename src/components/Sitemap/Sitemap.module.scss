@@ -1,0 +1,31 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+
+  .listItem {
+    margin-bottom: 20px;
+
+    p {
+      margin: 5px 0 0;
+    }
+  }
+}
+
+.link {
+  font-weight: bold;
+  font-size: 18px;
+  color: blue;
+  text-decoration: underline;
+}
