@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import styles from "./SASInfo.module.scss";
+import styles from "./SAS.module.scss";
 
 const SASInfo = () => {
 	return (

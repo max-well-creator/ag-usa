@@ -8,7 +8,7 @@ const Header = () => {
 			<header className={styles.headerTop}>
 				<div className={styles.logo}>
 					<Image
-						src="/images/home-header.jpg"
+						src="/images/home-header.webp"
 						alt="AG-USA"
 						height={100}
 						width={140}

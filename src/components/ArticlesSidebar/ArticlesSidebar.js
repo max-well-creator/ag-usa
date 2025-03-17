@@ -3,6 +3,10 @@ import SidebarLayout from "../Sidebar/SidebarLayout/SidebarLayout";
 import Article from "./Article/Article";
 import styles from "./ArticlesSidebar.module.scss";
 import home_header from "../../../public/images/home-header.webp";
+import dryland_logo from "../../../public/images/articles/dryland_logo.webp";
+import Hardpan_logo from "../../../public/images/articles/Hardpan_logo.webp";
+import Benfits_logo from "../../../public/images/articles/33benefits_logo.webp";
+import PlantFood_logo from "../../../public/images/articles/PlantFood_logo.webp";
 
 export default function ArticlesSidebar() {
 	return (
@@ -11,15 +15,15 @@ export default function ArticlesSidebar() {
 				<h3 className={styles.header}>Articles</h3>
 				<Article
 					title="Outlast Dry Spells"
-					image={home_header}
+					image={dryland_logo}
 					href="/Articles/Dryland"
 				/>
 				<Article
 					title="End Compaction Now"
-					image={home_header}
+					image={Hardpan_logo}
 					href="/Articles/Hardpan"
 				/>
-				<Article title="33 Benefits" image={home_header} />
+				<Article title="33 Benefits" image={Benfits_logo} />
 				<Article
 					title="Save Tons on Lime"
 					image={home_header}
@@ -27,7 +31,7 @@ export default function ArticlesSidebar() {
 				/>
 				<Article
 					title="More Available Plant Food"
-					image={home_header}
+					image={PlantFood_logo}
 					href="/Articles/AvailablePlantFood"
 				/>
 			</div>

@@ -1,5 +1,7 @@
 import styles from "../styles/MainContent.module.scss";
 import Image from "next/image";
+import treated from "../../public/images/home/GrassHayTreated.webp";
+import untreated from "../../public/images/home/GrassHayUntreated.webp";
 
 const MainContent = () => {
 	return (
@@ -17,7 +19,7 @@ const MainContent = () => {
 						reduced plant growth.
 					</p>
 					<Image
-						src="/images/GrassHayUntreated.jpg"
+						src={untreated}
 						alt="Grass Hay Without MycorrPlus"
 						width={100}
 						height={100}
@@ -30,7 +32,7 @@ const MainContent = () => {
 						earthworms, and increased plant growth.
 					</p>
 					<Image
-						src="/images/GrassHayTreated.jpg"
+						src={treated}
 						alt="Grass Hay With MycorrPlus"
 						width={100}
 						height={100}
