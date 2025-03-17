@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import styles from "./CottonYields.module.scss";
+import styles from "./Cotton.module.scss";
 
 const CottonYields = () => {
 	return (
