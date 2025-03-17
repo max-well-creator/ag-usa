@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import FAQ from "@/components/FAQ/FAQ";
+import FAQ from "../../components/FAQ/FAQ";
 
 export default function FaqPage() {
 	return (

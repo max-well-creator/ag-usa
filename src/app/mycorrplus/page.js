@@ -1,5 +1,5 @@
 import Head from "next/head";
-import MycorrPlus from "@/components/MyCorrPlus/MyCorrPlus";
+import MycorrPlus from "../../components/MyCorrPlus/MyCorrPlus";
 
 export default function MycorrPlusPage() {
 	return (

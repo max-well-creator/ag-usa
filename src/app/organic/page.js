@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import MainContent from "../../components/MainContent";
-import MycorrPlusOrganic from "@/components/Organic/Organic";
+import MycorrPlusOrganic from "../../components/Organic/Organic";
 
 export default function OrganicPage() {
 	return (

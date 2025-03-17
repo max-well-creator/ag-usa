@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import ContactUs from "@/components/Contact/Contact";
+import ContactUs from "../../components/Contact/Contact";
 
 export default function Contact() {
 	return (

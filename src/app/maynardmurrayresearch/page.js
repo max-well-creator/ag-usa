@@ -1,4 +1,4 @@
-import MycorrPlusResearch from "@/components/MaynardMurrayResearch/MaynardMurrayResearch";
+import MycorrPlusResearch from "../../components/MaynardMurrayResearch/MaynardMurrayResearch";
 import React from "react";
 
 export default function MaynardMurrayResearchPage() {

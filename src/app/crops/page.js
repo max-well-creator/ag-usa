@@ -1,5 +1,5 @@
 import Head from "next/head";
-import CropApplicationGuidelines from "@/components/CropApplication/CropApplication";
+import CropApplicationGuidelines from "../../components/CropApplication/CropApplication";
 
 export default function CropsPage() {
 	return (

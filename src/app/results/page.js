@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import MycorrPlusSoilLabs from "@/components/Results/Results";
+import MycorrPlusSoilLabs from "../../components/Results/Results";
 
 export default function Results() {
 	return (
