@@ -2,7 +2,7 @@
 
 .topNav {
   display: flex;
-  padding: 20px;
+
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -26,10 +26,17 @@
 
 /* Navigation links styling */
 .navLinks {
+  margin-right: 300px;
+  color: colors.$grey;
   display: flex;
   list-style: none;
-  gap: 20px;
+  font-size: 20px;
+  gap: 50px;
+  a:hover {
+    color: black;
+  }
 }
+
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {

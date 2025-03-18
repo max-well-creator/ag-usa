@@ -18,7 +18,7 @@ const Navigation = () => {
 					src="/images/navigation/home-header.webp"
 					alt="AG-USA"
 					height={100}
-					width={200}
+					width={290}
 				/>
 			</div>
 			{/* Hamburger Icon */}
