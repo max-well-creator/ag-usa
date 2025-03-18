@@ -111,7 +111,9 @@ const MycorrPlusInstructions = () => {
 				tsp per quart for pump sprayers.
 			</p>
 			<p className={styles.link}>
-				<Link href="/crop-applications">View crop-specific applications</Link>
+				<li>
+					<Link href="/Crops">View Crop Specific Applications</Link>
+				</li>
 			</p>
 
 			<h3 className={styles.subheading}>More Information</h3>

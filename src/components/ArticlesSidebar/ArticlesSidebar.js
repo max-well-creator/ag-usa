@@ -2,7 +2,7 @@ import React from "react";
 import SidebarLayout from "../Sidebar/SidebarLayout/SidebarLayout";
 import Article from "./Article/Article";
 import styles from "./ArticlesSidebar.module.scss";
-import home_header from "../../../public/images/home-header.webp";
+import home_header from "../../../public/images/navigation/home-header.webp";
 import dryland_logo from "../../../public/images/articles/dryland_logo.webp";
 import Hardpan_logo from "../../../public/images/articles/Hardpan_logo.webp";
 import Benfits_logo from "../../../public/images/articles/33benefits_logo.webp";

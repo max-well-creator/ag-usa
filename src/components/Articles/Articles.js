@@ -238,15 +238,6 @@ const AGUSAMagazineLinks = () => {
 			</section>
 
 			<section className={styles.section}>
-				<h2>Learn More About MycorrPlus</h2>
-				<p>
-					<Link href="/about-mycorrplus" className={styles.link}>
-						Learn more about MycorrPlus
-					</Link>
-				</p>
-			</section>
-
-			<section className={styles.section}>
 				<h2>Other AG-USA Websites</h2>
 				<ul>
 					<li>

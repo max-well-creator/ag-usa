@@ -1,27 +1,61 @@
+@use "colors";
+
 .topNav {
-  background-color: #fff;
-  padding: 10px 20px;
-  border-bottom: 1px solid #ddd;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: colors.$grey; 
 
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+}
+
+/* Hamburger menu styles */
+.menuToggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: #333;
+}
+
+/* Navigation links styling */
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .menuToggle {
     display: flex;
-    flex-wrap: wrap;
+  }
 
-    li {
-      margin: 0 20px 10px 0;
+  .navLinks {
+    flex-direction: column;
+    position: absolute;
+    top: 100px; // Adjust based on your header/logo height
+    left: 0;
+    width: 100%;
+    background-color: colors.$grey; // Or your preferred background
+    display: none;
+    padding: 10px 0;
+  }
 
-      a {
-        color: #0070f3;
-        text-decoration: none;
-        font-weight: bold;
+  /* When menu is toggled open */
+  .navLinks.active {
+    display: flex;
+  }
 
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
+  .navLinks li {
+    padding: 10px 20px;
+
   }
 }

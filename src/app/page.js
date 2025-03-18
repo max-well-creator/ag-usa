@@ -16,9 +16,9 @@ export default function Home() {
 					content="home, ocean trace, mycorrplus, gropal balance, farm and garden, livestock"
 				/>
 			</Head>
-			<main>
+			<div>
 				<MainContent />
-			</main>
+			</div>
 		</>
 	);
 }

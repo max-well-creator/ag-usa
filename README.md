@@ -5,26 +5,17 @@
 - [x] [Home](https://www.ag-usa.net/index.php)
 - [x] [About](https://www.ag-usa.net/about.php)
 
-## I combined this pages to be in the main MycorrPlus page
-
-- [x] [MycorrPlus](https://www.ag-usa.net/mycorrplus.php)
-- [x] [How MycorrPlus works](https://www.ag-usa.net/mycorrplusfunction.php)
-- [x] [Benefits to Applying MycorrPlus](https://www.ag-usa.net/benefits.php)
-- [x] [MycorrPlus application sheet](https://www.ag-usa.net/application.php)
-
 - [x] [Good Moisture for Dryland Farms](https://www.ag-usa.net/dryland.php)
 - [x] [Building Organic Matter](https://www.ag-usa.net/buildorganicmatter.php)
 - [x] [7 Keys for Activating the Carbon Sequestration Switch](https://www.ag-usa.net/7keys.php)
+- [x] [Hay](https://www.ag-usa.net/hay.php)
 - [x] [Carbon Sequestration IS Your Solution](https://www.ag-usa.net/sequestration.php)
 - [x] [MycorrPlus videos](https://www.ag-usa.net/videos.php)
-- [x] [MycorrPlus testimonials](https://www.ag-usa.net/testimonials.php)
 - [x] [FAQs](https://www.ag-usa.net/faq.php)
 - [x] [GroPal for animal consumption](https://www.ag-usa.net/animals.php)
 - [x] [Photo Gallery](https://www.ag-usa.net/gallery.php)
 - [x] [Available plant food](https://www.ag-usa.net/availableplantfood.php)
-- [x] [Soil labs](https://www.ag-usa.net/SoilLabs.php)
 - [x] [Contact](https://www.ag-usa.net/g-contact.php)
-- [x] [Organic applications](https://www.ag-usa.net/organic.php)
 - [x] [Conquer nature](https://www.ag-usa.net/conquernature.php)
 - [x] [Eliminating hardpan](https://www.ag-usa.net/hardpan.php)
 - [x] [Controlling soil pH](https://www.ag-usa.net/soilph.php)
@@ -49,6 +40,17 @@
 - [x] [Corn](https://www.ag-usa.net/corn.php)
 - [x] [NATstructuredwater](https://www.ag-usa.net/NATstructuredwater.php)
 
-# Dont have
+## I dont know where these link from
 
-- [x] [Hay](https://www.ag-usa.net/hay.php)
+-[Carbon Sequestion](https://www.ag-usa.net/Sequestion.php) -[7 Keys for Activating the Carbon Sequestration Switch](https://www.ag-usa.net/hay.php) -[Conquer Nature](https://www.ag-usa.net/ConquerNature.php) -[Grow Superfoods](https://www.ag-usa.net/SuperFood.php) -[Drought Tolerance](https://www.ag-usa.net/DroughtTolerance.php) -[Build Topsoil](https://www.ag-usa.net/BuildTopSoil.php) -[Build Organic Matter](https://www.ag-usa.net/BuildOrganicMatter.php) -[Peanuts](https://www.ag-usa.net/Peanuts.php) -[Cotton](https://www.ag-usa.net/Cotton.php) -[Corn](https://www.ag-usa.net/Corn.php) -[FoodPlots](https://www.ag-usa.net/FoodPlots.php) -[SAS](https://www.ag-usa.net/SAS.php) -[SoilMaxx](https://www.ag-usa.net/SoilMaxx.php) -[SoilRestoration](https://www.ag-usa.net/SoilRestoration.php)
+
+## I combined this pages to be in the main MycorrPlus page
+
+- [x] [MycorrPlus](https://www.ag-usa.net/mycorrplus.php)
+- [x] [How MycorrPlus works](https://www.ag-usa.net/mycorrplusfunction.php)
+- [x] [Benefits to Applying MycorrPlus](https://www.ag-usa.net/benefits.php)
+- [x] [MycorrPlus application sheet](https://www.ag-usa.net/application.php)
+- [x] [MycorrPlus testimonials](https://www.ag-usa.net/testimonials.php)
+- [x] [Soil labs](https://www.ag-usa.net/SoilLabs.php)
+- [x] [Organic applications](https://www.ag-usa.net/organic.php)
+- [x] [Mycorr Plus ROI](https://www.ag-usa.net/GreatValue.php)

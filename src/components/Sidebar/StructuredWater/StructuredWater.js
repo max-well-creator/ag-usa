@@ -12,9 +12,6 @@ export default function StructuredWater() {
 					<li>
 						<Link href="/NAT">Structure Water Benefits</Link>
 					</li>
-					<li>
-						<Link href="/Animals">Healtheir Livestock</Link>
-					</li>
 				</ul>
 			</div>
 		</SidebarLayout>

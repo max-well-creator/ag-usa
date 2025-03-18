@@ -3,6 +3,10 @@ import BenefitsOfMycorrPlus from "../Benefits/Benefits";
 import Functionality from "../Functionality/Functionality";
 import MycorrPlusInstructions from "../ApplicationInstructions/Instructions";
 import styles from "./MycorrPlus.module.scss";
+import MycorrPlusROI from "../GreatValue/GreatValue";
+import MycorrPlusTestimonials from "../Testimonials/Testimonials";
+import MycorrPlusSoilLabs from "../Results/Results";
+import MycorrPlusOrganic from "../Organic/Organic";
 
 const MycorrPlus = () => {
 	return (
@@ -162,6 +166,22 @@ const MycorrPlus = () => {
 			<section className={styles.section}>
 				<h2 className={styles.sectionTitle}>Application</h2>
 				<MycorrPlusInstructions />
+			</section>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>ROI</h2>
+				<MycorrPlusROI />
+			</section>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>Mycorr Plus Testimonials</h2>
+				<MycorrPlusTestimonials />
+			</section>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>Soil Lab Results</h2>
+				<MycorrPlusSoilLabs />
+			</section>
+			<section className={styles.section}>
+				<h2 className={styles.sectionTitle}>Organic Certifications</h2>
+				<MycorrPlusOrganic />
 			</section>
 		</div>
 	);

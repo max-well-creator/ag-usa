@@ -10,16 +10,7 @@ export default function Info() {
 				<h3 className={styles.heading}>More Info:</h3>
 				<ul className={styles.list}>
 					<li>
-						<Link href="/Videos">Video Testimonials</Link>
-					</li>
-					<li>
-						<Link href="/Testimonials">Testimonials</Link>
-					</li>
-					<li>
 						<Link href="/MaynardMurrayResearch">Dr. Murray's Research</Link>
-					</li>
-					<li>
-						<Link href="/Articles">Articles</Link>
 					</li>
 					<li>
 						<Link href="/Hay">HayMax Conditioner</Link>

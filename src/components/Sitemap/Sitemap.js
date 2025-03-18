@@ -14,13 +14,13 @@ const SiteMap = () => {
 					<p>Our home page</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/about" className={styles.link}>
+					<Link href="/About" className={styles.link}>
 						About
 					</Link>
 					<p>Who we are, a list of our websites</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/mycorrplus" className={styles.link}>
+					<Link href="/MycorrPlus" className={styles.link}>
 						MycorrPlus
 					</Link>
 					<p>
@@ -29,22 +29,13 @@ const SiteMap = () => {
 					</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/how-mycorrplus-works" className={styles.link}>
-						How MycorrPlus works
-					</Link>
-					<p>
-						An interview with Dr. Christine Jones on carbon sequestration and
-						topsoil building
-					</p>
-				</li>
-				<li className={styles.listItem}>
-					<Link href="/good-moisture-dryland-farms" className={styles.link}>
+					<Link href="/Dryland" className={styles.link}>
 						Good Moisture for Dryland Farms
 					</Link>
 					<p>How MycorrPlus keeps plants green even during dry spells</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/building-organic-matter" className={styles.link}>
+					<Link href="/BuildOrganicMatter" className={styles.link}>
 						Building Organic Matter
 					</Link>
 					<p>
@@ -52,21 +43,13 @@ const SiteMap = () => {
 					</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link
-						href="/7-keys-for-activating-carbon-sequestration"
-						className={styles.link}>
+					<Link href="/7keys" className={styles.link}>
 						7 Keys for Activating the Carbon Sequestration Switch
 					</Link>
 					<p>How to get carbon sequestration really going in your soil</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/benefits-to-applying-mycorrplus" className={styles.link}>
-						Benefits to Applying MycorrPlus
-					</Link>
-					<p>There are numerous benefits to applying MycorrPlus</p>
-				</li>
-				<li className={styles.listItem}>
-					<Link href="/carbon-sequestration-solution" className={styles.link}>
+					<Link href="/Sequestion" className={styles.link}>
 						Carbon Sequestration IS Your Solution
 					</Link>
 					<p>
@@ -75,51 +58,31 @@ const SiteMap = () => {
 					</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/mycorrplus-videos" className={styles.link}>
+					<Link href="/Videos" className={styles.link}>
 						MycorrPlus videos
 					</Link>
 					<p>Video testimonials about MycorrPlus (formerly GroPal Balance)</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/mycorrplus-testimonials" className={styles.link}>
+					<Link href="/Testimonials" className={styles.link}>
 						MycorrPlus testimonials
 					</Link>
 					<p>Customer testimonials regarding MycorrPlus</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/faqs" className={styles.link}>
+					<Link href="/FAQ" className={styles.link}>
 						FAQs
 					</Link>
 					<p>Helpful facts about MycorrPlus</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/soil-balance-studies" className={styles.link}>
-						Soil Balance studies
-					</Link>
-					<p>
-						Results from studies with Soil Balance, a component of MycorrPlus
-					</p>
-				</li>
-				<li className={styles.listItem}>
-					<Link href="/gropal-for-animal-consumption" className={styles.link}>
+					<Link href="/Animals" className={styles.link}>
 						GroPal for animal consumption
 					</Link>
 					<p>Using GroPal sea mineral concentrate in animal drinking water</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/photo-gallery" className={styles.link}>
-						Photo Gallery
-					</Link>
-					<p>Photos of Soil Balance at work</p>
-				</li>
-				<li className={styles.listItem}>
-					<Link href="/application-for-every-budget" className={styles.link}>
-						An application to fit every budget
-					</Link>
-					<p>Application rates that work for any budget</p>
-				</li>
-				<li className={styles.listItem}>
-					<Link href="/available-plant-food" className={styles.link}>
+					<Link href="/AvailablePlantFood" className={styles.link}>
 						Available plant food
 					</Link>
 					<p>
@@ -127,97 +90,67 @@ const SiteMap = () => {
 					</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/conquer-nature" className={styles.link}>
+					<Link href="/ConquerNature" className={styles.link}>
 						Conquer nature
 					</Link>
 					<p>Learn how to cooperate with nature for better yields</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/eliminating-hardpan" className={styles.link}>
+					<Link href="/Hardpan" className={styles.link}>
 						Eliminating hardpan
 					</Link>
 					<p>How MycorrPlus eliminates hardpan by structuring the soil</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/controlling-soil-ph" className={styles.link}>
+					<Link href="/SoilPh" className={styles.link}>
 						Controlling soil pH
 					</Link>
 					<p>The best way to balance soil pH without excessive lime</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/soil-labs" className={styles.link}>
+					<Link href="/SoilLabs" className={styles.link}>
 						Soil labs
 					</Link>
 					<p>Lab results showing nutrient balance restoration</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/grow-superfoods" className={styles.link}>
+					<Link href="/SuperFood" className={styles.link}>
 						Grow superfoods
 					</Link>
 					<p>How MycorrPlus can turn grass into a "superfood"</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/build-drought-tolerance" className={styles.link}>
+					<Link href="/DroughtTolerance" className={styles.link}>
 						Build drought tolerance
 					</Link>
 					<p>How MycorrPlus improves soil moisture retention</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/build-topsoil" className={styles.link}>
+					<Link href="/BuildTopSoil" className={styles.link}>
 						Build topsoil
 					</Link>
 					<p>Why MycorrPlus is the best solution for building topsoil</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/nutrient-density" className={styles.link}>
-						Nutrient density
-					</Link>
-					<p>How MycorrPlus increases the nutrient density of plants</p>
-				</li>
-				<li className={styles.listItem}>
-					<Link href="/organic-applications" className={styles.link}>
+					<Link href="/Organic" className={styles.link}>
 						Organic applications
 					</Link>
 					<p>MycorrPlus is registered with WSDA for organic use</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/mycorrplus-application-sheet" className={styles.link}>
-						MycorrPlus application sheet
-					</Link>
-					<p>Detailed application guidelines for optimal results</p>
-				</li>
-				<li className={styles.listItem}>
-					<Link href="/mycorrplus-price-list" className={styles.link}>
-						MycorrPlus price list
-					</Link>
-					<p>Various sizes available</p>
-				</li>
-				<li className={styles.listItem}>
-					<Link href="/more-bang-for-your-buck" className={styles.link}>
-						Why MycorrPlus is "more bang for the buck"
-					</Link>
-					<p>Get maximum fertilizer efficiency</p>
-				</li>
-				<li className={styles.listItem}>
-					<Link href="/dr-maynard-murrays-research" className={styles.link}>
+					<Link href="/MaynardMurrayResearch" className={styles.link}>
 						Dr. Maynard Murray's Research
 					</Link>
 					<p>Breakthrough research on sea minerals</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/mycorrplus-magazine-articles" className={styles.link}>
+					<Link href="/Articles" className={styles.link}>
 						MycorrPlus magazine articles
 					</Link>
 					<p>Our advertising articles in various agricultural magazines</p>
 				</li>
 				<li className={styles.listItem}>
-					<Link href="/pages-for-gardeners" className={styles.link}>
-						Pages for gardeners
-					</Link>
-					<p>Helpful AG-USA info for gardeners</p>
-				</li>
-				<li className={styles.listItem}>
-					<Link href="/contact" className={styles.link}>
+					<Link href="/Contact" className={styles.link}>
 						Contact
 					</Link>
 					<p>Ways to contact us</p>

@@ -1,27 +1,38 @@
+"use client";
+import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "../styles/Navigation.module.scss";
 
 const Navigation = () => {
+	const [menuOpen, setMenuOpen] = useState(false);
+
+	const toggleMenu = () => {
+		setMenuOpen((prev) => !prev);
+	};
+
 	return (
 		<nav className={styles.topNav}>
-			<ul>
+			<div className={styles.logo}>
+				<Image
+					src="/images/navigation/home-header.webp"
+					alt="AG-USA"
+					height={100}
+					width={200}
+				/>
+			</div>
+			{/* Hamburger Icon */}
+			<div className={styles.menuToggle} onClick={toggleMenu}>
+				<span className={styles.bar}></span>
+				<span className={styles.bar}></span>
+				<span className={styles.bar}></span>
+			</div>
+			<ul className={`${styles.navLinks} ${menuOpen ? styles.active : ""}`}>
 				<li>
 					<Link href="/">Home</Link>
 				</li>
 				<li>
 					<Link href="/MycorrPlus">MycorrPlus</Link>
-				</li>
-				<li>
-					<Link href="/Gallery">Photo Gallery</Link>
-				</li>
-				<li>
-					<Link href="/Crops">Crop Apps</Link>
-				</li>
-				<li>
-					<Link href="/Results">Soil Lab Results</Link>
-				</li>
-				<li>
-					<Link href="/Organic">Organic</Link>
 				</li>
 				<li>
 					<Link href="/FAQ">FAQs</Link>
@@ -36,57 +47,7 @@ const Navigation = () => {
 					<Link href="/Sitemap">Sitemap</Link>
 				</li>
 				<li>
-					<Link href="/BuildOrganicMatter">Build Organic Matter</Link>
-				</li>
-				<li>
-					<Link href="/7keys">
-						7 Keys for Activating the Carbon Sequestration Switch
-					</Link>
-				</li>
-				<li>
-					<Link href="/Sequestion">Carbon Sequestion</Link>
-				</li>
-				<li>
-					<Link href="/Testimonials">MycorrPlus Testimonials</Link>
-				</li>
-				<li>
-					<Link href="/ConquerNature">Conquer Nature</Link>
-				</li>
-				<li>
-					<Link href="/SuperFood">Super Food</Link>
-				</li>
-				<li>
-					<Link href="/DroughtTolerance">Drought Tolerance</Link>
-				</li>
-				<li>
-					<Link href="/BuildTopSoil">Build Top Soil</Link>
-				</li>
-				<li>
-					<Link href="/GreatValue">MycorrPlus ROI</Link>
-				</li>
-				<li>
-					<Link href="/Peanuts">Peanuts</Link>
-				</li>
-				<li>
-					<Link href="/Cotton">Cotton</Link>
-				</li>
-				<li>
-					<Link href="/Corn">Corn</Link>
-				</li>
-				<li>
-					<Link href="/FoodPlots">Food Plots</Link>
-				</li>
-				<li>
-					<Link href="/SAS">SAS</Link>
-				</li>
-				<li>
-					<Link href="/SoilMaxx">Soil Maxx</Link>
-				</li>
-				<li>
-					<Link href="/SoilRestoration">Soil Restoration</Link>
-				</li>
-				<li>
-					<Link href="/Videos">Videos</Link>
+					<Link href="/Articles">Articles</Link>
 				</li>
 			</ul>
 		</nav>
