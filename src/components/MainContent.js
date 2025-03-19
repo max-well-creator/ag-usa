@@ -1,21 +1,13 @@
+"use client";
+import { useRouter } from "next/navigation";
 import styles from "../styles/MainContent.module.scss";
 import HomeHeader from "./Home/Home-Header";
 
 const MainContent = () => {
+	const router = useRouter();
 	return (
 		<section className={styles.mainContent}>
 			<HomeHeader />
-			<div className={styles.hero}>
-				<h1>Transform Your Soil with Mycorr Plus</h1>
-				<p>
-					Unlock the power of nature to boost your crop yields. Mycorr Plus is
-					an advanced soil amendment engineered to improve soil structure,
-					stimulate beneficial microbes, and maximize carbon
-					sequestration—helping your fields thrive even in the toughest
-					conditions.
-				</p>
-				<button className={styles.ctaButton}>Learn More</button>
-			</div>
 
 			<div className={styles.features}>
 				<div className={styles.featureItem}>
@@ -49,7 +41,11 @@ const MainContent = () => {
 					thriving ecosystems. Get started with Mycorr Plus today and see the
 					difference in your crops!
 				</p>
-				<button className={styles.ctaButton}>Get Started Now</button>
+				<button
+					className={styles.ctaButton}
+					onClick={() => router.push("/MycorrPlus")}>
+					Get Started Now
+				</button>
 			</div>
 
 			<div className={styles.gallery}>

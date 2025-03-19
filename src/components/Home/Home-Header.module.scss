@@ -1,22 +1,84 @@
 @use '../../styles/colors';
-.header_container {
+
+.header {
   display: flex;
+  height: 500px;
   justify-content: center;
   align-items: center;
-
-  height: 500px;
+  margin-bottom: 10px;
+  
   background-image: url('/images/home/Home-Background.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }
-.company {
+.hero {
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+
+  background: url('/images/home/fields.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: colors.$grey;
+
+  
+
+}
+
+.ctaButton {
+  background-color: #007b3f; // agricultural green
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+  &:hover {
+    background-color: #005f2e;
+  }
+}
+
+
+.text {
   background-color: colors.$brown;
   color: colors.$grey;
   opacity: 0.90;
-  font-size: xx-large;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  width: fit-content;
+  width: 50%;
+  text-align: center;
   border-radius: 4px;
   padding: 20px;
+  p {
 
+  }
+}
+
+/* Responsive adjustments for tablets and smaller screens */
+@media screen and (max-width: 768px) {
+  .header .hero {
+    height: 500px; /* Reduce height for smaller screens */
+  }
+  .text {
+    width: 80%;
+    font-size: large;  /* Adjust font size */
+    padding: 15px;     /* Adjust padding */
+  }
+}
+
+/* Further adjustments for mobile devices */
+@media screen and (max-width: 480px) {
+  .header .hero  {
+    height: 300px;
+  }
+  .text {
+    width: 90%;
+    font-size: medium;
+    padding: 10px;
+  }
 }
