@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import styles from "../styles/Navigation.module.scss";
 
 const Navigation = () => {
@@ -13,14 +12,6 @@ const Navigation = () => {
 
 	return (
 		<nav className={styles.topNav}>
-			<div className={styles.logo}>
-				<Image
-					src="/images/navigation/home-header.webp"
-					alt="AG-USA"
-					height={100}
-					width={290}
-				/>
-			</div>
 			{/* Hamburger Icon */}
 			<div className={styles.menuToggle} onClick={toggleMenu}>
 				<span className={styles.bar}></span>

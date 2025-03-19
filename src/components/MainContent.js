@@ -1,52 +1,65 @@
 import styles from "../styles/MainContent.module.scss";
-import Image from "next/image";
-import treated from "../../public/images/home/GrassHayTreated.webp";
-import untreated from "../../public/images/home/GrassHayUntreated.webp";
-
-const imageSize = 400;
+import HomeHeader from "./Home/Home-Header";
 
 const MainContent = () => {
 	return (
 		<section className={styles.mainContent}>
-			<article>
-				<h1>MycorrPlus</h1>
-				<div className={styles.field}>
-					<div className={styles.untreated}>
-						<h2>Untreated Field</h2>
-						<p>
-							Tight, compacted soil with anaerobic bacteria, no earthworms, and
-							reduced plant growth.
-						</p>
-						<Image
-							src={untreated}
-							alt="Grass Hay Without MycorrPlus"
-							width={imageSize}
-							height={imageSize}
-						/>
-					</div>
-					<div className={styles.treated}>
-						<h2>Treated Field</h2>
-						<p>
-							Flocculated, crumbly soil with aerobic bacteria, plenty of
-							earthworms, and increased plant growth.
-						</p>
-						<Image
-							src={treated}
-							alt="Grass Hay With MycorrPlus"
-							width={imageSize}
-							height={imageSize}
-						/>
-					</div>
-				</div>
+			<HomeHeader />
+			<div className={styles.hero}>
+				<h1>Transform Your Soil with Mycorr Plus</h1>
+				<p>
+					Unlock the power of nature to boost your crop yields. Mycorr Plus is
+					an advanced soil amendment engineered to improve soil structure,
+					stimulate beneficial microbes, and maximize carbon
+					sequestration—helping your fields thrive even in the toughest
+					conditions.
+				</p>
+				<button className={styles.ctaButton}>Learn More</button>
+			</div>
 
-				<div className={styles.testimonial}>
-					<h3>Testimonial</h3>
+			<div className={styles.features}>
+				<div className={styles.featureItem}>
+					<h2>Revitalize Your Soil</h2>
 					<p>
-						"After treating half my pasture with Soil Balance in the fall, the
-						cattle clearly preferred the treated grass over the untreated."
+						Our proprietary blend supports the natural mycorrhizal network,
+						promoting deeper root growth and improved nutrient uptake.
 					</p>
 				</div>
-			</article>
+				<div className={styles.featureItem}>
+					<h2>Boost Crop Yields</h2>
+					<p>
+						Experience up to 10% more biomass and healthier, more productive
+						crops by enhancing your soil’s biological activity.
+					</p>
+				</div>
+				<div className={styles.featureItem}>
+					<h2>Sustainable Farming</h2>
+					<p>
+						Conquer nature by working with it. Mycorr Plus helps build resilient
+						soils that require less chemical fertilizer and more natural
+						fertility.
+					</p>
+				</div>
+			</div>
+
+			<div className={styles.ctaSection}>
+				<h2>Ready to Transform Your Farm?</h2>
+				<p>
+					Join the thousands of growers who have turned barren fields into
+					thriving ecosystems. Get started with Mycorr Plus today and see the
+					difference in your crops!
+				</p>
+				<button className={styles.ctaButton}>Get Started Now</button>
+			</div>
+
+			<div className={styles.gallery}>
+				<h2>See the Results</h2>
+				<p>
+					Swipe through our photo gallery to view before-and-after images of
+					fields transformed by Mycorr Plus.
+				</p>
+				{/* Gallery component or image slider goes here */}
+			</div>
 		</section>
 	);
 };
