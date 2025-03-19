@@ -1,4 +1,5 @@
-@use '../styles/colors'; 
+@use 'mixins'; 
+@use 'colors'; 
 
 .mainContent {
   padding: 1rem;
@@ -8,18 +9,7 @@
 }
 
 .ctaButton {
-  background-color: #007b3f; // agricultural green
-  color: #fff;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  
-  &:hover {
-    background-color: #005f2e;
-  }
+  @include mixins.button
 }
 
 /* Features section with three columns on desktop */
@@ -35,11 +25,7 @@
 }
 
 .featureItem {
-  background-color: #f9f9f9;
-  padding: 1.5rem;
-  flex: 1;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  @include mixins.card;
   
   h2 {
     color: #007b3f;
@@ -59,6 +45,7 @@
   background-color: #e8f5e9;
   padding: 3rem 1rem;
   margin: 3rem 0;
+  @include mixins.box_shadow;
   
   h2 {
     font-size: 2rem;
