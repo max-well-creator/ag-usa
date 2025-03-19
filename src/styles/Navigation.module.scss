@@ -2,11 +2,9 @@
 
 .topNav {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
   position: relative;
-
 }
 
 /* Hamburger menu styles */
@@ -21,7 +19,7 @@
   width: 25px;
   height: 3px;
   margin: 4px 0;
-  background-color: #333;
+  background-color: black;
 }
 
 /* Navigation links styling */
@@ -32,36 +30,40 @@
   list-style: none;
   font-size: 20px;
   gap: 50px;
+
   a:hover {
     color: black;
   }
 }
 
-
 /* Responsive styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 848px) {
+  /* Stack nav items vertically */
+  .topNav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .menuToggle {
     display: flex;
   }
 
   .navLinks {
     flex-direction: column;
-    position: absolute;
-    top: 120px; // Adjust based on your header/logo height
-    left: 0;
+    position: static; // keep in the normal flow
     width: 100%;
     background-color: colors.$primary;
-    display: none;
     padding: 10px 0;
+    margin-right: 0; // remove extra right margin on mobile
+    display: none; // hide menu by default
   }
 
-  /* When menu is toggled open */
+  /* Show the menu when toggled */
   .navLinks.active {
     display: flex;
   }
 
   .navLinks li {
     padding: 10px 20px;
-
   }
 }
