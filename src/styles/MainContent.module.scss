@@ -46,6 +46,7 @@
   background-color: #e8f5e9;
   padding: 3rem 1rem;
   margin: 3rem 0;
+  @include mixins.border-radius;
   @include mixins.box_shadow;
   
   h2 {

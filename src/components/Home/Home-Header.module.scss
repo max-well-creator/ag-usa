@@ -1,8 +1,11 @@
 @use '../../styles/colors';
 @use '../../styles/_mixins';
 
+.header_container {
+}
 .header {
   display: flex;
+  @include mixins.border-radius;
   height: 500px;
   justify-content: center;
   align-items: center;
@@ -14,7 +17,7 @@
 }
 .hero {
   height: 500px;
-
+  @include mixins.border-radius;
   display: flex;
   justify-content: center;
   align-items: center;
