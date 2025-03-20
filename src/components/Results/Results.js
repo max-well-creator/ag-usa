@@ -10,8 +10,6 @@ import Image from "next/image";
 const MycorrPlusSoilLabs = () => {
 	return (
 		<div className={styles.container}>
-			<h1 className={styles.title}>Mycorr Plus™ (formerly GroPal Balance)</h1>
-
 			<section className={styles.section}>
 				<h2>Soil Lab Results</h2>
 				<p>
@@ -30,27 +28,30 @@ const MycorrPlusSoilLabs = () => {
 				</p>
 			</section>
 
-			<section className={styles.section}>
+			<section className={styles.soilResults}>
 				<h3>Field 1</h3>
 				<div className={styles.imageContainer}>
-					<h4>Before</h4>
-					<Image src={SoilTestBefore1} alt={SoilTestBefore1} />
-				</div>
-				<div className={styles.imageContainer}>
-					<h4>After</h4>
-					<Image src={SoilTestAfter1} alt={SoilTestAfter1} />
+					<div className={styles.card}>
+						<h4>Before</h4>
+						<Image src={SoilTestBefore1} alt={SoilTestBefore1} />
+					</div>
+					<div className={styles.card}>
+						<h4>After</h4>
+						<Image src={SoilTestAfter1} alt={SoilTestAfter1} />
+					</div>
 				</div>
 			</section>
-
-			<section className={styles.section}>
+			<section className={styles.soilResults}>
 				<h3>Field 2</h3>
 				<div className={styles.imageContainer}>
-					<h4>Before</h4>
-					<Image src={SoilTestBefore2} alt={SoilTestBefore1} />
-				</div>
-				<div className={styles.imageContainer}>
-					<h4>After</h4>
-					<Image src={SoilTestAfter2} alt={SoilTestAfter2} />
+					<div className={styles.card}>
+						<h4>Before</h4>
+						<Image src={SoilTestBefore2} alt={SoilTestBefore1} />
+					</div>
+					<div className={styles.card}>
+						<h4>After</h4>
+						<Image src={SoilTestAfter2} alt={SoilTestAfter2} />
+					</div>
 				</div>
 			</section>
 		</div>

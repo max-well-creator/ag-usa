@@ -1,4 +1,6 @@
 .container {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
   font-family: 'Helvetica Neue', sans-serif;
   line-height: 1.7;
@@ -6,6 +8,10 @@
   background-color: #fdfdfd;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+
+  section {
+    margin-bottom: 1.5em;
+  }
 
   p {
     margin-bottom: 1em;
@@ -29,7 +35,9 @@
   }
 }
 
+/* Headings and Subheadings */
 .heading {
+  margin-bottom: 0.5em;
   font-size: 1.5em;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
