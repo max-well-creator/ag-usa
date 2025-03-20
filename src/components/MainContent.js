@@ -2,6 +2,9 @@
 import { useRouter } from "next/navigation";
 import styles from "../styles/MainContent.module.scss";
 import HomeHeader from "./Home/Home-Header";
+import TestimonialCarousel from "./Testimonials/TestimonialCarousel";
+import refactoredTestimonials from "../data/testimonials";
+import MycorrPlusTestimonials from "./Testimonials/Testimonials";
 
 const MainContent = () => {
 	const router = useRouter();
@@ -48,13 +51,17 @@ const MainContent = () => {
 				</button>
 			</div>
 
-			<div className={styles.gallery}>
+			<div className={styles.evidence}>
 				<h2>See the Results</h2>
 				<p>
 					Swipe through our photo gallery to view before-and-after images of
 					fields transformed by Mycorr Plus.
 				</p>
 				{/* Gallery component or image slider goes here */}
+			</div>
+			<div className={styles.evidence}>
+				<h2>Still Need Convincing?</h2>
+				<MycorrPlusTestimonials />
 			</div>
 		</section>
 	);

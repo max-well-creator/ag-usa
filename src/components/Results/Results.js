@@ -53,31 +53,6 @@ const MycorrPlusSoilLabs = () => {
 					<Image src={SoilTestAfter2} alt={SoilTestAfter2} />
 				</div>
 			</section>
-
-			<section className={styles.section}>
-				<p>
-					MycorrPlus is emerging as a breakthrough for pasture and crop
-					production. Call us today for more information!
-				</p>
-				<h2>Learn More</h2>
-				<ul className={styles.linkList}>
-					<li>
-						<Link href="/7-keys-for-activating-carbon-sequestration">
-							7 Keys for Activating Carbon Sequestration
-						</Link>
-					</li>
-					<li>
-						<Link href="/benefits-of-using-mycorrplus">
-							Benefits of Using MycorrPlus
-						</Link>
-					</li>
-					<li>
-						<Link href="/acresusa-interview">
-							AcresUSA Interview with Dr. Christine Jones
-						</Link>
-					</li>
-				</ul>
-			</section>
 		</div>
 	);
 };

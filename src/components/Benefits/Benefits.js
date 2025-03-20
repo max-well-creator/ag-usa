@@ -5,7 +5,7 @@ import styles from "./Benefits.module.scss";
 const BenefitsOfMycorrPlus = () => {
 	return (
 		<div className={styles.container}>
-			<h1>Benefits of MycorrPlus (formerly GroPal Balance)</h1>
+			<h1>Benefits of MycorrPlus</h1>
 
 			<section className={styles.section}>
 				<h2>Keep Your Crops Growing When It’s Hot and Dry</h2>
@@ -19,16 +19,6 @@ const BenefitsOfMycorrPlus = () => {
 						dormant, the MycorrPlus grass just kept coming on."
 					</p>
 				</blockquote>
-				<p>
-					<Link href="/video-transcription" className={styles.link}>
-						View 4-min video transcription
-					</Link>
-				</p>
-				<p>
-					<Link href="/more-videos" className={styles.link}>
-						Watch more MycorrPlus videos
-					</Link>
-				</p>
 			</section>
 
 			<section className={styles.section}>
@@ -61,11 +51,6 @@ const BenefitsOfMycorrPlus = () => {
 				<p>
 					With Soil Balance, organic matter increases year‑after‑year, boosting
 					cation exchange and nutrient availability.
-				</p>
-				<p>
-					<Link href="/side-by-side-photos" className={styles.link}>
-						View side-by-side photos
-					</Link>
 				</p>
 			</section>
 
@@ -111,31 +96,6 @@ const BenefitsOfMycorrPlus = () => {
 					<li>Increased milk production</li>
 					<li>Better overall health</li>
 				</ul>
-			</section>
-
-			<section className={styles.centerSection}>
-				<p>
-					<Link href="/contact" className={styles.link}>
-						Contact us with your questions
-					</Link>
-				</p>
-				<p>
-					<Link
-						href="/purchase-mycorrplus"
-						className={`${styles.link} ${styles.boldLink}`}>
-						Purchase MycorrPlus
-					</Link>
-				</p>
-			</section>
-
-			<section className={styles.section}>
-				<h2>Get Inspired</h2>
-				<p>Read this article and let it inspire you:</p>
-				<p>
-					<Link href="/dr-christine-jones-interview" className={styles.link}>
-						Dr. Christine Jones’ article on building more carbon in our soils
-					</Link>
-				</p>
 			</section>
 		</div>
 	);

@@ -42,23 +42,6 @@ const MycorrPlusROI = () => {
 					soil particles together to form rich, stable topsoil.
 				</p>
 			</section>
-
-			<section className={styles.sectionCenter}>
-				<Link href="/contact">
-					<span>
-						Call 1-888-588-3139 to speak with a soil health consultant
-					</span>
-				</Link>
-				<Link href="/contact">
-					<span>Email us at info@ag-usa.net</span>
-				</Link>
-				<Link href="/purchase-mycorrplus">
-					<span className={styles.boldLink}>Purchase MycorrPlus now!</span>
-				</Link>
-				<Link href="/other-products">
-					<span>View our full product line</span>
-				</Link>
-			</section>
 		</div>
 	);
 };

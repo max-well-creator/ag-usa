@@ -1,62 +1,57 @@
 import React from "react";
+import Image from "next/image";
 import BenefitsOfMycorrPlus from "../Benefits/Benefits";
 import Functionality from "../Functionality/Functionality";
 import MycorrPlusInstructions from "../ApplicationInstructions/Instructions";
-import styles from "./MycorrPlus.module.scss";
 import MycorrPlusROI from "../GreatValue/GreatValue";
 import MycorrPlusTestimonials from "../Testimonials/Testimonials";
 import MycorrPlusSoilLabs from "../Results/Results";
 import MycorrPlusOrganic from "../Organic/Organic";
+import styles from "./MycorrPlus.module.scss";
+
 import treated from "../../../public/images/home/GrassHayTreated.webp";
 import untreated from "../../../public/images/home/GrassHayUntreated.webp";
-import Image from "next/image";
 
 const imageSize = 400;
+
+const Section = ({ title, children }) => (
+	<section className={styles.section}>
+		<h2 className={styles.sectionTitle}>{title}</h2>
+		{children}
+	</section>
+);
+
+const FieldBlock = ({ title, description, image, altText }) => (
+	<div className={styles.fieldBlock}>
+		<h2>{title}</h2>
+		<p>{description}</p>
+		<Image src={image} alt={altText} width={imageSize} height={imageSize} />
+	</div>
+);
 
 const MycorrPlus = () => {
 	return (
 		<div className={styles.container}>
 			<h1 className={styles.title}>Mycorr Plus™</h1>
+			<MycorrPlusOrganic />
 
 			<article>
-				<h1>MycorrPlus</h1>
 				<div className={styles.field}>
-					<div className={styles.untreated}>
-						<h2>Untreated Field</h2>
-						<p>
-							Tight, compacted soil with anaerobic bacteria, no earthworms, and
-							reduced plant growth.
-						</p>
-						<Image
-							src={untreated}
-							alt="Grass Hay Without MycorrPlus"
-							width={imageSize}
-							height={imageSize}
-						/>
-					</div>
-					<div className={styles.treated}>
-						<h2>Treated Field</h2>
-						<p>
-							Flocculated, crumbly soil with aerobic bacteria, plenty of
-							earthworms, and increased plant growth.
-						</p>
-						<Image
-							src={treated}
-							alt="Grass Hay With MycorrPlus"
-							width={imageSize}
-							height={imageSize}
-						/>
-					</div>
-				</div>
-
-				<div className={styles.testimonial}>
-					<h3>Testimonial</h3>
-					<p>
-						"After treating half my pasture with Soil Balance in the fall, the
-						cattle clearly preferred the treated grass over the untreated."
-					</p>
+					<FieldBlock
+						title="Untreated Field"
+						description="Tight, compacted soil with anaerobic bacteria, no earthworms, and reduced plant growth."
+						image={untreated}
+						altText="Grass Hay Without MycorrPlus"
+					/>
+					<FieldBlock
+						title="Treated Field"
+						description="Flocculated, crumbly soil with aerobic bacteria, plenty of earthworms, and increased plant growth."
+						image={treated}
+						altText="Grass Hay With MycorrPlus"
+					/>
 				</div>
 			</article>
+
 			<p className={styles.intro}>
 				Would you like to build dark, rich topsoil? AG-USA's MycorrPlus-A and
 				MycorrPlus-O prompt an incredible amount of carbon sequestration into
@@ -73,26 +68,7 @@ const MycorrPlus = () => {
 				They combine two products—Soil Balance and GroPal (also marketed as
 				Ocean Trace).
 			</p>
-
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>Soil Balance</h2>
-				<p>
-					A blend of ingredients including humic and fulvic acids that balances
-					both nutrients and energies in the soil.
-				</p>
-			</section>
-
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>GroPal</h2>
-				<p>
-					A sea mineral concentrate produced by evaporating 100 gallons of
-					Australian ocean water down to 1 gallon, packed with trace minerals
-					that supply both macro and micronutrients.
-				</p>
-			</section>
-
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>How MycorrPlus-A and O Work</h2>
+			<Section title="How MycorrPlus-A and O Work">
 				<p>
 					They form an “aerobic membrane” that holds and balances nutrients for
 					the plant. This process re-establishes the natural relationship
@@ -109,125 +85,22 @@ const MycorrPlus = () => {
 					Ultimately, MycorrPlus adjusts soil pH to near neutral without using
 					lime.
 				</p>
-			</section>
+			</Section>
 
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>
-					The Nutrient Package & Energy Balance
-				</h2>
+			<Section title="The Nutrient Package & Energy Balance">
 				<p>
 					When soil nutrients are balanced, its energy increases—boosting plant
 					growth. MycorrPlus delivers a comprehensive nutrient package that
 					raises soil energy and enhances plant development.
 				</p>
-			</section>
-
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>Give MycorrPlus a Try!</h2>
-				<p>
-					Test it on a small area before large-scale application. Avoid using
-					other products in that test area.
-				</p>
-				<p>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-						className={styles.link}>
-						View side by side soil results
-					</a>
-				</p>
-				<p>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-						className={styles.link}>
-						Photo gallery of treated vs. untreated fields
-					</a>
-				</p>
-				<p>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-						className={styles.link}>
-						Read an authoritative interview on soil transformation
-					</a>
-				</p>
-				<p>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-						className={styles.link}>
-						Watch video testimonials
-					</a>
-				</p>
-			</section>
-
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>Customer Testimonial</h2>
-				<p>
-					<strong>Pastor Andrew Curtiss, Shalom Vegetables in Michigan:</strong>
-				</p>
-				<p>
-					"My experience with GroPal Balance (MycorrPlus-A) was excellent. I
-					grow CSA and farm market vegetables on about 1 acre of land that had
-					been conventionally farmed for 30 years. On recommendation, I applied
-					40 oz of GroPal Balance A in May 2015. I planted 75 lbs of seed
-					potatoes and harvested 1,200 lbs of potatoes. My shell peas produced
-					sweet peas for nearly 6 weeks, and our snap beans kept flowering long
-					after picking ceased. The produce was exceptional, and I received
-					weekly compliments at the farmers market. The product's ability to
-					help plants withstand stress—like 5 inches of rain in 2 days followed
-					by 21 days without rain—was truly remarkable. When it was time to tear
-					the garden down, I was amazed by the mycorrhizal fungi on the roots. I
-					firmly believe that the symbiotic relationship between plants and
-					roots was key to our success in 2015. God's creation is amazing!
-					Thanks for an awesome product."
-				</p>
-				<p>
-					You can further boost the process with natural products like fish or
-					kelp, although excellent results are achievable without them.
-				</p>
-			</section>
-
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>Good News!</h2>
-				<p>We offer product applications that fit every budget.</p>
-			</section>
-
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>How It Works</h2>
-				<Functionality />
-			</section>
-
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>Benefits</h2>
-				<BenefitsOfMycorrPlus />
-			</section>
-
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>Application</h2>
-				<MycorrPlusInstructions />
-			</section>
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>ROI</h2>
-				<MycorrPlusROI />
-			</section>
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>Mycorr Plus Testimonials</h2>
-				<MycorrPlusTestimonials />
-			</section>
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>Soil Lab Results</h2>
-				<MycorrPlusSoilLabs />
-			</section>
-			<section className={styles.section}>
-				<h2 className={styles.sectionTitle}>Organic Certifications</h2>
-				<MycorrPlusOrganic />
-			</section>
+			</Section>
+			<Functionality />
+			<BenefitsOfMycorrPlus />
+			{/* TODO: ADD THE 33 BENEFITS OF MYCORR PLUS ARTICLE */}
+			<MycorrPlusInstructions />
+			<MycorrPlusROI />
+			<MycorrPlusTestimonials />
+			<MycorrPlusSoilLabs />
 		</div>
 	);
 };

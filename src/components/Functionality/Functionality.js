@@ -80,15 +80,6 @@ const Functionality = () => {
 					community that builds stable, moisture-retentive soil.
 				</p>
 			</section>
-
-			<section className={styles.cta}>
-				<Link href="/purchase-mycorrplus">
-					<span className={styles.link}>Purchase MycorrPlus™</span>
-				</Link>
-				<Link href="/dr-christine-jones-interview">
-					<span className={styles.link}>Read Dr. Jones' Interview</span>
-				</Link>
-			</section>
 		</div>
 	);
 };

@@ -1,3 +1,5 @@
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import Navigation from "../components/Navigation";
 import "../styles/globals.css";
 import styles from "../styles/Layout.module.scss";
