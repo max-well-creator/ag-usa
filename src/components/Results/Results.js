@@ -6,6 +6,7 @@ import SoilTestAfter2 from "../../../public/images/labs/SoilTestAfterField2.webp
 import SoilTestBefore1 from "../../../public/images/labs/SoilTestBeforeField1.webp";
 import SoilTestBefore2 from "../../../public/images/labs/SoilTestBeforeField2.webp";
 import Image from "next/image";
+import ImageColumns from "../Shared/ImageColumns/ImageColumns";
 
 const MycorrPlusSoilLabs = () => {
 	return (
@@ -27,33 +28,20 @@ const MycorrPlusSoilLabs = () => {
 					decreases.
 				</p>
 			</section>
-
-			<section className={styles.soilResults}>
-				<h3>Field 1</h3>
-				<div className={styles.imageContainer}>
-					<div className={styles.card}>
-						<h4>Before</h4>
-						<Image src={SoilTestBefore1} alt={SoilTestBefore1} />
-					</div>
-					<div className={styles.card}>
-						<h4>After</h4>
-						<Image src={SoilTestAfter1} alt={SoilTestAfter1} />
-					</div>
-				</div>
-			</section>
-			<section className={styles.soilResults}>
-				<h3>Field 2</h3>
-				<div className={styles.imageContainer}>
-					<div className={styles.card}>
-						<h4>Before</h4>
-						<Image src={SoilTestBefore2} alt={SoilTestBefore1} />
-					</div>
-					<div className={styles.card}>
-						<h4>After</h4>
-						<Image src={SoilTestAfter2} alt={SoilTestAfter2} />
-					</div>
-				</div>
-			</section>
+			<ImageColumns
+				firstImg={SoilTestBefore1}
+				secondImg={SoilTestAfter1}
+				imagesTitle="Field 1"
+				firstImgHeading="Before"
+				secondImgHeading="After"
+			/>
+			<ImageColumns
+				firstImg={SoilTestBefore2}
+				secondImg={SoilTestAfter2}
+				imagesTitle="Field 2"
+				firstImgHeading="Before"
+				secondImgHeading="After"
+			/>
 		</div>
 	);
 };

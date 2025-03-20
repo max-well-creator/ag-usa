@@ -1,20 +1,5 @@
 @use '../../styles/mixins';
-.soilResults {
-  h3 {
-    text-align: center;
-  }
-  .imageContainer {
-    justify-content: space-around;
-    display: flex;
-    text-align: center;
-    margin-bottom: 20px;
-    .card {
-    }
-    img {
-      max-width: 90%;
-      height: auto;
-    }
-}
+
 .container {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -55,4 +40,4 @@
       }
     }
   }
-}
+
