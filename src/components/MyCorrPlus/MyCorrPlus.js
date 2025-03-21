@@ -32,8 +32,14 @@ const FieldBlock = ({ title, description, image, altText }) => (
 const MycorrPlus = () => {
 	return (
 		<div className={styles.container}>
-			<h1 className={styles.title}>Mycorr Plus™</h1>
+			<h1 className={styles.title}> About Mycorr Plus™</h1>
+			<h2>Helps keep your moisture.</h2>
 			<MycorrPlusOrganic />
+
+			<p>
+				Mycorr Plus, organic matter increases year‑after‑year, boosting cation
+				exchange and nutrient availability.
+			</p>
 
 			<article>
 				<div className={styles.field}>

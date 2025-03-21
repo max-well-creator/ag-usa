@@ -21,38 +21,29 @@ const BenefitsOfMycorrPlus = () => {
 				</blockquote>
 			</section>
 
-			<section className={styles.section}>
-				<h2>Challenges with Weak Soils</h2>
-				<ul>
-					<li>Weak soils cause issues</li>
-					<li>Persistent weed problems</li>
-					<li>Water runs off instead of soaking in</li>
-					<li>Low production</li>
-					<li>Poor animal health</li>
-				</ul>
-			</section>
+			<div className={styles.twoColumn}>
+				<section className={styles.section}>
+					<h2>Challenges with Weak Soils</h2>
+					<ul>
+						<li>Weak soils cause issues</li>
+						<li>Persistent weed problems</li>
+						<li>Water runs off instead of soaking in</li>
+						<li>Low production</li>
+						<li>Poor animal health</li>
+					</ul>
+				</section>
 
-			<section className={styles.section}>
-				<h2>Results of Healthy Soil</h2>
-				<ul>
-					<li>Nutrients become readily available</li>
-					<li>Increased organic matter</li>
-					<li>More nutritious plants</li>
-					<li>Higher yields</li>
-					<li>Healthier, more productive livestock</li>
-				</ul>
-			</section>
-
-			<section className={styles.centerSection}>
-				<h2>Could One Product Help Keep Your Moisture? Yes!</h2>
-			</section>
-
-			<section className={styles.section}>
-				<p>
-					With Soil Balance, organic matter increases year‑after‑year, boosting
-					cation exchange and nutrient availability.
-				</p>
-			</section>
+				<section className={styles.section}>
+					<h2>Results of Healthy Soil</h2>
+					<ul>
+						<li>Nutrients become readily available</li>
+						<li>Increased organic matter</li>
+						<li>More nutritious plants</li>
+						<li>Higher yields</li>
+						<li>Healthier, more productive livestock</li>
+					</ul>
+				</section>
+			</div>
 
 			<section className={styles.section}>
 				<h2>Freeing Tied-Up Nutrients</h2>
@@ -67,36 +58,45 @@ const BenefitsOfMycorrPlus = () => {
 				</p>
 			</section>
 
-			<section className={styles.section}>
-				<h2>How to Evaluate MycorrPlus</h2>
-				<h3>Visible Results</h3>
-				<ul>
-					<li>Fewer weeds</li>
-					<li>Less standing water</li>
-					<li>Reduced compaction</li>
-					<li>Lower visible salts</li>
-				</ul>
-				<h3>Soil Tests</h3>
-				<ul>
-					<li>Lower nematode counts</li>
-					<li>Higher organic matter</li>
-					<li>Increased CEC</li>
-				</ul>
-				<h3>Vegetation Changes</h3>
-				<ul>
-					<li>Higher protein levels</li>
-					<li>Improved RFV</li>
-					<li>Increased yields</li>
-					<li>Higher Brix readings</li>
-				</ul>
-				<h3>Livestock Improvements</h3>
-				<ul>
-					<li>Stronger calves at birth</li>
-					<li>Faster weight gain</li>
-					<li>Increased milk production</li>
-					<li>Better overall health</li>
-				</ul>
-			</section>
+			<h2>How to Evaluate MycorrPlus</h2>
+			<div className={styles.twoColumn}>
+				<section className={styles.section}>
+					<h3>Visible Results</h3>
+					<ul>
+						<li>Fewer weeds</li>
+						<li>Less standing water</li>
+						<li>Reduced compaction</li>
+						<li>Lower visible salts</li>
+					</ul>
+				</section>
+				<section className={styles.section}>
+					<h3>Soil Tests</h3>
+					<ul>
+						<li>Lower nematode counts</li>
+						<li>Higher organic matter</li>
+						<li>Increased CEC</li>
+					</ul>
+				</section>
+				<section className={styles.section}>
+					<h3>Vegetation Changes</h3>
+					<ul>
+						<li>Higher protein levels</li>
+						<li>Improved RFV</li>
+						<li>Increased yields</li>
+						<li>Higher Brix readings</li>
+					</ul>
+				</section>
+
+				<section className={styles.section}>
+					<h3>Livestock Improvements</h3>
+					<ul>
+						<li>Stronger calves at birth</li>
+						<li>Faster weight gain</li>
+						<li>Increased milk production</li>
+						<li>Better overall health</li>
+					</ul>
+				</section>
+			</div>
 		</div>
 	);
 };

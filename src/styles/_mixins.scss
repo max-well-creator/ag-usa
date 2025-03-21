@@ -1,5 +1,11 @@
 @use 'colors';
 // _mixins.scss
+
+@mixin around_flex_wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 @mixin border_radius {
   border-radius: 20px;
 }
