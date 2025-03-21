@@ -14,6 +14,7 @@ import untreated from "../../../public/images/home/GrassHayUntreated.webp";
 
 const imageSize = 400;
 
+// Reusable Section Component
 const Section = ({ title, children }) => (
 	<section className={styles.section}>
 		<h2 className={styles.sectionTitle}>{title}</h2>
@@ -21,6 +22,7 @@ const Section = ({ title, children }) => (
 	</section>
 );
 
+// Component for displaying field comparisons
 const FieldBlock = ({ title, description, image, altText }) => (
 	<div className={styles.fieldBlock}>
 		<h2>{title}</h2>
@@ -32,81 +34,90 @@ const FieldBlock = ({ title, description, image, altText }) => (
 const MycorrPlus = () => {
 	return (
 		<div className={styles.container}>
-			<h1 className={styles.title}> About Mycorr Plus™</h1>
-			<h2>Helps keep your moisture.</h2>
-			<MycorrPlusOrganic />
+			{/* Introduction */}
+			<header className={styles.header}>
+				<h1 className={styles.title}>About Mycorr Plus™</h1>
+				<h2 className={styles.subtitle}>Helps keep your moisture.</h2>
+				<MycorrPlusOrganic />
+				<p>
+					By increasing organic matter year‑after‑year to boost cation exchange
+					and nutrient availability, Mycorr Plus delivers a comprehensive
+					nutrient package that balances soil nutrients, raises soil energy, and
+					ultimately enhances plant growth and development.
+				</p>
 
-			<p>
-				Mycorr Plus, organic matter increases year‑after‑year, boosting cation
-				exchange and nutrient availability.
-			</p>
+				<section className={styles.benefitsSection}>
+					<BenefitsOfMycorrPlus />
+				</section>
+			</header>
 
-			<article>
-				<div className={styles.field}>
-					<FieldBlock
-						title="Untreated Field"
-						description="Tight, compacted soil with anaerobic bacteria, no earthworms, and reduced plant growth."
-						image={untreated}
-						altText="Grass Hay Without MycorrPlus"
-					/>
-					<FieldBlock
-						title="Treated Field"
-						description="Flocculated, crumbly soil with aerobic bacteria, plenty of earthworms, and increased plant growth."
-						image={treated}
-						altText="Grass Hay With MycorrPlus"
-					/>
-				</div>
+			{/* Visual Comparison of Fields */}
+			<article className={styles.fieldComparison}>
+				<FieldBlock
+					title="Untreated Field"
+					description="Tight, compacted soil with anaerobic bacteria, no earthworms, and reduced plant growth."
+					image={untreated}
+					altText="Grass Hay Without MycorrPlus"
+				/>
+				<FieldBlock
+					title="Treated Field"
+					description="Flocculated, crumbly soil with aerobic bacteria, plenty of earthworms, and increased plant growth."
+					image={treated}
+					altText="Grass Hay With MycorrPlus"
+				/>
 			</article>
 
-			<p className={styles.intro}>
-				Would you like to build dark, rich topsoil? AG-USA's MycorrPlus-A and
-				MycorrPlus-O prompt an incredible amount of carbon sequestration into
-				the soil—the fastest and best way to create new topsoil. Learn why
-				secreting sugars (carbon) through plant roots can build topsoil up to 10
-				times faster than compost.
-			</p>
-			<p>
-				MycorrPlus-A and O provide the perfect environment for plants by
-				delivering all the nutrients needed for optimum productivity and
-				nutrient density.
-			</p>
-			<p>
-				They combine two products—Soil Balance and GroPal (also marketed as
-				Ocean Trace).
-			</p>
+			{/* Topsoil & Benefits Introduction */}
+			<section className={styles.introSection}>
+				<p className={styles.intro}>
+					Would you like to build dark, rich topsoil? AG-USA's MycorrPlus-A and
+					MycorrPlus-O prompt an incredible amount of carbon sequestration—the
+					fastest and best way to create new topsoil. Learn why secreting sugars
+					(carbon) through plant roots can build topsoil up to 10 times faster
+					than compost.
+				</p>
+				<p>
+					MycorrPlus-A and O provide the perfect environment for plants by
+					delivering all the nutrients needed for optimum productivity and
+					nutrient density.
+				</p>
+			</section>
+
+			{/* How It Works */}
 			<Section title="How MycorrPlus-A and O Work">
 				<p>
-					They form an “aerobic membrane” that holds and balances nutrients for
-					the plant. This process re-establishes the natural relationship
-					between soil and plant by introducing beneficial bacteria, fungi, and
-					other soil organisms—using molasses as an energy source.
+					Using molasses as an energy source, MycorrPlus creates an aerobic
+					membrane that balances nutrients by introducing beneficial bacteria,
+					fungi, and other soil organisms. As these microbes flush out toxins
+					and digest chemicals, they convert anaerobic soil to aerobic,
+					flocculating plant-secreted sugars to form vital air spaces.{" "}
 				</p>
 				<p>
-					As these microbes digest chemicals and flush out toxins, anaerobic
-					soil converts to aerobic soil. Their multiplication and the fixation
-					of plant-secreted sugars flocculate the soil, creating vital air
-					spaces for water and nutrient flow.
-				</p>
-				<p>
-					Ultimately, MycorrPlus adjusts soil pH to near neutral without using
-					lime.
+					Ultimately, MycorrPlus neutralizes soil pH without lime and prompts
+					plants to secrete liquid carbon, fueling microbes that release
+					nutrients and build rich topsoil.
 				</p>
 			</Section>
 
-			<Section title="The Nutrient Package & Energy Balance">
-				<p>
-					When soil nutrients are balanced, its energy increases—boosting plant
-					growth. MycorrPlus delivers a comprehensive nutrient package that
-					raises soil energy and enhances plant development.
-				</p>
-			</Section>
-			<Functionality />
-			<BenefitsOfMycorrPlus />
-			{/* TODO: ADD THE 33 BENEFITS OF MYCORR PLUS ARTICLE */}
-			<MycorrPlusInstructions />
-			<MycorrPlusROI />
-			<MycorrPlusTestimonials />
-			<MycorrPlusSoilLabs />
+			{/* Functionality & Benefits */}
+			<section className={styles.functionalitySection}>
+				<Functionality />
+			</section>
+
+			{/* Application Instructions */}
+			<section className={styles.instructionsSection}>
+				<MycorrPlusInstructions />
+			</section>
+
+			{/* Testimonials */}
+			<section className={styles.testimonialsSection}>
+				<MycorrPlusTestimonials />
+			</section>
+
+			{/* Soil Lab Results */}
+			<section className={styles.resultsSection}>
+				<MycorrPlusSoilLabs />
+			</section>
 		</div>
 	);
 };
