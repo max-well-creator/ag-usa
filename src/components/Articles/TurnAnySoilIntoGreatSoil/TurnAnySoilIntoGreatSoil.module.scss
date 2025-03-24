@@ -1,0 +1,98 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+
+  .date {
+    font-size: 0.9rem;
+    color: #888;
+  }
+
+  .author {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .subtitle,
+  .intro {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+}
+
+.section {
+  margin-bottom: 2rem;
+
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  ul,
+  ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.callToAction {
+  text-align: center;
+  margin: 2rem 0;
+
+  .phone {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer {
+  border-top: 1px solid #ccc;
+  padding-top: 1.5rem;
+  text-align: center;
+
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 0.8rem;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -7,16 +7,98 @@ const AGUSAMagazineLinks = () => {
 		<div className={styles.container}>
 			<h1>AG-USA Magazine Articles</h1>
 			<div className={styles.completed}>
-				<h1>Articles Completed</h1>
+				<h2>
+					Recent Articles (in progress) - The links in this section are working
+				</h2>
 				<li>
 					<Link href="/Articles/33Benefits" className={styles.link}>
 						33 Benefits of Carbon Sequestration
 					</Link>
 				</li>
+				<li>
+					<Link
+						href="/Articles/NaturesFertilitySolutions"
+						className={styles.link}>
+						Tapping into Nature's Fertility Solutions
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/IncreasingRootMass" className={styles.link}>
+						Increasing Root Mass for Better Nutrient Uptake
+					</Link>
+				</li>
+				<li>
+					<Link
+						href="/Articles/TurnAnySoilIntoGreatSoil"
+						className={styles.link}>
+						Turn Any Soil Into Great Soil
+					</Link>
+				</li>
+				<li>
+					<Link
+						href="/Articles/CreatingSustainingAerobicSoil"
+						className={styles.link}>
+						Creating and Sustaining Aerobic Soil
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/FlavorNutrientDensity" className={styles.link}>
+						In Pursuit of Flavor AND Nutrient Density
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/MycorrhizalFungi" className={styles.link}>
+						Why Pastures and Hay Need Mycorrhizal Fungi
+					</Link>
+				</li>
+				<li>
+					<Link
+						href="/Articles/LearnSecretToTransformSoil"
+						className={styles.link}>
+						Learn the Secret of Transforming Your Soil
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/EnrichYourSoil" className={styles.link}>
+						A More Affordable Way to Enrich the Soil
+					</Link>
+				</li>
+				<li>
+					<Link
+						href="/Articles/ImprovedSoilBetterWeightGains"
+						className={styles.link}>
+						Improved Soil, for Better Weight Gains and Fertility
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/LargerRootMass" className={styles.link}>
+						Larger Root Mass - A Great Place to Begin!
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/LargerRoots" className={styles.link}>
+						Larger Roots and Better Moisture Retention
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/RetainMoisture" className={styles.link}>
+						Retain Moisture AND Get Rid of Compaction
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/Biostimulant" className={styles.link}>
+						What a Bio-stimulant Can Do for You
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/Interview" className={styles.link}>
+						Walter Jehne Interview, Acres U.S.A. April 2019
+					</Link>
+				</li>
 			</div>
 
 			<section className={styles.section}>
-				<h2>Recent Articles</h2>
+				<h2>Can't abstract text from PDF</h2>
 				<ul>
 					<li>
 						<Link
@@ -30,102 +112,6 @@ const AGUSAMagazineLinks = () => {
 							href="/articles/trace-minerals-vanishing-pg2"
 							className={styles.link}>
 							Trace Minerals are Vanishing – pg.2
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/walter-jehne-interview"
-							className={styles.link}>
-							Walter Jehne Interview, Acres U.S.A. April 2019
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/next-soil-success-story"
-							className={styles.link}>
-							Be Our Next Soil Success Story
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/tapping-natures-fertility"
-							className={styles.link}>
-							Tapping into Nature's Fertility Solutions
-						</Link>
-					</li>
-					<li>
-						<Link href="/articles/turn-soil-great" className={styles.link}>
-							Turn Any Soil Into Great Soil
-						</Link>
-					</li>
-					<li>
-						<Link href="/articles/increase-root-mass" className={styles.link}>
-							Increasing Root Mass for Better Nutrient Uptake
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/creating-aerobic-soil"
-							className={styles.link}>
-							Creating and Sustaining Aerobic Soil
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/flavor-and-nutrient-density"
-							className={styles.link}>
-							In Pursuit of Flavor AND Nutrient Density
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/must-have-mycorrhizal"
-							className={styles.link}>
-							Why Pastures and Hay Need Mycorrhizal Fungi
-						</Link>
-					</li>
-					<li>
-						<Link href="/articles/transform-your-soil" className={styles.link}>
-							Learn the Secret of Transforming Your Soil
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/affordable-soil-enrichment"
-							className={styles.link}>
-							A More Affordable Way to Enrich the Soil
-						</Link>
-					</li>
-					<li>
-						<Link href="/articles/improved-soil-yields" className={styles.link}>
-							Improved Soil, for Better Weight Gains and Fertility
-						</Link>
-					</li>
-					<li>
-						<Link href="/articles/larger-root-mass" className={styles.link}>
-							Larger Root Mass - A Great Place to Begin!
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/better-moisture-retention"
-							className={styles.link}>
-							Larger Roots and Better Moisture Retention
-						</Link>
-					</li>
-
-					<li>
-						<Link
-							href="/articles/retain-moisture-compaction"
-							className={styles.link}>
-							Retain Moisture AND Get Rid of Compaction
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/what-bio-stimulants-can-do"
-							className={styles.link}>
-							What a Bio-stimulant Can Do for You
 						</Link>
 					</li>
 				</ul>
@@ -166,13 +152,6 @@ const AGUSAMagazineLinks = () => {
 			<section className={styles.section}>
 				<h2>Articles from 2017</h2>
 				<ul>
-					<li>
-						<Link
-							href="/articles/33-benefits-activating-carbon-sequestration"
-							className={styles.link}>
-							33 Benefits of Activating Carbon Sequestration
-						</Link>
-					</li>
 					<li>
 						<Link
 							href="/articles/7-keys-for-wonderful-soil"
@@ -233,11 +212,11 @@ const AGUSAMagazineLinks = () => {
 			</section>
 
 			<section className={styles.section}>
-				<h2>Other AG-USA Websites</h2>
+				<h2>Other AG-USA Websites (these link are working)</h2>
 				<ul>
 					<li>
 						<a
-							href="http://www.healthy-vegetable-gardening.com"
+							href="http://www.healthyvegetablegardening.com"
 							target="_blank"
 							rel="noopener noreferrer"
 							className={styles.link}>
@@ -263,14 +242,6 @@ const AGUSAMagazineLinks = () => {
 						</a>
 					</li>
 				</ul>
-			</section>
-
-			<section className={styles.section}>
-				<h2>Inspiring Stories</h2>
-				<p>
-					Read the story of Fidel’s miraculous recovery after taking our Ocean
-					Treasure supplement.
-				</p>
 			</section>
 		</div>
 	);
