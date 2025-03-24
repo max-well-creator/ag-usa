@@ -3,6 +3,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import Navigation from "../components/Navigation";
 import "../styles/globals.css";
 import styles from "../styles/Layout.module.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export const metadata = {
 	title: "Create Next App",

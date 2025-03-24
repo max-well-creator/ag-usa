@@ -18,7 +18,7 @@ export default function TestimonialCarousel() {
 				{refactoredTestimonials.map((testimonial, index) => {
 					const { name, location, results, summary } = testimonial;
 					return (
-						<MDBCarouselItem className=" text-center">
+						<MDBCarouselItem key={index} className=" text-center">
 							<MDBRow className="d-flex justify-content-center">
 								<MDBCol lg="8">
 									<h5 className="mb-3">{name}</h5>
