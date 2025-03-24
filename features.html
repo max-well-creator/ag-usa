@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Key Features Concept</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+    }
+    .features-container {
+      color: white;
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+      max-width: 90%; /* More flexible */
+      min-height: 300px;
+      padding: 50px;
+      background-image: url('https://www.ag-usa.net/images/GrassHayUntreated.jpg');
+      background-size: cover;
+      position: relative; /* For z-index */
+      z-index: 300;
+      border-radius: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 20px; /* Space buttons */
+      align-items: center;
+    }
+    .below-fold-container {
+      color: white;
+      max-width: 90%;
+      min-height: 500px;
+      margin: 50px auto;
+      padding: 20px;
+      background-image: url('https://www.ag-usa.net/images/img10B.jpg');
+      background-size: cover;
+      border-radius: 10px;
+      text-shadow: 3px 3px 3px rgba(0,0,0,0.7);
+      display: flex;
+      align-items: center;
+    }
+    .feature-btn {
+      padding: 15px 30px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+      width: 100%;
+      max-width: 300px;
+      margin: 0;
+    }
+    .feature-card {
+      max-width: 90%;
+      padding: 15px 30px;
+      margin: 10px auto;
+      background-color: #012e0c94;
+      color: white;
+      border-radius: 10px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+      transition: transform 0.3s ease;
+    }
+    .feature-card:hover {
+      transform: scale(1.02); /* Subtle hover */
+    }
+    .feature-btn:hover {
+      background-color: #0056b3;
+    }
+    .feature-panel {
+      position: fixed;
+      right: -100%;
+      width: 100%;
+      height: 60%; /* Slightly taller */
+      background-size: 90%;
+      background-position: center;
+      transition: right 0.7s ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+      padding: 20px;
+      z-index: 1000;
+      border-radius: 10px;
+    }
+    .feature-panel.active {
+      right: 0;
+    }
+    .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      border: none;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .close-btn:hover {
+      background-color: #dc3545; /* Red to distinguish */
+    }
+    .next-btn { /* Fixed class name */
+      position: absolute;
+      top: 50%; 
+      right: 10%;
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .next-btn:hover {
+      background-color: #28a745; /* Green to match intent */
+    }
+    @media (max-width: 768px) {
+      .feature-btn {
+        width: calc(50% - 20px); /* Two per row */
+      }
+      .features-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .feature-panel {
+        height: 70%; /* More room on mobile */
+        font-size: 0.9rem;
+      }
+    }
+    @media (max-width: 480px) {
+      .feature-btn {
+        width: auto; /* Stack on small screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="features-container">
+    <h1>MyCorr Plus Features:</h1>
+    <button class="feature-btn" data-panel="panel1">Improved Drought Tolerance!</button>
+    <button class="feature-btn" data-panel="panel2">Healthier Roots!</button>
+    <button class="feature-btn" data-panel="panel3">Saves Money!</button>
+</div>
+
+  <div id="panel1" class="feature-panel" style="background-image: url('https://www.shutterstock.com/shutterstock/photos/2496594791/display_1500/stock-photo-tree-table-wood-podium-in-farm-display-for-food-perfume-and-other-products-on-nature-background-2496594791.jpg');">
+    <button class="close-btn">X</button>
+    <button class="next-btn">></button>
+    <div>
+      <h2>Improved drought tolerance!</h2>
+      <p>Floculated soils with decreased compaction hold water in a healthy way without bogging and choking your roots.</p>
+    </div>
+  </div>
+  <div id="panel2" class="feature-panel" style="background-image: url('https://www.shutterstock.com/shutterstock/photos/288687836/display_1500/stock-photo-grass-backround-288687836.jpg');">
+    <button class="close-btn">X</button>
+    <button class="next-btn">></button>
+    <div>
+      <h2>Stronger, healthier roots</h2>
+      <p>Strong roots are essential for productive crops. Mycorr Plus improves carbon sequestration.</p>
+    </div>
+  </div>
+  <div id="panel3" class="feature-panel" style="background-image: url('https://www.shutterstock.com/shutterstock/photos/2213392711/display_1500/stock-photo-beautiful-blurred-background-image-of-spring-nature-with-a-neatly-trimmed-lawn-surrounded-by-trees-2213392711.jpg');">
+    <button class="close-btn">X</button>
+    <button class="next-btn">></button>
+    <div>
+      <h2>Save money!</h2>
+      <p>Decreases the need for chemical fertilizers by making existing soil nutrients bioavailable.</p>
+    </div>
+  </div>
+
+  <div class="feature-card">
+    <h1>Click each feature to learn more!</h1>
+    Some Static Content down here.
+  </div>
+  <div class="below-fold-container">
+    <h1>Note how compacted the untreated soil on the right is.</h1>
+  </div>
+
+  <script>
+    const buttons = document.querySelectorAll('.feature-btn');
+    const panels = document.querySelectorAll('.feature-panel');
+    const closeButtons = document.querySelectorAll('.close-btn');
+    const nextButtons = document.querySelectorAll('.next-btn');
+
+    function getActiveIndex() {
+      return Array.from(panels).findIndex(p => p.classList.contains('active'));
+    }
+
+    function showPanel(index) {
+      panels.forEach(p => p.classList.remove('active'));
+      panels[index].classList.add('active');
+    }
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const panelId = btn.getAttribute('data-panel');
+        const panel = document.getElementById(panelId);
+        panels.forEach(p => p.classList.remove('active'));
+        panel.classList.add('active');
+      });
+    });
+
+    closeButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        panels.forEach(p => p.classList.remove('active'));
+      });
+    });
+
+    nextButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const currentIndex = getActiveIndex();
+        const nextIndex = currentIndex === -1 ? 0 : (currentIndex + 1) % panels.length;
+        showPanel(nextIndex);
+      });
+    });
+  </script>
+</body>
+</html>
