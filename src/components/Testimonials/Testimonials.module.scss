@@ -1,39 +1,12 @@
+// Testimonials.module.scss
 .container {
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #2c3e50;
-  }
-
-  p {
-    margin-bottom: 1rem;
-  }
-}
-
-.testimonial {
-  margin-top: 30px;
-
-  h2 {
-    font-size: 1.5rem;
-    color: #34495e;
-    margin-bottom: 0.5rem;
-  }
-
-  p {
-    margin-bottom: 0.75rem;
-  }
-}
-
-.cta {
-  margin-top: 30px;
+  padding: 1.5em;
+  border-radius: 8px;
   text-align: center;
-
+  margin-bottom: 2em;
   p {
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1em;
   }
 }

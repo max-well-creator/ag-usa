@@ -1,27 +1,45 @@
+// MycorrPlusInstructions.module.scss
 .container {
-  padding: 20px;
-  font-family: 'Helvetica Neue', sans-serif;
-  line-height: 1.7;
-  color: #333;
-  background-color: #fdfdfd;
+  padding: 1.5em;
   border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+}
 
-  p {
-    margin-bottom: 1em;
-  }
+.instruction {
+  margin-bottom: 1em;
+  font-size: 1rem;
+  color: #333;
+}
 
-  ul,
-  ol {
-    margin-left: 20px;
-    margin-bottom: 1em;
-  }
+.heading {
+  font-size: 1.5rem;
+  color: #4caf50;
+  margin-bottom: 0.5em;
+}
 
+.subheading {
+  font-size: 1.3rem;
+  color: #4caf50;
+  margin-bottom: 0.5em;
+}
+
+.subheadingSmall {
+  font-size: 1.1rem;
+  color: #388e3c;
+  margin-bottom: 0.5em;
+}
+
+.section {
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed #ddd;
+}
+
+.link {
+  margin-top: 10px;
   a {
     color: #1e90ff;
     text-decoration: none;
-    transition: color 0.3s ease;
-
     &:hover {
       color: #0056b3;
       text-decoration: underline;
@@ -29,31 +47,6 @@
   }
 }
 
-.heading {
-  font-size: 1.5em;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-  color: #4caf50;
-}
-
-.subheading {
-  font-size: 1.3em;
-  margin-top: 1.2em;
-  margin-bottom: 0.5em;
-  color: #4caf50;
-}
-
-.subheadingSmall {
-  font-size: 1.1em;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-  color: #388e3c;
-}
-
-.instruction {
+.challengeSection {
   margin-bottom: 1em;
-}
-
-.link {
-  margin-top: 10px;
 }

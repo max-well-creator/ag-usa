@@ -6,53 +6,33 @@ import SoilTestAfter2 from "../../../public/images/labs/SoilTestAfterField2.webp
 import SoilTestBefore1 from "../../../public/images/labs/SoilTestBeforeField1.webp";
 import SoilTestBefore2 from "../../../public/images/labs/SoilTestBeforeField2.webp";
 import Image from "next/image";
+import ImageColumns from "../Shared/ImageColumns/ImageColumns";
 
 const MycorrPlusSoilLabs = () => {
 	return (
 		<div className={styles.container}>
-			<h1 className={styles.title}>Mycorr Plus™ (formerly GroPal Balance)</h1>
-
 			<section className={styles.section}>
-				<h2>Soil Lab Results</h2>
 				<p>
-					View before-and-after soil tests from two fields in southern
-					Georgia/northern Florida.
-				</p>
-				<p>
-					In just 5 months after applying MycorrPlus, soil pH is neutral and
-					many nutrients are balanced. Full balance is achieved in about 2 years
-					with annual quart applications.
-				</p>
-				<p>
-					Note: Standard tests may not detect many trace minerals. Base
-					Saturation improves as calcium reaches 75–80% while hydrogen
-					decreases.
+					Soil tests from two fields in southern Georgia/northern Florida show
+					that MycorrPlus neutralizes pH and balances nutrients within 5
+					months—achieving full balance in 2 years—while base saturation
+					improves with calcium at 75–80%, even if trace minerals go undetected.
 				</p>
 			</section>
-
-			<section className={styles.section}>
-				<h3>Field 1</h3>
-				<div className={styles.imageContainer}>
-					<h4>Before</h4>
-					<Image src={SoilTestBefore1} alt={SoilTestBefore1} />
-				</div>
-				<div className={styles.imageContainer}>
-					<h4>After</h4>
-					<Image src={SoilTestAfter1} alt={SoilTestAfter1} />
-				</div>
-			</section>
-
-			<section className={styles.section}>
-				<h3>Field 2</h3>
-				<div className={styles.imageContainer}>
-					<h4>Before</h4>
-					<Image src={SoilTestBefore2} alt={SoilTestBefore1} />
-				</div>
-				<div className={styles.imageContainer}>
-					<h4>After</h4>
-					<Image src={SoilTestAfter2} alt={SoilTestAfter2} />
-				</div>
-			</section>
+			<ImageColumns
+				firstImg={SoilTestBefore1}
+				secondImg={SoilTestAfter1}
+				imagesTitle="Field 1"
+				firstImgHeading="Before"
+				secondImgHeading="After"
+			/>
+			<ImageColumns
+				firstImg={SoilTestBefore2}
+				secondImg={SoilTestAfter2}
+				imagesTitle="Field 2"
+				firstImgHeading="Before"
+				secondImgHeading="After"
+			/>
 		</div>
 	);
 };

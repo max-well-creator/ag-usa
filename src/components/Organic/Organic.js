@@ -5,7 +5,6 @@ import styles from "./Organic.module.scss";
 const MycorrPlusOrganic = () => {
 	return (
 		<div className={styles.container}>
-			<h1 className={styles.title}>MycorrPlus for Organic Use</h1>
 			<p className={styles.paragraph}>
 				MycorrPlus-O and MycorrPlus-O-F are WSDA-registered for organic use and
 				accepted by all major US certifiers. They have the same cost and

@@ -1,0 +1,16 @@
+@use '../../../styles/colors';
+.faqItem {
+  color: black;
+  background-color: colors.$grey !important;
+
+  button {
+    color: colors.$primary !important;
+    font-weight: bold;
+    background-color: colors.$grey !important;
+  }
+
+
+  .answer {
+    margin-left: 35px !important;
+  }
+}
