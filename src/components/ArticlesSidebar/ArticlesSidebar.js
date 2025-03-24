@@ -23,12 +23,6 @@ export default function ArticlesSidebar() {
 					image={Hardpan_logo}
 					href="/Articles/Hardpan"
 				/>
-				<Article title="33 Benefits" image={Benfits_logo} />
-				<Article
-					title="Save Tons on Lime"
-					image={home_header}
-					href="/Articles/SoilPh"
-				/>
 				<Article
 					title="More Available Plant Food"
 					image={PlantFood_logo}

@@ -6,6 +6,14 @@ const AGUSAMagazineLinks = () => {
 	return (
 		<div className={styles.container}>
 			<h1>AG-USA Magazine Articles</h1>
+			<div className={styles.completed}>
+				<h1>Articles Completed</h1>
+				<li>
+					<Link href="/Articles/33Benefits" className={styles.link}>
+						33 Benefits of Carbon Sequestration
+					</Link>
+				</li>
+			</div>
 
 			<section className={styles.section}>
 				<h2>Recent Articles</h2>
@@ -77,13 +85,6 @@ const AGUSAMagazineLinks = () => {
 						</Link>
 					</li>
 					<li>
-						<Link
-							href="/articles/33-benefits-carbon-sequestration"
-							className={styles.link}>
-							33 Benefits of Carbon Sequestration
-						</Link>
-					</li>
-					<li>
 						<Link href="/articles/transform-your-soil" className={styles.link}>
 							Learn the Secret of Transforming Your Soil
 						</Link>
@@ -112,13 +113,7 @@ const AGUSAMagazineLinks = () => {
 							Larger Roots and Better Moisture Retention
 						</Link>
 					</li>
-					<li>
-						<Link
-							href="/articles/mycorrplus-testimonials"
-							className={styles.link}>
-							MycorrPlus Testimonials
-						</Link>
-					</li>
+
 					<li>
 						<Link
 							href="/articles/retain-moisture-compaction"
