@@ -1,50 +1,38 @@
 import React from "react";
 import styles from "./Contact.module.scss";
 
-const ContactUs = () => {
+const Contact = () => {
 	return (
-		<div className={styles.container}>
-			<h2>Contact Us</h2>
+		<div className={styles.contactPage}>
+			<h1 className={styles.pageTitle}>Contact Us</h1>
 
-			<section className={styles.section}>
-				<h3>Mailing Address</h3>
-				<p>
-					AG-USA, LLC <br />
-					PO Box 73019 (new PO Box) <br />
-					Newnan, GA 30271
-				</p>
-			</section>
+			<div className={styles.column}>
+				<section className={styles.section}>
+					<h2 className={styles.sectionTitle}>Mailing Address</h2>
+					<p>AG-USA, LLC</p>
+					<p>PO Box 73019 (new PO Box)</p>
+					<p>Newnan, GA 30271</p>
+				</section>
 
-			<section className={styles.section}>
-				<h3>Contact Info</h3>
-				<p>
-					Call: 1-888-588-3139 <br />
-					Email: <a href="mailto:contact@ag-usa.net">contact@ag-usa.net</a>
-				</p>
-			</section>
-
-			<section className={styles.section}>
-				<h3>Physical Location</h3>
-				<p>
-					AG-USA, LLC <br />
-					119 Palmetto Rd. <br />
-					Tyrone, GA 30290
-				</p>
-			</section>
-
-			<section className={styles.section}>
-				<h3>Website</h3>
-				<p>
-					<a
-						href="http://www.AG-USA.net"
-						target="_blank"
-						rel="noopener noreferrer">
-						www.AG-USA.net
-					</a>
-				</p>
-			</section>
+				<section className={styles.section}>
+					<h2 className={styles.sectionTitle}>Contact Info</h2>
+					<p>
+						<strong>Call:</strong> 1-888-588-3139
+					</p>
+					<p>
+						<strong>Email:</strong>{" "}
+						<a href="mailto:contact@ag-usa.net">contact@ag-usa.net</a>
+					</p>
+				</section>
+				<section className={styles.section}>
+					<h2 className={styles.sectionTitle}>Physical Location</h2>
+					<p>AG-USA, LLC</p>
+					<p>119 Palmetto Rd.</p>
+					<p>Tyrone, GA 30290</p>
+				</section>
+			</div>
 		</div>
 	);
 };
 
-export default ContactUs;
+export default Contact;

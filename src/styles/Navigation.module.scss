@@ -32,7 +32,10 @@
   list-style: none;
   font-size: 20px;
   gap: 50px;
-
+  a {
+    color: colors.$grey;
+    text-decoration: none;
+  }
   a:hover {
     color: black;
   }

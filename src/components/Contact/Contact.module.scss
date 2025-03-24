@@ -1,33 +1,39 @@
-.container {
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
+.contactPage {
 
-  h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #2c3e50;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  border-radius: 8px;
+  .column {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
 }
 
 .section {
-  margin-bottom: 20px;
-
-  h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: #2c3e50;
-  }
-
-  p {
-    margin: 0;
-    line-height: 1.6;
-
-    a {
-      color: #0070f3;
-      text-decoration: underline;
-    }
-  }
+  margin-bottom: 2rem;
 }
+
+.sectionTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.section p {
+  font-size: 1.25rem;
+  margin: 0.25rem 0;
+
+}
+
