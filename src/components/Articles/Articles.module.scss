@@ -4,10 +4,8 @@
   font-family: 'Helvetica Neue', sans-serif;
   line-height: 1.7;
   color: #333;
-  .completed {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid black;
+  li {
+    list-style: none;
   }
 
   h1 {
@@ -27,16 +25,10 @@
     }
     ul {
       margin-bottom: 1em;
-      list-style: disc;
       li {
         margin-bottom: 0.5em;
       }
     }
   }
 
-.GroPal {
-  border: 1px solid blue;
-  padding: 10px;
-  margin: 10px;
-}
 }

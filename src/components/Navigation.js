@@ -27,6 +27,21 @@ const Navigation = () => {
 					<Link href="/MycorrPlus">MycorrPlus</Link>
 				</li>
 				<li>
+					<Link href="/Hay">HayMax</Link>
+				</li>
+				<li>
+					<Link href="/SoilMaxx">SoilMaxx</Link>
+				</li>
+				<li>
+					<Link href="/Silage">Sil-Tec Silage</Link>
+				</li>
+				<li>
+					<Link href="/NAT">Structure Water Benefits</Link>
+				</li>
+				<li>
+					<Link href="/SAS">SAS</Link>
+				</li>
+				<li>
 					<Link href="/FAQ">FAQs</Link>
 				</li>
 				<li>
@@ -34,9 +49,6 @@ const Navigation = () => {
 				</li>
 				<li>
 					<Link href="/Contact">Contact</Link>
-				</li>
-				<li>
-					<Link href="/Sitemap">Sitemap</Link>
 				</li>
 				<li>
 					<Link href="/Articles">Articles</Link>
