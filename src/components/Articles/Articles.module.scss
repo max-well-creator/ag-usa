@@ -1,18 +1,23 @@
+@use '../../styles/colors';
 .container {
+  margin: 5%;
   font-family: 'Helvetica Neue', sans-serif;
   line-height: 1.7;
   color: #333;
-  background-color: #fff;
+  li {
+    list-style: none;
+  }
+
   h1 {
     font-size: 2em;
-    color: #4caf50;
+    color: colors.$primary;
     margin-bottom: 0.5em;
   }
   .section {
     margin-top: 30px;
     h2 {
       font-size: 1.5em;
-      color: #4caf50;
+      color: colors.$primary;
       margin-bottom: 0.5em;
     }
     p {
@@ -20,16 +25,9 @@
     }
     ul {
       margin-bottom: 1em;
-      list-style: disc;
       li {
         margin-bottom: 0.5em;
       }
-    }
-  }
-  .link {
-    &:hover {
-      color: #0056b3;
-      text-decoration: underline;
     }
   }
 

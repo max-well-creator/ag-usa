@@ -42,7 +42,7 @@
 
 ## I dont know where these link from
 
--[Carbon Sequestion](https://www.ag-usa.net/Sequestion.php) -[7 Keys for Activating the Carbon Sequestration Switch](https://www.ag-usa.net/hay.php) -[Conquer Nature](https://www.ag-usa.net/ConquerNature.php) -[Grow Superfoods](https://www.ag-usa.net/SuperFood.php) -[Drought Tolerance](https://www.ag-usa.net/DroughtTolerance.php) -[Build Topsoil](https://www.ag-usa.net/BuildTopSoil.php) -[Build Organic Matter](https://www.ag-usa.net/BuildOrganicMatter.php) -[Peanuts](https://www.ag-usa.net/Peanuts.php) -[Cotton](https://www.ag-usa.net/Cotton.php) -[Corn](https://www.ag-usa.net/Corn.php) -[FoodPlots](https://www.ag-usa.net/FoodPlots.php) -[SAS](https://www.ag-usa.net/SAS.php) -[SoilMaxx](https://www.ag-usa.net/SoilMaxx.php) -[SoilRestoration](https://www.ag-usa.net/SoilRestoration.php)
+-[Carbon Sequestion](https://www.ag-usa.net/Sequestion.php) -[Conquer Nature](https://www.ag-usa.net/ConquerNature.php) -[Grow Superfoods](https://www.ag-usa.net/SuperFood.php) -[Drought Tolerance](https://www.ag-usa.net/DroughtTolerance.php) -[Build Topsoil](https://www.ag-usa.net/BuildTopSoil.php) -[Build Organic Matter](https://www.ag-usa.net/BuildOrganicMatter.php) -[Peanuts](https://www.ag-usa.net/Peanuts.php) -[Cotton](https://www.ag-usa.net/Cotton.php) -[Corn](https://www.ag-usa.net/Corn.php) -[FoodPlots](https://www.ag-usa.net/FoodPlots.php) -[SAS](https://www.ag-usa.net/SAS.php) -[SoilMaxx](https://www.ag-usa.net/SoilMaxx.php) -[SoilRestoration](https://www.ag-usa.net/SoilRestoration.php)
 
 ## I combined this pages to be in the main MycorrPlus page
 
@@ -54,3 +54,9 @@
 - [x] [Soil labs](https://www.ag-usa.net/SoilLabs.php)
 - [x] [Organic applications](https://www.ag-usa.net/organic.php)
 - [x] [Mycorr Plus ROI](https://www.ag-usa.net/GreatValue.php)
+
+## Article Changes
+
+- [x] [Turn Poor Soil into Great, Healthy Soil] combined into [Turn Any Soil Into Great Soil Article]
+- [x] [The Best Way To Enrich Your Soil (2017 article)] combined into [A More Affordable Way to Enrich the Soil (newer article)]
+- [x] [How a Bio-stimulant Can Increase Production and Profit (2017 article)] combined into [What a Bio-stimulant Can Do for You (newer article)]

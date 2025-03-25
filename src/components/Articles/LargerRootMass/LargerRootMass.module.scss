@@ -1,0 +1,49 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+
+  .info {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .author {
+    font-size: 1rem;
+    color: #555;
+  }
+}
+
+.intro,
+.testimonial {
+  margin-bottom: 2rem;
+
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+.testimonial {
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+  }
+
+  blockquote {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 4px solid #007bff;
+    font-style: italic;
+  }
+}

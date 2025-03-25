@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation";
 import "../styles/globals.css";
 import styles from "../styles/Layout.module.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "../components/Footer";
 
 export const metadata = {
 	title: "Create Next App",
@@ -19,9 +20,7 @@ export default function RootLayout({ children }) {
 						<Navigation />
 					</header>
 					<main className={styles.main}>{children}</main>
-					<footer className={styles.footer}>
-						<p>&copy; 2025 AG-USA</p>
-					</footer>
+					<Footer />
 				</div>
 			</body>
 		</html>
