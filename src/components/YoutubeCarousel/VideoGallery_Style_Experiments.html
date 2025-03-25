@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <style>
+    body { background-color: #f9f9f9; font-family: Arial, sans-serif; }
+    h2 { text-align: center; color: #333; }
+    .owl-carousel .owl-item { 
+      width: 280px; 
+      margin: 10px; 
+      background: #fff; 
+      border-radius: 8px; 
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+      overflow: hidden; 
+      transition: transform 0.2s; 
+    }
+    .owl-carousel .owl-item:hover { transform: translateY(-5px); }
+    .owl-carousel img { 
+      width: 100%; 
+      height: 160px; 
+      object-fit: cover; 
+    }
+    .owl-carousel p { 
+      font-size: 14px; 
+      color: #333; 
+      padding: 10px; 
+      margin: 0; 
+      line-height: 1.4; 
+    }
+    .owl-carousel { 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: center; 
+      max-width: 1200px; 
+      margin: 0 auto; 
+    }
+    /* Optional: Video duration overlay */
+    .video-tile { position: relative; }
+    .duration { 
+      position: absolute; 
+      bottom: 15px; 
+      right: 10px; 
+      background: rgba(0,0,0,0.8); 
+      color: #fff; 
+      padding: 2px 5px; 
+      font-size: 12px; 
+      border-radius: 3px; 
+    }
+  </style>
+</head>
+<body>
+  <h2>Farmers3818 Videos</h2>
+  <div class="owl-carousel owl-theme"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    const apiKey = 'AIzaSyAQkZNSGUneI_JlnXQ1WPjZLqdaA-tKuCc';
+    const channelId = 'UCffT6XB_VqQXbQnBarYiPxA';
+    let nextPageToken = ''; // For pagination
+
+    function loadVideos(pageToken = '') {
+      const url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=12&pageToken=${pageToken}`;
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          const carousel = $('.owl-carousel');
+          if (pageToken === '') carousel.empty(); // Clear for first load
+          nextPageToken = data.nextPageToken || ''; // Store for next page
+
+          data.items.forEach(item => {
+            const videoId = item.id.videoId;
+            const thumbnail = item.snippet.thumbnails.medium.url;
+            const title = item.snippet.title;
+            // Fetch duration separately (requires videos.list call)
+            fetch(`https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=${videoId}&key=${apiKey}`)
+              .then(res => res.json())
+              .then(videoData => {
+                const duration = videoData.items[0]?.contentDetails.duration || 'N/A';
+                carousel.append(`
+                  <div class="video-tile">
+                    <a href="https://www.youtube.com/watch?v=${videoId}" target="_blank">
+                      <img src="${thumbnail}" alt="${title}">
+                      <span class="duration">${formatDuration(duration)}</span>
+                    </a>
+                    <p>${title}</p>
+                  </div>
+                `);
+                carousel.owlCarousel('update'); // Refresh layout
+              });
+          });
+
+          carousel.owlCarousel({
+            items: 4,
+            margin: 10,
+            nav: false,
+            dots: false,
+            responsive: { 0: { items: 1 }, 600: { items: 2 }, 1000: { items: 4 } }
+          });
+        })
+        .catch(error => console.error('Error:', error));
+    }
+
+    // Format ISO 8601 duration (e.g., PT5M30S) to 5:30
+    function formatDuration(isoDuration) {
+      const match = isoDuration.match(/PT(\d+H)?(\d+M)?(\d+S)?/);
+      const hours = (match[1] || '0H').slice(0, -1);
+      const minutes = (match[2] || '0M').slice(0, -1);
+      const seconds = (match[3] || '0S').slice(0, -1);
+      return `${hours ? hours + ':' : ''}${minutes.padStart(2, '0')}:${seconds.padStart(2, '0')}`;
+    }
+
+    // Initial load
+    loadVideos();
+  </script>
+</body>
+</html>
