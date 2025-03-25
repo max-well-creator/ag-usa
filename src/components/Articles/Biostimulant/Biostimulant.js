@@ -13,9 +13,9 @@ const Biostimulant = () => {
 				<h2>RESTORING BALANCE TO THE SOIL</h2>
 				<p>
 					Look at the soil test results below. After an application of
-					MycorrPlus (formerly GroPal Balance) on July 4, it took only 4 months
-					for phosphorus and potassium to be optimised. But no P or K were
-					applied to achieve this.
+					MycorrPlus (formerly Mycorr Plus) on July 4, it took only 4 months for
+					phosphorus and potassium to be optimised. But no P or K were applied
+					to achieve this.
 				</p>
 				<p>
 					In the same way, no sulfur, boron, iron or copper were applied. They
@@ -130,6 +130,42 @@ const Biostimulant = () => {
 				<p>
 					As a bio-stimulant, MycorrPlus helps to establish mycorrhizal fungi in
 					the soil, resulting in increased production and greater profitability.
+				</p>
+			</section>
+
+			{/* New Section: Content from 2017HowABiostimulantCanIncreaseProductionAndProfits.pdf */}
+			<section className={styles.section}>
+				<h2>Increasing Production &amp; Profits</h2>
+				<p>
+					Cover crops are wonderful—they not only return nutrients and organic
+					matter to the soil, but they also protect the soil from UV rays that
+					can kill beneficial microbes. Mycorr Plus, a bio-stimulant, takes
+					cover crops to a whole new level. When the soil is balanced and filled
+					with mycorrhizal fungi, the plant sequesters huge amounts of sugars to
+					feed these microbes, providing a nutrient buffet while highly
+					structuring the soil.
+				</p>
+				<p>
+					When carbon sequestration is activated, cover crops continue building
+					the soil, improving its structure and organic matter content. As
+					organic matter increases, so does CEC and the soil’s ability to feed
+					the plant.
+				</p>
+				<p>
+					For organic farmers, Mycorr Plus is formulated specifically for
+					them—it’s listed with WSDA and costs no more than the standard
+					formulation.
+				</p>
+				<p>
+					As a bio-stimulant, Mycorr Plus restores soil balance, increasing
+					production and profitability. Feedback from farmers has been
+					overwhelmingly positive—even if it sounds too good to be true, many
+					have seen dramatic improvements in their fields.
+				</p>
+				<p>
+					Leonard, a farmer in northern Florida, used Mycorr Plus in March 2016
+					and, despite a dry spell thereafter, reported that his pastures
+					outperformed his neighbors’ all year round.
 				</p>
 			</section>
 		</div>

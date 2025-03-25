@@ -11,9 +11,8 @@ const LargerRootMass = () => {
 
 			<section className={styles.intro}>
 				<p>
-					Last fall I sent out a letter to our customers who bought MycorrPlus
-					(formerly called GroPal Balance), asking them to share their results.
-					We heard back from quite a few.
+					Last fall I sent out a letter to our customers who bought MycorrPlus,
+					asking them to share their results. We heard back from quite a few.
 				</p>
 				<p>
 					Most have confirmed that their plants have a larger root structure.

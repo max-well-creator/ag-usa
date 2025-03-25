@@ -54,3 +54,9 @@
 - [x] [Soil labs](https://www.ag-usa.net/SoilLabs.php)
 - [x] [Organic applications](https://www.ag-usa.net/organic.php)
 - [x] [Mycorr Plus ROI](https://www.ag-usa.net/GreatValue.php)
+
+## Article Changes
+
+- [x] [Turn Poor Soil into Great, Healthy Soil] combined into [Turn Any Soil Into Great Soil Article]
+- [x] [The Best Way To Enrich Your Soil (2017 article)] combined into [A More Affordable Way to Enrich the Soil (newer article)]
+- [x] [How a Bio-stimulant Can Increase Production and Profit (2017 article)] combined into [What a Bio-stimulant Can Do for You (newer article)]

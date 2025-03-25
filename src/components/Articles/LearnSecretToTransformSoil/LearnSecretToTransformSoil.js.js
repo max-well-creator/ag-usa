@@ -80,9 +80,9 @@ const LearnSecretToTransformSoil = () => {
 
 			<section className={styles.section}>
 				<p>
-					MycorrPlus (formerly called GroPal Balance) has been carefully
-					formulated to create every condition needed for mycorrhizae to thrive.
-					It contains 70+ strains of aerobic bacteria that:
+					MycorrPlus (formerly called Mycorr Plus) has been carefully formulated
+					to create every condition needed for mycorrhizae to thrive. It
+					contains 70+ strains of aerobic bacteria that:
 				</p>
 				<ul>
 					<li>Remediate salts.</li>

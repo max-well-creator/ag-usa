@@ -27,10 +27,10 @@ const EnrichYourSoil = () => {
 					out the amount needed.
 				</p>
 				<p>
-					Praise God, MycorrPlus (formerly named GroPal Balance) is different.
-					It is affordable – and farmers really seem to like the results. They
-					love to share with me the differences they see. They keep buying it
-					and telling their friends about it!
+					Praise God, MycorrPlus (formerly named Mycorr Plus) is different. It
+					is affordable – and farmers really seem to like the results. They love
+					to share with me the differences they see. They keep buying it and
+					telling their friends about it!
 				</p>
 			</section>
 
@@ -53,7 +53,7 @@ const EnrichYourSoil = () => {
 				<p>
 					Recently, I spoke with one of our customers in Virginia. He said his
 					grass is more vigorous, the leaves have a gloss to them, and his grass
-					just looks healthier. His clover is also doing better.
+					just looks healthier. Also, his clover is doing better.
 				</p>
 				<p>
 					He explained that on the ends of the rows where he put down double the
@@ -101,37 +101,31 @@ const EnrichYourSoil = () => {
 				</ul>
 			</section>
 
+			{/* New Section: Content from 2017BestWayToEnrichYourSoil.pdf */}
 			<section className={styles.section}>
+				<h2>Success Stories &amp; Conclusion</h2>
 				<p>
-					Recently, a customer in Canada said he can always grow good soybeans
-					but can’t always control weeds – he happily reported that this year
-					the sow thistle has diminished in his fields.
+					One of our customers in Wisconsin reported that his rutabagas have
+					grown huge – one weighing 5 pounds! He’s even showing them to his
+					neighbors to demonstrate what Mycorr Plus (MycorrPlus) can do. Many
+					farmers have noted that Mycorr Plus produces huge root mass on a
+					variety of crops including soybeans, grass, corn, and wheat. A huge
+					root structure not only increases yields but also makes crops more
+					nutrient dense, thanks to the balanced soil nutrients and GroPal sea
+					minerals.
 				</p>
-			</section>
+				<p>
+					Successful farming is all about return on investment. When you invest
+					wisely in your soil, even though it may take some time to see the
+					results, you are transforming your soil for the better. As Galatians
+					6:9 says, “in due season we will reap if we do not lose heart.” Keep
+					investing in your soil, and good results will come!
+				</p>
 
-			<section className={styles.section}>
-				<h2>Fertilizer vs. Soil Amendment</h2>
 				<p>
-					We all want a good return on investment. While fertilizer may give
-					quicker results, MycorrPlus can help improve yields while transforming
-					the soil.
-				</p>
-				<p>
-					If you are interested in both short-term and long-term results, then
-					MycorrPlus may just be what you have been looking for!
-				</p>
-			</section>
-
-			<section className={styles.section}>
-				<p>
-					Please call us today at: <strong>1-888-588-3139</strong> and request a
-					free information packet! Or learn more at:{" "}
-					<a
-						href="https://www.AG-USA.net"
-						target="_blank"
-						rel="noopener noreferrer">
-						www.AG-USA.net
-					</a>
+					Mycorr Plus is like a center pivot for dryland farmers – it replaces
+					LIME and other fertilizers, and its lab tests show that within only 5
+					months, the NPK and trace minerals in the soil significantly increase.
 				</p>
 			</section>
 		</div>

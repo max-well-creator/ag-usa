@@ -29,7 +29,7 @@ const TurnAnySoilIntoGreatSoil = () => {
 					like you and I.
 				</p>
 				<p>
-					MycorrPlus is a biostimulant that helps establish aerobic microbes in
+					MycorrPlus is a bio-stimulant that helps establish aerobic microbes in
 					the soil. These bacteria, fungi, and beneficial nematodes – along with
 					the resulting multiplication of earthworms – quickly reduce compaction
 					by creating tiny air pockets. Would you like to know how they do this?
@@ -134,6 +134,49 @@ const TurnAnySoilIntoGreatSoil = () => {
 						In high pH soils, balanced soil nutrients result in a lower pH.
 					</li>
 				</ul>
+			</section>
+
+			{/* Additional Content from "TurnPoorSoilIntoGreat,HealthySoil.pdf" */}
+			<section className={styles.section}>
+				<h2>Success Story: Transforming Poor Soil</h2>
+				<p>
+					In August 2017, our customers began to see dramatic changes in fields
+					with poor soil. According to Elaine, until last June the fields on
+					both sides looked the same—a mere splotch of grass here and there.
+					John, another customer, sowed seeds on both fields, but nothing grew
+					on the poor soil.
+				</p>
+				<p>
+					Then in mid-June, John removed the cows and on the first of July
+					applied Mycorr Plus to one field. He later shared, “Before we applied
+					Mycorr Plus, you could see patches of dirt and bare soil. Now, the
+					field is totally covered.”
+				</p>
+				<p>
+					After bringing the cows back on August 15th, during the next two
+					months, the field saw tremendous growth: the grass reached 18” to 20”
+					tall and lay over. Grazing continued into December, and John was
+					amazed by the growth, saying it made him a believer in the product.
+				</p>
+				<p>
+					John also noted improvements in livestock appearance. Before GroPal
+					Balance, his horses had rough coats and fragile hooves. Now, their
+					coats are shinier, they shed sooner, and their hooves appear much
+					healthier, almost as if they were being fed grain.
+				</p>
+				<p>
+					This success story highlights how Mycorr Plus (now MycorrPlus) can
+					transform poor soil into great, healthy soil. Write us or call
+					678-378-2911 today to request a free information packet, or learn more
+					at{" "}
+					<a
+						href="https://www.AG-USA.net"
+						target="_blank"
+						rel="noopener noreferrer">
+						www.AG-USA.net
+					</a>
+					.
+				</p>
 			</section>
 		</div>
 	);

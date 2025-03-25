@@ -95,11 +95,66 @@ const AGUSAMagazineLinks = () => {
 						Walter Jehne Interview, Acres U.S.A. April 2019
 					</Link>
 				</li>
+				<li>
+					<Link href="/Articles/CoreValues" className={styles.link}>
+						Core Values are Important
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/GetBetterProduction" className={styles.link}>
+						Better Production Without Fertilizer
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/SoilTransformation" className={styles.link}>
+						Signs That Soil Transformation Has Begun
+					</Link>
+				</li>
+				<li>
+					<Link href="/Articles/MoreMoistureMoreGrass" className={styles.link}>
+						More Moisture Means More Grass - Period.
+					</Link>
+				</li>
+				<section className={styles.GroPal}>
+					<h3>
+						Considering consolidating these old GroPal articles into new one
+						from abve
+					</h3>
+					<li>
+						<Link href="/Articles/LowerInputs" className={styles.link}>
+							Lower Your Inputs AND Increase Your Yields!
+						</Link>
+					</li>
+					<li>
+						<Link
+							href="/Articles/FiveStagesToSoilHealth"
+							className={styles.link}>
+							5 Stages of Plant Health
+						</Link>
+					</li>
+					<li>
+						<Link href="/Articles/HugeRootStructures" className={styles.link}>
+							How to Create Huge Root Structures
+						</Link>
+					</li>
+					<li>
+						<Link href="/Articles/SevenKeysForSoil" className={styles.link}>
+							7 Keys for Developing Wonderful Soil
+						</Link>
+					</li>
+				</section>
 			</div>
 
 			<section className={styles.section}>
 				<h2>Can't abstract text from PDF</h2>
 				<ul>
+					<li>
+						<Link
+							href="/articles/keep-grass-growing-dry-spell"
+							className={styles.link}>
+							How to Keep Grass Growing During a Dry Spell
+						</Link>
+					</li>
 					<li>
 						<Link
 							href="/articles/trace-minerals-vanishing-pg1"
@@ -116,101 +171,6 @@ const AGUSAMagazineLinks = () => {
 					</li>
 				</ul>
 			</section>
-
-			<section className={styles.section}>
-				<h2>Older Articles (Using GroPal Balance)</h2>
-				<ul>
-					<li>
-						<Link
-							href="/articles/turn-poor-soil-into-great-soil"
-							className={styles.link}>
-							Turn Poor Soil into Great, Healthy Soil
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/lower-inputs-increase-yields"
-							className={styles.link}>
-							Lower Your Inputs AND Increase Your Yields!
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/5-stages-plant-health"
-							className={styles.link}>
-							5 Stages of Plant Health
-						</Link>
-					</li>
-					<li>
-						<Link href="/articles/huge-root-structures" className={styles.link}>
-							How to Create Huge Root Structures
-						</Link>
-					</li>
-				</ul>
-			</section>
-
-			<section className={styles.section}>
-				<h2>Articles from 2017</h2>
-				<ul>
-					<li>
-						<Link
-							href="/articles/7-keys-for-wonderful-soil"
-							className={styles.link}>
-							7 Keys for Developing Wonderful Soil
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/the-best-way-enrich-soil"
-							className={styles.link}>
-							The Best Way to Enrich Your Soil
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/core-values-are-important"
-							className={styles.link}>
-							Core Values are Important
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/bio-stimulant-increase-production"
-							className={styles.link}>
-							How a Bio-stimulant Can Increase Production and Profit
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/better-production-without-fertilizer"
-							className={styles.link}>
-							Better Production Without Fertilizer
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/keep-grass-growing-dry-spell"
-							className={styles.link}>
-							How to Keep Grass Growing During a Dry Spell
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/more-moisture-more-grass"
-							className={styles.link}>
-							More Moisture Means More Grass - Period.
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/articles/signs-soil-transformation"
-							className={styles.link}>
-							Signs That Soil Transformation Has Begun
-						</Link>
-					</li>
-				</ul>
-			</section>
-
 			<section className={styles.section}>
 				<h2>Other AG-USA Websites (these link are working)</h2>
 				<ul>

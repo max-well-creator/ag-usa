@@ -11,10 +11,10 @@ const RetainMoisture = () => {
 
 			<section className={styles.section}>
 				<p>
-					When Mark in Nebraska used MycorrPlus (formerly called GroPal Balance)
-					in 2016, his corn yielded 20% more and his sunflowers yielded 25%
-					more. Numerous individuals like Mark have seen that MycorrPlus works
-					well on irrigated land.
+					When Mark in Nebraska used MycorrPlus (formerly called Mycorr Plus) in
+					2016, his corn yielded 20% more and his sunflowers yielded 25% more.
+					Numerous individuals like Mark have seen that MycorrPlus works well on
+					irrigated land.
 				</p>
 				<p>
 					Unfortunately, for the dryland farmer it is less likely to have an
