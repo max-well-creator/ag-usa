@@ -41,35 +41,5 @@
       }
     }
   }
-
-  .cta {
-    margin-top: 40px;
-    text-align: center;
-
-    p {
-      margin-bottom: 1em;
-    }
-  }
-
-  .link {
-    color: #1e90ff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-
-    &:hover {
-      color: #0056b3;
-      text-decoration: underline;
-    }
-  }
-  a {
-    color: #1e90ff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    
-    &:hover {
-      color: #0056b3;
-      text-decoration: underline;
-    }
-  }
 }
 

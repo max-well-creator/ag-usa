@@ -68,36 +68,6 @@ const NeutralizeSoilPH = () => {
 					a 2‑year period.
 				</p>
 			</section>
-
-			<section className={styles.cta}>
-				<p>
-					<Link
-						href="/7-keys-for-activating-carbon-sequestration"
-						className={styles.link}>
-						7 Keys for Activating Carbon Sequestration
-					</Link>
-				</p>
-				<p>
-					<Link href="/benefits-of-using-mycorrplus" className={styles.link}>
-						Benefits of Using MycorrPlus
-					</Link>
-				</p>
-				<p>
-					<Link href="/acresusa-interview" className={styles.link}>
-						AcresUSA Interview with Dr. Christine Jones
-					</Link>
-				</p>
-				<p>
-					<Link href="/purchase-mycorrplus" className={styles.link}>
-						Purchase MycorrPlus
-					</Link>
-				</p>
-				<p>
-					<Link href="/back" className={styles.link}>
-						Back
-					</Link>
-				</p>
-			</section>
 		</div>
 	);
 };

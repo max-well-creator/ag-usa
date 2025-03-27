@@ -1,10 +1,12 @@
 import React from "react";
-import Link from "next/link";
 import styles from "./Dryland.module.scss";
+import dryland_logo from "../../../../public/images/articles/dryland_logo.webp";
+import ArticleImage from "../../Article/ArticleImage";
 
 const OutlastDrySpells = () => {
 	return (
 		<div className={styles.container}>
+			<ArticleImage image={dryland_logo} title="Dryland" />
 			<h1>Keep Your Crops Growing Even in Dry Spells</h1>
 
 			<section className={styles.section}>
@@ -19,16 +21,6 @@ const OutlastDrySpells = () => {
 						growing."
 					</p>
 				</blockquote>
-				<p>
-					<Link href="/video-transcription" className={styles.link}>
-						View the 4-min video transcription
-					</Link>
-				</p>
-				<p>
-					<Link href="/more-videos" className={styles.link}>
-						Watch more MycorrPlus videos
-					</Link>
-				</p>
 			</section>
 
 			<section className={styles.section}>
@@ -101,40 +93,6 @@ const OutlastDrySpells = () => {
 						consistent yields.
 					</li>
 				</ul>
-			</section>
-
-			<section className={styles.cta}>
-				<h2>Want to Learn More?</h2>
-				<ul>
-					<li>
-						<Link
-							href="/7-keys-for-activating-carbon-sequestration"
-							className={styles.link}>
-							7 Keys for Activating Carbon Sequestration
-						</Link>
-					</li>
-					<li>
-						<Link href="/benefits-of-using-mycorrplus" className={styles.link}>
-							Benefits of Using MycorrPlus
-						</Link>
-					</li>
-					<li>
-						<Link
-							href="/acresusa-interview-dr-christine-jones"
-							className={styles.link}>
-							AcresUSA Interview with Dr. Christine Jones
-						</Link>
-					</li>
-					<li>
-						<Link href="/buy-mycorrplus" className={styles.link}>
-							Buy MycorrPlus now!
-						</Link>
-					</li>
-				</ul>
-				<p>
-					<strong>By Dr. Mercola:</strong> "Reasons Why Farmers Should Work to
-					Sequester More Carbon"
-				</p>
 			</section>
 		</div>
 	);

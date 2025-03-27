@@ -1,0 +1,12 @@
+@use '../../styles/mixins';
+.imageWrapper {
+
+
+  border-radius: 4px;
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+  @include mixins.border-radius
+}
