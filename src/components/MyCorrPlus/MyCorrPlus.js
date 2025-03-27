@@ -36,7 +36,7 @@ const MycorrPlus = () => {
 		<div className={styles.container}>
 			{/* Introduction */}
 			<header className={styles.header}>
-				<h1 className={styles.title}>About Mycorr Plus™</h1>
+				<h1 className={styles.title}>Mycorr Plus™</h1>
 				<h2 className={styles.subtitle}>Helps keep your moisture.</h2>
 				<MycorrPlusOrganic />
 				<p>

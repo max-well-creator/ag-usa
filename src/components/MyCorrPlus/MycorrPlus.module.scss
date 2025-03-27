@@ -1,13 +1,12 @@
 @use "../../styles/mixins";;
 // MycorrPlus.module.scss
 .container {
-
   margin: 0 auto;
-  padding: 20px;
   font-family: 'Helvetica Neue', sans-serif;
   line-height: 1.6;
   color: #333;
   font-size: 20px;
+  padding: 2.5em;
 }
 
 .header {
@@ -39,6 +38,14 @@
 .fieldComparison {
   @include mixins.around_flex_wrap;
   text-align: center;
+  .fieldBlock {
+    margin-bottom: 40px;
+    p {
+      text-align: center;
+      max-width: 500px;
+    }
+
+  }
 }
 
 .introSection {
