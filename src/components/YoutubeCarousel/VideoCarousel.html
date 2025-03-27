@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <style>.owl-carousel img { width: 100%; height: auto; }</style>
+</head>
+<body>
+  <h2>Farmers3818 Videos</h2>
+  <div class="owl-carousel owl-theme"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    const apiKey = 'AIzaSyAQkZNSGUneI_JlnXQ1WPjZLqdaA-tKuCc'; // Rlowrie@gmail.com - API key generated for youtube experiment 3-25-2025
+    const channelId = 'UCffT6XB_VqQXbQnBarYiPxA'; // @farmers3818’s channelIds
+    const url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=10`;
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        const carousel = $('.owl-carousel');
+        data.items.forEach(item => {
+          const videoId = item.id.videoId;
+          const thumbnail = item.snippet.thumbnails.medium.url;
+          const title = item.snippet.title;
+          carousel.append(`
+            <div>
+              <a href="https://www.youtube.com/watch?v=${videoId}" target="_blank">
+                <img src="${thumbnail}" alt="${title}">
+                <p>${title}</p>
+              </a>
+            </div>
+          `);
+        });
+        carousel.owlCarousel({
+          items: 3, // Show 3 tiles at a time
+          loop: true,       
+          margin: 10,
+          nav: true
+        });
+      })
+      .catch(error => console.error('Error:', error));
+  </script>
+</body>
+</html>
