@@ -1,11 +1,18 @@
 import Link from "next/link";
 import React from "react";
 import styles from "./Hay.module.scss";
+import Image from "next/image";
+import HayMaxx_logo from "../../../public/images/HayMax/HayMax_logo.webp";
+import HayMaxx1 from "../../../public/images/HayMax/HayMax1.webp";
+import HayMaxx_tractor from "../../../public/images/HayMax/HayMaxx_tractor.webp";
+import HayMaxx_cattle from "../../../public/images/HayMax/HayMax_cattle.webp";
+import HayMaxx_hay from "../../../public/images/HayMax/HayMax_hay.webp";
 
 const NATHayMaxPage = () => {
 	return (
 		<div className={styles.container}>
 			<h1 className={styles.title}>NATHayMax – Premium Hay Conditioner</h1>
+			<Image src={HayMaxx_logo} width={200} height={200} alt="HayMaxx Logo" />
 			<h2 className={styles.subtitle}>The Best Hay Preserver on the Market!</h2>
 
 			<section className={styles.section}>
@@ -17,6 +24,20 @@ const NATHayMaxPage = () => {
 					for hay to dry or bale at odd hours. Bale during the day—even at up to
 					25% moisture!
 				</p>
+				<Image src={HayMaxx1} width={200} height={200} alt="HayMaxx 1" />
+				<Image
+					src={HayMaxx_tractor}
+					width={200}
+					height={200}
+					alt="HayMax Tractor"
+				/>
+				<Image
+					src={HayMaxx_cattle}
+					width={200}
+					height={200}
+					alt="HayMax Cattle"
+				/>
+				<Image src={HayMaxx_hay} width={200} height={200} alt="HayMax Hay" />
 			</section>
 
 			<section className={styles.section}>
@@ -63,15 +84,6 @@ const NATHayMaxPage = () => {
 					<strong>Cost:</strong> $90 per 5‑gallon bucket ($18/gal) or $15 per
 					gallon by tote.
 				</p>
-			</section>
-
-			<section className={styles.ctaSection}>
-				<Link href="/purchase-haymax">
-					<span className={styles.link}>Buy HayMax or Sila‑Tec</span>
-				</Link>
-				<Link href="/contact">
-					<span className={styles.link}>Contact us for more details</span>
-				</Link>
 			</section>
 		</div>
 	);

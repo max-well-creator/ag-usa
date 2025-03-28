@@ -29,29 +29,6 @@ const SoilStructureDroughtTolerance = () => {
 					Note: At least 1.1" of moisture is needed to kick-start the process.
 				</p>
 			</section>
-
-			<section className={styles.cta}>
-				<p>
-					<Link href="/contact" className={styles.link}>
-						Call 1-888-588-3139 to speak to a soil health consultant
-					</Link>
-				</p>
-				<p>
-					<Link href="/contact" className={styles.link}>
-						Email us at info@ag-usa.net
-					</Link>
-				</p>
-				<p>
-					<Link href="/purchase-mycorrplus" className={styles.boldLink}>
-						Purchase MycorrPlus now!
-					</Link>
-				</p>
-				<p>
-					<Link href="/dr-christine-jones-interview" className={styles.link}>
-						Read Dr. Christine Jones’ article for more inspiration.
-					</Link>
-				</p>
-			</section>
 		</div>
 	);
 };

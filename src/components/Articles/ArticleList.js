@@ -11,8 +11,8 @@ export default function ArticleList({ articleType, array }) {
 				{array.map((article, index) => (
 					<section className={styles.article} key={index}>
 						<Link href={article.href}>
+							<h4>{article.label}</h4>
 							<ArticleImage image={article.image} title={article.title} />
-							{article.label}
 						</Link>
 					</section>
 				))}

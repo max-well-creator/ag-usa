@@ -1,4 +1,4 @@
-import dryland_logo from "../../../../public/images/articles/dryland_logo.webp";
+import dryland_logo from "../../../../public/images/articles/dryland/dryland_logo.webp";
 import benefits_logo from "../../../../public/images/articles/33benefits.webp";
 
 import hardpan_logo from "../../../../public/images/articles/Hardpan_logo.webp";
@@ -253,20 +253,5 @@ export const orphanedPages = [
 		label: "Dr. Murray's Research",
 		image: dryland_logo,
 		title: "Dryland",
-	},
-];
-
-export const externalLinks = [
-	{
-		href: "http://www.healthyvegetablegardening.com",
-		label: "MycorrPlus for Better Gardens",
-	},
-	{
-		href: "http://www.best-constipation-remedies.com",
-		label: "Sea Minerals for Constipation Relief",
-	},
-	{
-		href: "http://www.AidtheChildren.com",
-		label: "Sea Minerals for Health (Aid the Children)",
 	},
 ];

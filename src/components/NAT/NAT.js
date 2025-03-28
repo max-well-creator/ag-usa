@@ -1,6 +1,9 @@
-import Link from "next/link";
-import React from "react";
+import React, { Profiler } from "react";
 import styles from "./NAT.module.scss";
+import wheatGrassDay3 from "../../../public/images/Structured_Water/wheatGrassDay3.webp";
+import wheatGrassDay8 from "../../../public/images/Structured_Water/wheatGrassDay8.webp";
+import proof from "../../../public/images/Structured_Water/proof.webp";
+import Image from "next/image";
 
 const NATStructuredWater = () => {
 	return (
@@ -9,11 +12,6 @@ const NATStructuredWater = () => {
 			<p className={styles.intro}>
 				Discover the powerful benefits of highly structured water produced by
 				Natural Action Technology's water structuring machines.
-			</p>
-			<p className={styles.linkText}>
-				<Link href="/NAT" className={styles.link}>
-					Click here to view the full line of NAT products available to you
-				</Link>
 			</p>
 
 			<section className={styles.section}>
@@ -41,6 +39,18 @@ const NATStructuredWater = () => {
 					content dramatically, as confirmed by microscopic studies. Adding
 					Ionic Sea Minerals helps maintain this structure for months.
 				</p>
+				<Image
+					src={wheatGrassDay3}
+					width={400}
+					height={200}
+					alt="Wheat Grass Day 3"
+				/>
+				<Image
+					src={wheatGrassDay8}
+					width={400}
+					height={200}
+					alt="Wheat Grass Day 8"
+				/>
 				<p className={styles.paragraph}>
 					Once ingested, the structured water’s energy transfers to surrounding
 					water, instantly structuring it throughout your body. This effect
@@ -58,6 +68,7 @@ const NATStructuredWater = () => {
 					resemble high-quality spring water, delivering greater vitality and
 					enhanced bioavailability of trace elements.
 				</p>
+				<Image src={proof} width={400} height={200} alt="Scientific Proof" />
 			</section>
 
 			<section className={styles.section}>
@@ -68,29 +79,6 @@ const NATStructuredWater = () => {
 					They help neutralize inorganic compounds, pesticides, and heavy
 					metals; counteract electromagnetic fields; enhance immunity and
 					rejuvenate skin; and purify water.
-				</p>
-				<p className={styles.linkText}>
-					<Link href="/nat-products" className={styles.link}>
-						Click here to see the full line of NAT products
-					</Link>
-				</p>
-			</section>
-
-			<section className={styles.sectionCenter}>
-				<h2 className={styles.sectionTitle}>Structured Water Machines</h2>
-				<p className={styles.paragraph}>
-					Thank you for your interest in our water structuring units, developed
-					by Natural Action Technologies and inventor Clayton M. Nolte.
-				</p>
-				<p className={styles.linkText}>
-					<Link href="/structured-water-benefits" className={styles.link}>
-						Read about the benefits of structured water
-					</Link>
-				</p>
-				<p className={styles.linkText}>
-					<Link href="/store" className={styles.link}>
-						Visit our store for NAT products
-					</Link>
 				</p>
 			</section>
 		</div>

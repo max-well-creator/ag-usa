@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./Dryland.module.scss";
-import dryland_logo from "../../../../public/images/articles/dryland_logo.webp";
+import dryland_logo from "../../../../public/images/articles/dryland/dryland_logo.webp";
+import grass_keeps_growing from "../../../../public/images/articles/dryland/grass_keep_growing.webp";
+import grass_stopped_growing from "../../../../public/images/articles/dryland/grass_stopped_growing.webp";
 import ArticleImage from "../../Article/ArticleImage";
+import Image from "next/image";
 
 const OutlastDrySpells = () => {
 	return (
@@ -11,16 +14,28 @@ const OutlastDrySpells = () => {
 
 			<section className={styles.section}>
 				<p>
-					<strong>MycorrPlus-A and O</strong> (formerly GroPal Balance) act like
-					a center pivot for dryland farmers!
+					<strong>MycorrPlus-A and O</strong> act like a center pivot for
+					dryland farmers!
 				</p>
 				<blockquote className={styles.quote}>
 					<p>
 						Richard Fish says: "When the hot, dry July weather came and grass
-						normally goes dormant, the 'GroPal Balance' grass just kept
-						growing."
+						normally goes dormant, the 'MycorrPlus' grass just kept growing."
 					</p>
 				</blockquote>
+				<Image
+					src={grass_keeps_growing}
+					width={600}
+					height={500}
+					alt="Grass Keeps Growing with Mycorr Plus"
+				/>
+				<p>When the weather turned hot and dry, grass stopped growing.</p>
+				<Image
+					src={grass_stopped_growing}
+					width={600}
+					height={500}
+					alt="Grass Keeps Growing with Mycorr Plus"
+				/>
 			</section>
 
 			<section className={styles.section}>

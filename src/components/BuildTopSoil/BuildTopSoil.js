@@ -69,12 +69,6 @@ const FastestTopsoilMethod = () => {
 					Standard tests miss 97% of these microbially released nutrients.
 				</p>
 			</section>
-
-			<section className={styles.center}>
-				<Link href="/purchase-mycorrplus" className={styles.link}>
-					Purchase MycorrPlus now!
-				</Link>
-			</section>
 		</div>
 	);
 };

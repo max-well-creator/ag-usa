@@ -72,29 +72,6 @@ const PeanutProgram = () => {
 					discounted pricing on a minimum of 15 acres.
 				</p>
 			</section>
-
-			<section className={styles.cta}>
-				<p>
-					<Link href="/contact" className={styles.link}>
-						Call 1-888-588-3139, ext. 6 to speak with Preston Haag
-					</Link>
-				</p>
-				<p>
-					<Link href="/contact" className={styles.link}>
-						Email Preston at preston@ag-usa.net
-					</Link>
-				</p>
-				<p>
-					<Link href="/purchase-mycorrplus" className={styles.boldLink}>
-						Purchase MycorrPlus now!
-					</Link>
-				</p>
-				<p>
-					<Link href="/dr-christine-jones-interview" className={styles.link}>
-						Read the AcresUSA interview with Dr. Christine Jones
-					</Link>
-				</p>
-			</section>
 		</div>
 	);
 };

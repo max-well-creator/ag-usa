@@ -68,11 +68,6 @@ const TransformGrassSuperfood = () => {
 					beneficial microbes. These microbes convert bound nutrients into
 					plant‑ available food.
 				</p>
-				<p>
-					<Link href="/dr-christine-jones-interview" className={styles.link}>
-						Read Dr. Christine Jones’ article on carbon sequestration
-					</Link>
-				</p>
 			</section>
 
 			<section className={styles.section}>
@@ -92,12 +87,6 @@ const TransformGrassSuperfood = () => {
 					<li>Up to 25–30% yield increase in the first year</li>
 					<li>Faster plant growth overall</li>
 				</ul>
-			</section>
-
-			<section className={styles.cta}>
-				<Link href="/purchase-mycorrplus" className={styles.ctaLink}>
-					Purchase MycorrPlus now!
-				</Link>
 			</section>
 		</div>
 	);

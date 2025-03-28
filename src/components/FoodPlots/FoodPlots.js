@@ -67,20 +67,6 @@ const EnhancingFoodPlots = () => {
 				</ol>
 				<p>Healthy soil means healthier plants and livestock.</p>
 			</section>
-
-			<section className={styles.ctaSection}>
-				<p>
-					<Link href="/testimonials">Read customer testimonials</Link>
-				</p>
-				<p>
-					<Link href="/videos">Watch our videos</Link>
-				</p>
-				<p>
-					<Link href="/purchase-mycorrplus">
-						<strong>Purchase MycorrPlus™ now!</strong>
-					</Link>
-				</p>
-			</section>
 		</div>
 	);
 };

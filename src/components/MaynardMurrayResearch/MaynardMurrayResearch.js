@@ -1,6 +1,12 @@
-import Link from "next/link";
 import React from "react";
 import styles from "./MycorrPlusResearch.module.scss";
+import peaches from "../../../public/images/murray_research/peaches.webp";
+import pigs from "../../../public/images/murray_research/pigs.webp";
+import rat from "../../../public/images/murray_research/rat.webp";
+import sea_energy from "../../../public/images/murray_research/sea_energy.webp";
+import sea_minerals from "../../../public/images/murray_research/sea_minerals.webp";
+import tomatoes from "../../../public/images/murray_research/tomatoes.webp";
+import Image from "next/image";
 
 const MycorrPlusResearch = () => {
 	return (
@@ -25,10 +31,12 @@ const MycorrPlusResearch = () => {
 						significantly longer survival and fewer cancer "takes" after
 						carcinogen injection.
 					</li>
+					<Image src={rat} height={200} width={200} alt="rat" />
 					<li>
 						<strong>Rabbits & Pigs:</strong> Experimental groups exhibited fewer
 						signs of high cholesterol and overall improved health.
 					</li>
+					<Image src={pigs} height={200} width={200} alt="pigs" />
 					<li>
 						<strong>Chickens:</strong> Chickens fed produce grown with sea
 						minerals had fewer worms and no leg disorders.
@@ -46,6 +54,7 @@ const MycorrPlusResearch = () => {
 						produced normal fruit yields, while untreated trees contracted
 						disease.
 					</li>
+					<Image src={peaches} height={200} width={200} alt="Peaches" />
 					<li>
 						<strong>Turnips:</strong> Experimental turnips resisted "center rot"
 						and thrived, whereas controls succumbed.
@@ -54,11 +63,13 @@ const MycorrPlusResearch = () => {
 						<strong>Tomatoes:</strong> Treated tomatoes resisted Tobacco Mosaic
 						Virus and heavy blight, while control plants failed.
 					</li>
+					<Image src={tomatoes} height={200} width={200} alt="tomatoes" />
 				</ul>
 			</section>
 
 			<section className={styles.section}>
 				<h2 className={styles.sectionHeading}>Key Takeaways</h2>
+				<Image src={sea_energy} height={200} width={200} alt="sea_energy" />
 				<p>
 					Dr. Murray’s research, detailed in his book{" "}
 					<em>
@@ -73,6 +84,7 @@ const MycorrPlusResearch = () => {
 					You can even supplement your diet with Ionic Sea Minerals—the next
 					best thing if you don't consume produce grown with sea minerals.
 				</p>
+				<Image src={sea_minerals} height={200} width={100} alt="sea_minerals" />
 			</section>
 
 			<section className={styles.note}>
@@ -82,26 +94,6 @@ const MycorrPlusResearch = () => {
 						further study. These results should not be interpreted as conclusive
 						health claims.
 					</small>
-				</p>
-			</section>
-
-			<section className={styles.ctaSection}>
-				<p>
-					<Link href="/purchase-mycorrplus">
-						<span className={styles.link}>Purchase MycorrPlus Today!</span>
-					</Link>
-				</p>
-				<p>
-					<Link href="/dr-christine-jones-interview">
-						<span className={styles.link}>
-							Read Dr. Christine Jones’ Interview on Carbon Sequestration
-						</span>
-					</Link>
-				</p>
-				<p>
-					<Link href="/contact">
-						<span className={styles.link}>Contact Us for More Information</span>
-					</Link>
 				</p>
 			</section>
 		</div>

@@ -17,39 +17,6 @@ const SoilMaxx = () => {
 				GroPal Balance), growers boost production, save on fertilizer, and
 				balance soil pH by nurturing healthy microbes.
 			</p>
-			<p className={styles.contactNotice}>
-				<strong>Please contact us for more details.</strong>
-			</p>
-
-			<section className={styles.section}>
-				<h2>Other Websites</h2>
-				<ul className={styles.linksList}>
-					<li>
-						<a
-							href="http://www.healthy-vegetable-gardening.com"
-							target="_blank"
-							rel="noopener noreferrer">
-							Healthy Vegetable Gardening
-						</a>
-					</li>
-					<li>
-						<a
-							href="http://www.best-constipation-remedies.com"
-							target="_blank"
-							rel="noopener noreferrer">
-							Best Constipation Remedies
-						</a>
-					</li>
-					<li>
-						<a
-							href="http://www.AidtheChildren.com"
-							target="_blank"
-							rel="noopener noreferrer">
-							Aid the Children
-						</a>
-					</li>
-				</ul>
-			</section>
 
 			<section className={styles.section}>
 				<h2>Our Office/Warehouse</h2>

@@ -1,6 +1,9 @@
 import Link from "next/link";
 import React from "react";
 import styles from "./Silage.module.scss";
+import Image from "next/image";
+import sila_tec1 from "../../../public/images/Sila-Tec/sila-tec1.webp";
+import sila_tec_cattle from "../../../public/images/Sila-Tec/sila-tec-cattle.webp";
 
 const SilaTecSilageConditioner = () => {
 	return (
@@ -16,12 +19,19 @@ const SilaTecSilageConditioner = () => {
 					digests the silage, making nutrients more available—so much so that
 					cattle lick the bunk clean!
 				</p>
+				<Image src={sila_tec1} width={400} height={400} alt="sila-tec" />
 				<p>
 					It also acts as a prebiotic in the rumen, quickly converting to
 					propionic acid for smooth digestion. The fermentation process turns
 					trapped oxygen into a non‑volatile gas, keeping silage cool and
 					reducing shrinkage. Silage is feedable within 24 hours.
 				</p>
+				<Image
+					src={sila_tec_cattle}
+					width={400}
+					height={400}
+					alt="sila-tec-cattle"
+				/>
 			</section>
 
 			<section className={styles.section}>
@@ -94,15 +104,6 @@ const SilaTecSilageConditioner = () => {
 					Use a boom applicator for truckloads or mount the applicator on your
 					chopper for direct cutting.
 				</p>
-			</section>
-
-			<section className={styles.sectionCenter}>
-				<Link href="/purchase-sila-tec" className={styles.link}>
-					Click here to buy Sila‑Tec or HayMax
-				</Link>
-				<Link href="/contact" className={styles.link}>
-					Contact us for more details
-				</Link>
 			</section>
 		</div>
 	);

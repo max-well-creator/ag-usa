@@ -75,23 +75,6 @@ const CottonYields = () => {
 					</li>
 				</ol>
 			</section>
-
-			<section className={styles.cta}>
-				<Link href="/contact" className={styles.link}>
-					Call 1-888-588-3139, ext. 2 to speak with a consultant
-				</Link>
-				<Link href="/contact" className={styles.link}>
-					Email us at info@ag-usa.net
-				</Link>
-				<Link
-					href="/purchase-mycorrplus"
-					className={`${styles.link} ${styles.bold}`}>
-					Purchase MycorrPlus now!
-				</Link>
-				<Link href="/dr-christine-jones-interview" className={styles.link}>
-					Read Dr. Christine Jones’ interview for more inspiration
-				</Link>
-			</section>
 		</div>
 	);
 };

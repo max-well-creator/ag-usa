@@ -36,7 +36,7 @@ const Navigation = () => {
 					<Link href="/Silage">Sil-Tec Silage</Link>
 				</li>
 				<li>
-					<Link href="/NAT">Structure Water Benefits</Link>
+					<Link href="/NAT">NAT</Link>
 				</li>
 				<li>
 					<Link href="/SAS">SAS</Link>

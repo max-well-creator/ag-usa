@@ -115,27 +115,6 @@ const Sequestion = () => {
 			</section>
 
 			<section className={styles.sectionCentered}>
-				<h3>Take Action Today</h3>
-				<ul className={styles.actionList}>
-					<li>
-						<strong>Call:</strong>{" "}
-						<a href="tel:18885883139" className={styles.link}>
-							1-888-588-3139
-						</a>
-					</li>
-					<li>
-						<strong>Email:</strong>{" "}
-						<a href="mailto:info@ag-usa.net" className={styles.link}>
-							info@ag-usa.net
-						</a>
-					</li>
-					<li>
-						<strong>Order MycorrPlus now!</strong>
-					</li>
-				</ul>
-			</section>
-
-			<section className={styles.sectionCentered}>
 				<p className={styles.finalNote}>
 					<em>
 						Great Soil Is Your Solution – because healthier soil means a

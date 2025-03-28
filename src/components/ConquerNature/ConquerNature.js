@@ -46,15 +46,6 @@ const ConquerNature = () => {
 				</p>
 				<p>Contact us today to learn more.</p>
 			</section>
-
-			<section className={styles.cta}>
-				<Link href="/learn-more" className={styles.link}>
-					Learn More About MycorrPlus
-				</Link>
-				<Link href="/purchase-mycorrplus" className={styles.link}>
-					Purchase MycorrPlus
-				</Link>
-			</section>
 		</div>
 	);
 };

@@ -11,6 +11,8 @@ import styles from "./MycorrPlus.module.scss";
 
 import treated from "../../../public/images/home/GrassHayTreated.webp";
 import untreated from "../../../public/images/home/GrassHayUntreated.webp";
+import treated_untreated from "../../../public/images/mycorrPlus/treated_untreated.webp";
+import remediate from "../../../public/images/mycorrPlus/remediate.webp";
 
 const imageSize = 400;
 
@@ -65,6 +67,13 @@ const MycorrPlus = () => {
 					image={treated}
 					altText="Grass Hay With MycorrPlus"
 				/>
+				<Image
+					src={treated_untreated}
+					alt="treated_vs_untreated field"
+					width={200}
+					height={200}
+				/>
+				<Image src={remediate} alt="Remediate" width={200} height={200} />
 			</article>
 
 			{/* Topsoil & Benefits Introduction */}
