@@ -3,11 +3,13 @@ import Image from "next/image";
 import React from "react";
 import styles from "./Home-Header.module.scss";
 import { useRouter } from "next/navigation";
+import ProductsNav from "../ProductsNav/ProductsNav";
 
 export default function HomeHeader() {
 	const router = useRouter();
 	return (
 		<div className={styles.header_container}>
+			<ProductsNav />
 			<div className={styles.header}>
 				<div className={styles.text}>
 					<h1>Welcome to AG-USA</h1>

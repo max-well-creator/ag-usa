@@ -23,24 +23,7 @@ const Navigation = () => {
 				<li>
 					<Link href="/">Home</Link>
 				</li>
-				<li>
-					<Link href="/MycorrPlus">MycorrPlus</Link>
-				</li>
-				<li>
-					<Link href="/Hay">HayMax</Link>
-				</li>
-				<li>
-					<Link href="/SoilMaxx">SoilMaxx</Link>
-				</li>
-				<li>
-					<Link href="/Silage">Sil-Tec Silage</Link>
-				</li>
-				<li>
-					<Link href="/NAT">NAT</Link>
-				</li>
-				<li>
-					<Link href="/SAS">SAS</Link>
-				</li>
+
 				<li>
 					<Link href="/FAQ">FAQs</Link>
 				</li>
