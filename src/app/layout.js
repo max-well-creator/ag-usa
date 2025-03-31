@@ -20,8 +20,8 @@ export default function RootLayout({ children }) {
 						<Navigation />
 					</header>
 					<main className={styles.main}>{children}</main>
-					<Footer />
 				</div>
+				<Footer />
 			</body>
 		</html>
 	);

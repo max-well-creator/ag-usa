@@ -30,36 +30,6 @@ const About = () => {
 
 			<p>Contact us today for more details.</p>
 
-			<div className={styles.externalLinks}>
-				<h3>Other Websites</h3>
-				<ul>
-					<li>
-						<a
-							href="http://www.healthy-vegetable-gardening.com"
-							target="_blank"
-							rel="noopener noreferrer">
-							Healthy Vegetable Gardening
-						</a>
-					</li>
-					<li>
-						<a
-							href="http://www.best-constipation-remedies.com"
-							target="_blank"
-							rel="noopener noreferrer">
-							Best Constipation Remedies
-						</a>
-					</li>
-					<li>
-						<a
-							href="http://www.AidtheChildren.com"
-							target="_blank"
-							rel="noopener noreferrer">
-							Aid the Children
-						</a>
-					</li>
-				</ul>
-			</div>
-
 			<div className={styles.officeInfo}>
 				<p>Our office/warehouse: 119 Palmetto Rd., Tyrone, GA.</p>
 				<p>Check out our facility photos below.</p>
