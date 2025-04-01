@@ -1,23 +1,67 @@
+@use "../../styles/colors";
+@use "../../styles/mixins";
+
+// Main container styling
 .container {
-  padding: 20px;
-  font-family: 'Helvetica Neue', sans-serif;
-  line-height: 1.7;
-  color: #333;
-  background: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: colors.$black;
+  background-color: colors.$grey;
+  .paul {
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  // General paragraph styles
+  p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
 }
 
+// Styling for the highlighted quote
 .quote {
   font-style: italic;
-  margin-bottom: 1em;
-  border-left: 4px solid #4CAF50;
-  padding-left: 10px;
-  color: #555;
+  border-left: 4px solid colors.$secondary;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+  color: colors.$secondary;
 }
 
+// Styling for the office/warehouse info section
 .officeInfo {
-  margin-top: 20px;
-  font-size: 0.95em;
-  color: #666;
+  background-color: colors.$primary;
+  padding: 1rem;
+  @include mixins.filter;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: white;
+
+  p {
+    margin: 0.5rem 0;
+  }
+}
+
+// Grid layout for facility photos
+.photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .quote {
+    font-size: 0.9rem;
+  }
+  
+  .photos {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
 }

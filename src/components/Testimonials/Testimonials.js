@@ -7,11 +7,10 @@ import refactoredTestimonials from "../../data/testimonials";
 const MycorrPlusTestimonials = () => {
 	return (
 		<div className={styles.container}>
-			<p>
-				Swipe through our {refactoredTestimonials.length} testimonals to see how
-				Mycorr Plus can benefit you.
-			</p>
-			<TestimonialCarousel />
+			<p>Approved by {refactoredTestimonials.length} happy customers</p>
+			<div className={styles.slider_container}>
+				<TestimonialCarousel />
+			</div>
 		</div>
 	);
 };
