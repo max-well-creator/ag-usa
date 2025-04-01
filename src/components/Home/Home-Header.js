@@ -9,8 +9,8 @@ export default function HomeHeader() {
 	const router = useRouter();
 	return (
 		<div className={styles.header_container}>
-			<ProductsNav />
 			<div className={styles.header}>
+				<ProductsNav />
 				<div className={styles.text}>
 					<h1>Welcome to AG-USA</h1>
 					<p>2 Chron. 7:14 - I will heal their land.</p>
