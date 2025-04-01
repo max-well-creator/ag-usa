@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Organic.module.scss";
 import Image from "next/image";
 import O_Label from "../../../public/images/mycorrPlus/MycorrPlus-O-label.webp";
-import certificate from "../../../public/images/mycorrPlus/certificate.webp";
+import certificate from "../../../public/images/mycorrPlus/certificate.jpg";
 import OFLabel from "../../../public/images/mycorrPlus/OFlabel.webp";
 
 const MycorrPlusOrganic = () => {
@@ -14,14 +14,26 @@ const MycorrPlusOrganic = () => {
 				application rates as MycorrPlus-A but are approved for organic
 				applications.
 			</p>
-			<Image
-				src={certificate}
-				width={500}
-				height={600}
-				alt="MycorrPlus Certificate"
-			/>
-			<Image src={O_Label} width={500} height={600} alt="MycorrPlus O Label" />
-			<Image src={OFLabel} width={500} height={600} alt="MycorrPlus OF Label" />
+			<div className={styles.imageContainer}>
+				<Image
+					src={certificate}
+					width={500}
+					height={600}
+					alt="MycorrPlus Certificate"
+				/>
+				<Image
+					src={O_Label}
+					width={500}
+					height={500}
+					alt="MycorrPlus O Label"
+				/>
+				<Image
+					src={OFLabel}
+					width={500}
+					height={500}
+					alt="MycorrPlus OF Label"
+				/>
+			</div>
 			<p className={styles.paragraph}>
 				Simply provide your certifier with our label and organic certificate.
 				We’re happy to work with your certifier for a smooth approval process.
