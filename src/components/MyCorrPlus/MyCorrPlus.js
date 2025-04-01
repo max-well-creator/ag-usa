@@ -49,11 +49,8 @@ const MycorrPlus = () => {
 					nutrient package that balances soil nutrients, raises soil energy, and
 					ultimately enhances plant growth and development.
 				</p>
-
-				<section className={styles.benefitsSection}>
-					<BenefitsOfMycorrPlus />
-				</section>
 			</header>
+			<BenefitsOfMycorrPlus />
 
 			{/* Visual Comparison of Fields */}
 			<article className={styles.fieldComparison}>

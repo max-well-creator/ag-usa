@@ -1,7 +1,7 @@
 .container {
 
   text-align: center;
-  border-radius: 8px;
+
   margin-bottom: 2em;
 
   h1 {
@@ -13,15 +13,14 @@
 
 .section {
 
-
+  margin-bottom: 2rem;
   h2 {
     font-size: 1.5rem;
     color: #4caf50;
     margin-bottom: 0.5em;
   }
 
-  p,
-  ul {
+  p {
     font-size: 1rem;
     color: #555;
     list-style: none;
@@ -38,23 +37,36 @@
     flex: 1 1 45%;
   }
 }
+.full {
+
+  margin-bottom: 2rem;
+  h2 {
+    font-size: 1.5rem;
+    color: #4caf50;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #555;
+    list-style: none;
+  }
+
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .twoColumn {
-    flex-direction: column;
-    
-    section {
-      flex: 1 1 100%;
+  .section {
+    p {
+      text-align: left;
     }
   }
-  
-  .container {
-    padding: 1em;
-  }
+
+
   
   .container h1 {
     font-size: 1.8rem;
+
   }
   
   .section h2 {
