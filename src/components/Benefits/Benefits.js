@@ -61,7 +61,7 @@ const BenefitsOfMycorrPlus = () => {
 			<h2>How to Evaluate MycorrPlus</h2>
 			<div className={styles.twoColumn}>
 				<section className={styles.section}>
-					<h3>Visible Results</h3>
+					<h2>Visible Results</h2>
 					<ul>
 						<li>Fewer weeds</li>
 						<li>Less standing water</li>
@@ -70,7 +70,7 @@ const BenefitsOfMycorrPlus = () => {
 					</ul>
 				</section>
 				<section className={styles.section}>
-					<h3>Soil Tests</h3>
+					<h2>Soil Tests</h2>
 					<ul>
 						<li>Lower nematode counts</li>
 						<li>Higher organic matter</li>
@@ -78,7 +78,7 @@ const BenefitsOfMycorrPlus = () => {
 					</ul>
 				</section>
 				<section className={styles.section}>
-					<h3>Vegetation Changes</h3>
+					<h2>Vegetation Changes</h2>
 					<ul>
 						<li>Higher protein levels</li>
 						<li>Improved RFV</li>
@@ -88,7 +88,7 @@ const BenefitsOfMycorrPlus = () => {
 				</section>
 
 				<section className={styles.section}>
-					<h3>Livestock Improvements</h3>
+					<h2>Livestock Improvements</h2>
 					<ul>
 						<li>Stronger calves at birth</li>
 						<li>Faster weight gain</li>

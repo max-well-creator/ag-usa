@@ -7,8 +7,8 @@ const CropApplicationGuidelines = () => {
 		<div className={styles.container}>
 			<h1>MycorrPlus™ Crop Application Guidelines</h1>
 			<p>
-				Use MycorrPlus (formerly GroPal Balance) to transform your crops and
-				soil. Below are streamlined guidelines for various crops.
+				Use MycorrPlus to transform your crops and soil. Below are streamlined
+				guidelines for various crops.
 			</p>
 
 			<section className={styles.section}>
@@ -60,11 +60,6 @@ const CropApplicationGuidelines = () => {
 					treat with 2 qt/acre at flowering (a second treatment 3–4 weeks later
 					may help).
 				</p>
-				<p className={styles.externalLink}>
-					<a href="#" target="_blank" rel="noopener noreferrer">
-						Detailed soybean guidelines
-					</a>
-				</p>
 
 				<h3>Corn</h3>
 				<p>
@@ -79,7 +74,7 @@ const CropApplicationGuidelines = () => {
 					boost test weights, protein, and yields.
 				</p>
 				<p className={styles.externalLink}>
-					<a href="#" target="_blank" rel="noopener noreferrer">
+					<a href="/Corn" target="_blank" rel="noopener noreferrer">
 						Detailed corn page
 					</a>
 				</p>
@@ -159,67 +154,6 @@ const CropApplicationGuidelines = () => {
 				<p>
 					MycorrPlus helps balance pH but is not recommended for acid-loving
 					plants.
-				</p>
-			</section>
-
-			<section className={styles.section}>
-				<h2>Additional Information</h2>
-				<p>
-					Use these guidelines as a starting point. For crops not listed or for
-					more details, please contact AG-USA toll-free at{" "}
-					<strong>1-888-588-3139</strong> or email{" "}
-					<a href="mailto:info@ag-usa.net">info@ag-usa.net</a>.
-				</p>
-			</section>
-
-			<section className={styles.section}>
-				<h2>Additional Information & Resources</h2>
-				<ul>
-					<li>
-						<a href="#" target="_blank" rel="noopener noreferrer">
-							Soil Balance results
-						</a>
-					</li>
-					<li>
-						<a href="#" target="_blank" rel="noopener noreferrer">
-							Photo gallery: Treated vs. Untreated fields
-						</a>
-					</li>
-					<li>
-						<a href="#" target="_blank" rel="noopener noreferrer">
-							Lab test results (before & after)
-						</a>
-					</li>
-					<li>
-						<a href="#" target="_blank" rel="noopener noreferrer">
-							Soil pH balanced without lime
-						</a>
-					</li>
-					<li>
-						<a href="#" target="_blank" rel="noopener noreferrer">
-							In-depth article on how MycorrPlus transforms the soil
-						</a>
-					</li>
-					<li>
-						<a href="#" target="_blank" rel="noopener noreferrer">
-							Helpful FAQs about MycorrPlus
-						</a>
-					</li>
-					<li>
-						<a href="#" target="_blank" rel="noopener noreferrer">
-							Application guidelines
-						</a>
-					</li>
-					<li>
-						<a href="#" target="_blank" rel="noopener noreferrer">
-							GroPal Balance (MycorrPlus) for organic use
-						</a>
-					</li>
-				</ul>
-				<p>
-					GroPal Balance may be the only fertilizer you need for great pasture.
-					Some boost with natural products like fish or kelp, but many find
-					MycorrPlus alone produces amazing results.
 				</p>
 			</section>
 		</div>

@@ -65,4 +65,12 @@
 .testimonialsSection,
 .resultsSection {
   margin-bottom: 2em;
+  text-align: center;
+}
+
+.moreInfoButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  gap: 50px;
 }

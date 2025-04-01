@@ -6,9 +6,6 @@ const MycorrPlusForCorn = () => {
 	return (
 		<div className={styles.container}>
 			<h1>MycorrPlus™ for Corn</h1>
-			<p className={styles.subtitle}>
-				(MycorrPlus is the new name for GroPal Balance)
-			</p>
 
 			<section className={styles.section}>
 				<h2>Application Benefits</h2>
@@ -115,45 +112,11 @@ const MycorrPlusForCorn = () => {
 				</p>
 			</section>
 
-			<section className={styles.cta}>
-				<p>
-					<Link href="/contact">
-						<a>Call 1-888-588-3139 to speak with a soil health consultant</a>
-					</Link>
-				</p>
-				<p>
-					<Link href="/contact">
-						<a>Email us at info@ag-usa.net</a>
-					</Link>
-				</p>
-				<p>
-					<Link href="/purchase-mycorrplus">
-						<a className={styles.boldLink}>Purchase MycorrPlus now!</a>
-					</Link>
-				</p>
-				<p>
-					<Link href="/dr-christine-jones-interview">
-						<a>Read Dr. Christine Jones' interview for more insights</a>
-					</Link>
-				</p>
-				<p>
-					<Link href="/crop-application-guidelines">
-						<a>Check our detailed crop application guidelines</a>
-					</Link>
-				</p>
-			</section>
-
 			<section className={styles.section}>
 				<p>
 					Apply MycorrPlus as early as possible for better corn production, and
 					experience the transformation of your soil and yields.
 				</p>
-			</section>
-
-			<section className={styles.back}>
-				<Link href="/back">
-					<a>Back</a>
-				</Link>
 			</section>
 		</div>
 	);

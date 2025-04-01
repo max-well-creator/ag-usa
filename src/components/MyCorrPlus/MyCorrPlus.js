@@ -13,6 +13,8 @@ import treated from "../../../public/images/home/GrassHayTreated.webp";
 import untreated from "../../../public/images/home/GrassHayUntreated.webp";
 import treated_untreated from "../../../public/images/mycorrPlus/treated_untreated.webp";
 import remediate from "../../../public/images/mycorrPlus/remediate.webp";
+import { Button } from "reactstrap";
+import CustomButton from "../Shared/CustomButton/CustomButton";
 
 const imageSize = 400;
 
@@ -67,13 +69,6 @@ const MycorrPlus = () => {
 					image={treated}
 					altText="Grass Hay With MycorrPlus"
 				/>
-				<Image
-					src={treated_untreated}
-					alt="treated_vs_untreated field"
-					width={200}
-					height={200}
-				/>
-				<Image src={remediate} alt="Remediate" width={200} height={200} />
 			</article>
 
 			{/* Topsoil & Benefits Introduction */}
@@ -112,20 +107,16 @@ const MycorrPlus = () => {
 			<section className={styles.functionalitySection}>
 				<Functionality />
 			</section>
-
-			{/* Application Instructions */}
-			<section className={styles.instructionsSection}>
-				<MycorrPlusInstructions />
+			<section className={styles.moreInfoButtons}>
+				<CustomButton
+					href="/ApplicationInstructions"
+					text="View Application Instructions"
+				/>
+				<CustomButton href="/Results" text="Soil Analysis Results" />
 			</section>
-
 			{/* Testimonials */}
 			<section className={styles.testimonialsSection}>
 				<MycorrPlusTestimonials />
-			</section>
-
-			{/* Soil Lab Results */}
-			<section className={styles.resultsSection}>
-				<MycorrPlusSoilLabs />
 			</section>
 		</div>
 	);
