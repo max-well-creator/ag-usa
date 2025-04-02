@@ -16,7 +16,7 @@ const AGUSAMagazineLinks = () => {
 				articleType="Importartant Articles"
 				array={importantArticles}
 			/>
-			<ArticleList articleType="Recent Articles" array={recentArticles} />
+			<ArticleList articleType="Trending Articles" array={recentArticles} />
 			<ArticleList articleType="GroPal Articles" array={groPalArticles} />
 			<ArticleList articleType="Orphaned Articles" array={orphanedPages} />
 		</div>

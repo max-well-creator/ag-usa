@@ -1,23 +1,18 @@
 @use '../../styles/mixins';
 @use '../../styles/colors';
 .ArticleList {
-
-  margin: 50px;
+  .articles {
+    border: 1px solid black;
+  }
   h3 {
     text-align: center;
+    font-weight: bold
   }
   ul {
     @include mixins.around_flex_wrap;
+    justify-content: center;
     text-align: center;
-  }
-  .article {
-    height: 300px;
-    width: 400px;
-    @include mixins.box-shadow;
-    margin: 20px;
-    @include mixins.border-radius;
-    background-color: colors.$white
-
+    border: 1px solid black;
   }
   a {
     color: black;
