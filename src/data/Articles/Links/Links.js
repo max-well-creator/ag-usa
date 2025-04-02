@@ -225,24 +225,6 @@ export const orphanedPages = [
 		title: "Dryland",
 	},
 	{
-		href: "/Peanuts",
-		label: "Mycorr for peanut yields",
-		image: dryland_logo,
-		title: "Dryland",
-	},
-	{
-		href: "/Cotton",
-		label: "Mycorr for cotton yields",
-		image: dryland_logo,
-		title: "Dryland",
-	},
-	{
-		href: "/FoodPlots",
-		label: "Mycorr enhancing Food Plots",
-		image: dryland_logo,
-		title: "Dryland",
-	},
-	{
 		href: "/SoilRestoration",
 		label: "Mycorr for Soil Restoration",
 		image: dryland_logo,

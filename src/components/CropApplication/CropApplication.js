@@ -45,6 +45,14 @@ const CropApplicationGuidelines = () => {
 					manure. For even better results, apply 2 qt/acre of MycorrPlus-F (or
 					O-F for organic) as a foliar treatment 7–10 days after cutting.
 				</p>
+				<p className={styles.externalLink}>
+					<Link
+						href="https://www.ag-usa.net/h"
+						target="_blank"
+						rel="noopener noreferrer">
+						HayMaxx
+					</Link>
+				</p>
 
 				<h3>Alfalfa</h3>
 				<p>
@@ -74,9 +82,9 @@ const CropApplicationGuidelines = () => {
 					boost test weights, protein, and yields.
 				</p>
 				<p className={styles.externalLink}>
-					<a href="/Corn" target="_blank" rel="noopener noreferrer">
+					<Link href="/Corn" target="_blank" rel="noopener noreferrer">
 						Detailed corn page
-					</a>
+					</Link>
 				</p>
 
 				<h3>Wheat, Milo, and Millet</h3>
@@ -99,6 +107,11 @@ const CropApplicationGuidelines = () => {
 					the soil. During growth, apply 1 qt 5–6 weeks after planting or a 2 qt
 					foliar treatment at boll set.
 				</p>
+				<p className={styles.externalLink}>
+					<Link href="/Cotton" target="_blank" rel="noopener noreferrer">
+						Detailed cotton page
+					</Link>
+				</p>
 
 				<h3>Peanuts</h3>
 				<p>
@@ -117,6 +130,11 @@ const CropApplicationGuidelines = () => {
 				<p>
 					MycorrPlus is an excellent inoculant for nodulation—no additional
 					inoculant is needed.
+				</p>
+				<p className={styles.externalLink}>
+					<Link href="/Peanuts" target="_blank" rel="noopener noreferrer">
+						Detailed peanuts page
+					</Link>
 				</p>
 
 				<h3>Potatoes</h3>
@@ -148,6 +166,14 @@ const CropApplicationGuidelines = () => {
 					After harvesting sod, apply 2 qt/acre of MycorrPlus-A to the soil. For
 					continuous benefit, apply an extra 32 oz monthly. Do not mix with
 					herbicides, pesticides, or most fertilizers.
+				</p>
+				<p className={styles.externalLink}>
+					<Link
+						href="https://www.ag-usa.net/FoodPlots"
+						target="_blank"
+						rel="noopener noreferrer">
+						Mycorr enhancing Food Plots
+					</Link>
 				</p>
 
 				<h3>Blueberries & Acid-Loving Plants</h3>

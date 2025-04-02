@@ -115,12 +115,6 @@ const SASInfo = () => {
 					multi-pack.
 				</p>
 			</section>
-
-			<section className={styles.sectionCentered}>
-				<a href="mailto:info@ag-usa.net" className={styles.link}>
-					Contact us for more details
-				</a>
-			</section>
 		</div>
 	);
 };

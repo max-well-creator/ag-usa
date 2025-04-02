@@ -1,7 +1,9 @@
+@use '../../styles/mixins';
 .container {
   padding: 20px;
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+  line-height: 1;
+  @include mixins.around_flex_wrap
 }
 
 .heading {

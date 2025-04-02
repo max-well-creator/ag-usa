@@ -13,12 +13,6 @@ export const ProductLinks = [
 		title: "HayMax",
 	},
 	{
-		href: "/SoilMaxx",
-		label: "SoilMaxx",
-		image: "/images/products/SoilMaxx.webp",
-		title: "SoilMaxx",
-	},
-	{
 		href: "/Silage",
 		label: "Sil-Tec",
 		image: "/images/products/Sila-Tec.jpg",
@@ -37,3 +31,11 @@ export const ProductLinks = [
 		title: "SAS",
 	},
 ];
+
+// paul said do not display this
+// 	{
+// 	href: "/SoilMaxx",
+// 	label: "SoilMaxx",
+// 	image: "/images/products/SoilMaxx.webp",
+// 	title: "SoilMaxx",
+// },

@@ -40,8 +40,6 @@
 - [x] [Corn](https://www.ag-usa.net/corn.php)
 - [x] [NATstructuredwater](https://www.ag-usa.net/NATstructuredwater.php)
 
-## I dont know where these link from
-
 # Orphaned Pages
 
 - [7 Keys for Activating the Carbon Sequestration Switch](https://www.ag-usa.net/Sequestion)
@@ -50,12 +48,8 @@
 - [Mycorr Plus helps with drought tolerance](https://www.ag-usa.net/DroughtTolerance)
 - [MycorrPlus may be the very best solution for building topsoil.](https://www.ag-usa.net/BuildTopSoil)
 - [Build organic matter through Carbon Sequestration](https://www.ag-usa.net/BuildOrganicMatter)
-- [Mycorr for peanut yields](https://www.ag-usa.net/Peanuts)
-- [Mycorr for cotton yields](https://www.ag-usa.net/Cotton)
-- [Mycorr enhancing Food Plots](https://www.ag-usa.net/FoodPlots)
 - [Mycorr for Soil Restoration](https://www.ag-usa.net/SoilRestoration)
 - [Dr. Murray's Research](https://www.ag-usa.net/MaynardMurrayResearch)
-- [HayMaxx](https://www.ag-usa.net/hay)
 - [SiolMaxx](https://www.ag-usa.net/SoilMaxx)
 - [Sila-Tech Silage](https://www.ag-usa.net/Silage)
 - [NAT](https://www.ag-usa.net/NAT)
