@@ -45,10 +45,9 @@
 
 // Grid layout for facility photos
 .photos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
+  @include mixins.around_flex_wrap;
+  justify-content: center;
+  @include mixins.filter;
 }
 
 // Responsive adjustments
@@ -62,6 +61,6 @@
   }
   
   .photos {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
   }
 }
