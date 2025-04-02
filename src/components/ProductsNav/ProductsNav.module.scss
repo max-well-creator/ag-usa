@@ -3,12 +3,10 @@
 
 .container {
   display: flex;
-
-
+  flex-wrap: wrap;
+  top: 430px;
   padding: 20px;
   position: absolute;
-  top: 100px;
-  width: 90%;
   z-index: 1;
 
   a {
@@ -36,18 +34,9 @@
     p {
       font-weight: bold;
       text-align: center;
-      font-size: 3.5vw;
+      font-size: 2.3vw;
       color: black;
     }
   }
-}
 
-@media (max-width: 848px) {
-  .container {
-    flex-wrap: wrap;
-    top: 430px;
-    .box {
-      padding: 10px;
-    }
-  }
 }
